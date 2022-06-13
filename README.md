@@ -1,108 +1,510 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **_Data Maturity Assessment - Project Portfolio 2 - JavaScript**
 
-Welcome fmstacco,
+Carpe Diem Data Solutions is a small business consulting company that offers data analysis, data science and data engineering services. Our target audience through this website are small and medium -sized companies that want to improve their performance, profitability and customer services through their data.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Welcome to the live site here: <a href="https://fmstacco.github.io/Carpe-Diem-Data-Solutions/index.html" target="_blank">Carpe Diem Data Solutions</a>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Carpe Diem Data Solutions responsive design](./assets/images/readme/responsive.jpg)
 
-## Gitpod Reminders
+# Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* [**Objective**](<#objective>)
+* [**User Experience UX**](<#user-experience-ux>)
+    * [Target Audience](<#target-audience>)
+    * [User Stories](<#user-stories>)
+    * [Site Aims](<#site-aims>)
+    * [Wireframes](<#wireframes>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+    *  [Logo](<#logo>)
+    *  [Typography](<#typography>)
+    *  [Colour Scheme](<#colour-scheme>)
+* [**Features**](<#features>)
+    * [Navigation Menu](<#navigation-menu>)
+    * [Home Page](<#home-page>)
+    * [About Page](<#about-page>)
+    * [Services Page](<#services-page>)
+    * [Contact Page](<#contact-page>)
+    * [Thank You Page](<#thank-you-page>)
+    * [Footer](<#footer>)
+* [**Future Features**](<#future-features>)
+* [**Technologies Used**](<#technologies-used>)
+* [**Testing**](<#testing>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+    * [**Content**](<#content>)
+    * [**Media**](<#media>)
+*  [**Acknowledgements**](<#acknowledgements>)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+# Objective 
 
-Another blue button should appear to click: _Open Browser_.
+This project aims to deliver a professional website of a business consultancy focused on data analysis and data science, so that potential customers - small and medium -sized companies - know the services offered and the benefits they will have through them.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# User Experience (UX)
 
-A blue button should appear to click: _Make Public_,
+## Target Audience
 
-Another blue button should appear to click: _Open Browser_.
+* Users (potential customers) who are looking for data analysis and data science services to leverage their business.
+* Users (potential customers) who want to implement a data strategy in their business to increase profitability and improve customer services.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## User Stories
 
-To log into the Heroku toolbelt CLI:
+* As a potential customer, I want to easily navigate through their website pages so I can quickly get the information that I’m looking for.
+* As a potential customer, I want to see what the results my company can achieve after contracting their services. 
+* As a potential customer, I want to see the people who are the people doing the job and its credentials, it would increase my confidence towards getting in touch and hiring them. 
+* As a potential customer, I want to know what services the company offers so I can quickly understand if they can address my business issues.
+* As a potential customer, I want to see how the company has helped other clients it helps me to see how competent they are doing their job.
+* As a potential customer, I want to know that they will get in touch quickly for a discussion on my business and how can they help me.
+* As a potential customer, I want to see what tools they use when offering their services so I can trust they know what they are doing.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+[Back to top](<#contents>)
 
-------
 
-## Release History
+## Site Aims
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* To establish an online presence through a website and not just rely on social networks as Facebook, Instagram.
+* Be easily found by potential customers through search engines.
+* To offer information about the company and its services as well as data analysis and data science.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## Wireframes
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The wireframes for Carpe Diem Data Solutions website were produced on [Balsamiq](https://balsamiq.com). They are of low fidelity as there have been modifications throughout the development of the website. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<details><summary><b>Home Page Wireframe</b></summary>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<img src="./assets/images/readme/wireframe-homepage.png" alt="Home Page Wireframe"></details>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<details><summary><b>About Page Wireframe</b></summary>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<img src="./assets/images/readme/wireframe-aboutpage.png" alt="About Page Wireframe"></details>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<details><summary><b>Services Page Wireframe</b></summary>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<img src="./assets/images/readme/wireframe-servicespage.png" alt="Services Page Wireframe"></details>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<details><summary><b>Contact Page Wireframe</b></summary>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<img src="./assets/images/readme/wireframe-contactpage.png" alt="Contact Page Wireframe"></details>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+[Back to top](<#contents>)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Site Structure
 
-------
+Carpe Diem Data Solutions website has five pages. The [home page](index.html) is the default loading page, the page [about](about.html), [services](services.html.html) and [contact](contact.html) pages are all accessible from the navigation menu and from the footer menu. The [thank you page](form-destinagion-page.html) is only displayed when the user submitt the form on the contact page. 
 
-## FAQ about the uptime script
+[Back to top](<#contents>)
 
-**Why have you added this script?**
+## Design Choices
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+ * ### Logo
 
-**How will this affect me?**
+ The logo was designed on [Canva](https://www.canva.com/en_gb/) version Pro. A machine learning icon was chosen to convey the core concept of business consulting - data analysis and data science.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![Carpe Diem Data Solutions logo](./assets/images/readme/logo-dark-background.png) 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+ * ### Typography
+ 
+ The source used throughout the site is Montserrat, as it is a nice font, elegant and also conveys confidence and professionalism. It is very good for UX/UI for having good readability on any device, large x-heigh and is also good for accessibility.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+ * ### Colour Scheme
 
-**So….?**
+Colour Palette image
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<img src="./assets/images/readme/color-palette.jpg" width="80%" height="80%" alt="Colour Palette image">
 
-**Can I opt out?**
+# Features
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Navigation Menu
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* In the header of all the page of the site there is the logo and the navigation menu.
 
-**Anything more?**
+* When clicking on the logo the user is directed to the Home page.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* To improve the user experience there is the hover effect on menu items, which changes the background and font colors.
 
----
+* The header is responsive with the Hamburger menu made only with HTML and CSS inspired by Dev Reis Chanel https://www.youtube.com/watch?v=cfmmnuxz3y
 
-Happy coding!
+Please click on the links below to see the images of the **navigation menu**:
+
+<details><summary><b>Navigation Menu - Image Desktop</b></summary>
+
+<img src="./assets/images/readme/nav-bar-desktop.jpg" width="120%" height="120%" alt="Bar Navigation Section Image Desktop"></details>
+
+<details><summary><b>Navigation Menu - Image Mobile</b></summary>
+
+<img src="./assets/images/readme/nav-bar-mobile.jpg" width="50%" height="50%" alt="Bar Navigation Section Image Mobile"></details>
+
+## Home Page
+
+In the home page it was aimed to convey confidence and professionalism through the sections presented. In addition to information about the benefits of Data Science as well as the services offered, talk about who offers them and some success cases of those who hired the consultancy.
+
+<img src="./assets/images/readme/homepage-image.jpg" width="100%" height="100%" alt="Home Page image">
+
+Please click on the links below to see the **Home Page image for mobile**:
+
+<details><summary><b>Mobile Home Page Image</b></summary>
+
+<img src="./assets/images/readme/homepage-image-mobile.jpg" alt="Mobile Home Page Image"></details>
+
+[Back to Home Page](<#home-page>)
+
+
+## About Page
+
+The page about we wanted to present the ethos of Carpe Diem Digital Business as well as the people doing the job and its credentials. In this section it  aimed to convey confidence, professionalism and also competence.
+
+<img src="./assets/images/readme/aboutpage-image.jpg" width="100%" height="100%" alt="About Page image">
+
+Please click on the links below to see the **About Page image for mobile**:
+
+<details><summary><b>Mobile About Page Image</b></summary>
+
+<img src="./assets/images/readme/aboutpage-image-mobile.jpg" alt="Mobile About Page Image"></details>
+
+
+[Back to About Page](<#about-page>)
+
+
+## Services Page
+
+The services page has been designed to beyond presenting the services and solutions offered also wanted to present the systems used to offer the services.
+
+**Important** The logo of the systems used in the consultancy was included in the "We Use the Best Tools To Serve You" section for the purpose of informational and educational purposes. All images are linked to the internet page about the corresponding companies. And it would only go to a version of the website to the public after having the consent of the respective companies. The credits also were given on the credits section on this README.
+
+There is a call to action with a button for the potential customer book their free consultation session.
+
+<img src="./assets/images/readme/services-page.jpg" width="100%" height="100%" alt="Services Page image">
+
+Please click on the links below to see **Services Page image for mobile**:
+
+<details><summary><b>Mobile Services Page Image</b></summary>
+
+<img src="./assets/images/readme/services-page-mobile.jpg" alt="Services Contact Page Image"></details>
+
+## Contact Page
+
+The contact page aimed to present ways that the potential customer has to contact us, whether through the form, telephone, email and address.
+
+<img src="./assets/images/readme/contactpage-image.jpg" width="100%" height="100%" alt="Contact Page image">
+
+Please click on the links below to see **Contact Page image for mobile**:
+
+<details><summary><b>Mobile Contact Page Image</b></summary>
+
+<img src="./assets/images/readme/contactpage-image-mobile.jpg" alt="Mobile Contact Page Image"></details>
+
+
+[Back to Contact Page](<#contact-page>)
+
+## Thank You Page
+
+The thank you page aimed to present a feedback regarding the form submitted so the potential client can rest assured that we will get in touch quickly to book the 30 minutes freee consultation to discuss their business problem. It contributes for the user experience UX/UI. 
+
+<img src="./assets/images/readme/thankyou-page.jpg" width="100%" height="100%" alt="Thank You Page for Desktop">
+
+Please click on the links below to see the **Thank You Page images for mobile**:
+
+<details><summary><b>Thank You Page - Image Mobile</b></summary>
+
+<img src="./assets/images/readme/thankyou-page-mobile.jpg" alt="Thank You Page for Mobile"></details>
+
+[Back to Thank You Page](<#thankyou-page>)
+
+## Footer
+
+* The footer section contains the company logo, which takes the potential customer back to the home page. 
+
+* The quick links are also in the footer section to improve the user experience, redirecting back to the pages of the website.
+
+* The social icons for Facebook, Instagram and Youtube take the user to another tab, thus, enhancing the user experience. They are there only for educational purposes. 
+
+* It also contains the copyright notice, with the year and the company's name.  
+
+
+<details><summary><b>Footer Section Image Desktop</b></summary>
+
+<img src="./assets/images/readme/footer.jpg" width="120%" height="120%" alt="Footer Section ImageDesktop"></details>
+
+<details><summary><b>Footer Section Image Mobile</b></summary>
+
+<img src="./assets/images/readme/footer-mobile.jpg" width="50%" height="50%" alt="Footer Section Image Mobile"></details>
+
+[Back to top](<#contents>)
+
+# Future Features
+
+This website can be improved in the future through new features to be developed:
+
+**Blog** - A ***blog*** section would be very relevant to potential customers get to know the thoughts and tendencies for the field as well as to increase the online presence of the business consulting company.
+
+**Content Marketing** - a future improvement for the whole website is to structure the content based in ***content marketing*** language to involve the potential client and direct them to perform the call to the action. Hiring a specialist in content marketing would be beneficial. 
+
+**Success cases** - expand the success cases section by highlighting the challenges and solutions of the potential clients after going through our consultancy. Perhaps one page dedicated to the success case section with cards for each success case.
+
+**Quiz** - develop a quiz for the potential customer to find out what is the maturity level of their company's data department. 
+
+**Logo** - the logo was designed with [Canva](https://www.canva.com/en_gb/) version Pro. As a future enhancement for the brand it is important to have a logo designed for a professional designer. 
+
+**Corporate Video**  - as a future feature, a corporate video can be very interesting to increase the confidence of potential customers and their inclination to contact us.
+
+# Technologies Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML#HTML_5) - to provide the content and structure for the website.
+* [Balsamiq](https://balsamiq.com/wireframes/) - to create the wireframes for the website.
+* [Canva](https://www.canva.com/en_gb/) - to create the logo, color palete and to provide images for the website (Pro version) .
+* [CSS](https://en.wikipedia.org/wiki/CSS) - to provide the styling for the website.
+* [Font Awesome](https://fontawesome.com/) - to import icons to the website.
+* [Gitpod](https://www.gitpod.io/#get-started) - to edit and develop the website.
+* [Gitbash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - to push changes to the GitHub repository.
+* [Github](https://github.com/) - to host and deploy the website.
+* [Google Fonts](https://fonts.google.com/) - to import the 'Inter' font into the style.css file.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to test the quality of the website.
+* [Techsini](http://techsini.com/multi-mockup/index.php) - to generate a multi device website mockup generator.
+* [Tiny PNG](https://tinypng.com/) - to compress images.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS.
+* [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML.
+
+
+[Back to top](<#contents>)
+
+# Testing
+
+### Code Validation
+
+The Carpe Diem Digital Business website has gone through intensive tests throughout its pages and sections. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate the CSS and [W3C HTML Validator](https://validator.w3.org/) were used to validate the HTML. Minor errors returned and were fixed and then no errors returned.
+
+
+**HTML validation** 
+
+* Home Page
+
+![Home Page - HTML validation image ](./assets/images/readme/w3c-html-validator.jpg) 
+
+* About Page
+
+![About page - HTML validation image ](./assets/images/readme/w3c-html-validator-aboutpage.jpg) 
+
+* Services Page
+
+![Services page - HTML validation image ](./assets/images/readme/w3c-html-validator-servicespage.jpg) 
+
+* Contact Page
+
+![Contact page - HTML validation image ](./assets/images/readme/w3c-html-validator-contactpage.jpg) 
+
+* Form Destination Page
+
+![Form Destination page - HTML validation image ](./assets/images/readme/w3c-html-validator-form-destination-page.jpg) 
+
+
+**CSS validation image**
+
+![CSS validation image ](./assets/images/readme/w3c-css-validator.jpg) 
+
+
+### Responsiveness Test
+
+Carpe Diem Digital Business Website was manually tested for his responsiveness with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+
+|        | Nexus 4/5/6 | Galaxy S5/S6/S7 | iPhone 6--12 | iPad |  Display <1200px | Display >1200px |
+|--------|-------------|-----------------|--------------|------|------------------|-----------------|
+| Render |    pass     |      pass       |     pass     | pass |     pass         |      pass       |
+| Images |    pass     |      pass       |     pass     | pass |     pass         |      pass       |
+| Links  |    pass     |      pass       |     pass     | pass |     pass         |      pass       |
+
+
+### Manual Testing
+
+The website has been extensively tested in different ways, in addition to automated forms, regarding its features, responsiveness, accessibility, layout, design, texts, buttons and navigation links, form submission on different browsers according to browser testing session.
+
+All images have been optimized, are responsive and have the ***alt*** element described properly for accessibility.
+
+All links are working and have the ***arial-label*** element.
+
+
+### Testing User Stories
+
+| Expectation                         | Result                          |
+| :---------------------------------: | :------------------------------:|
+| As a potential customer, I want to easily navigate through their website pages so I can quickly get the information that I’m looking for. | As a visitor I can easily navigate the website pages and sections, going back and forth through the menu on the header, footer and buttons. **[navigation bars and buttons].**|
+| As a potential customer, I want to see what the results my company can achieve after contracting their services. | As a visitor thinking of contracting the consultancy services I can easily see the potential results my company can get through the benefits section **[benefits]**. |
+| As a potential customer, I want to see the people who are the people doing the job and its credentials, it would increase my confidence towards getting in touch and hiring them.| As a visitor I can see the team who do the job and their bio on the page about, section meet our team **[about us page]**|
+| As a potential customer, I want to know what services the company offers so I can quickly understand if they can address my business issues.| As a visitor I get to know quickly the services I can hire when looking at the sections and pages of the site.**[services page]**|
+| As a potential customer, I want to see how the company has helped other clients it helps me to see how competent they are doing their job.| As a visitor I can understand how the business consultancy has brought solutions to other clients through the success cases section which can relate to the current challenges of my company.**[success cases]**|
+| As a potential customer, I want to know that they will get in touch quickly for a discussion on my business and how can they help me.| As a visitor I feel calm to learn that they will contact meu quickly after the feedback I received when submitting the form.**[thank you page]**|
+| As a potential customer, I want to see what tools they use when offering their services so I can trust they know what they are doing.| As a visitor I can feel more confident when I great systems they use to provide heir services. **[services page]**|
+
+
+### Browser Testing
+
+The Carpe Diem Digital Business website was manually tested on these browsers as table below and design, layout, functionality and responsiveness were  consistent across all browsers both mobile and desktop.
+
+|   Browser   |    Result  | 
+| :---------: | :---------:| 
+| Chrome      |   pass     | 
+| Edge        |   pass     |
+| Firefox     |   pass     |
+| Safari      |   pass     |
+| IE          |   pass     | 
+
+
+
+### Bugs Fixed 
+
+During the website testing process some smaller errors appeared on the home page and service page and were immediately corrected. The HTML and CSS validation process occurred throughout the construction of the website. In this way, misconceptions as a lack of the **alt** element in the image, image size and  closing tag were corrected quickly.
+
+* Home page 
+    
+    ![W3C Validator test result](assets/images/readme/bugs-fixed.jpg)
+
+* Services page
+
+    ![W3C Validator test result](assets/images/readme/bugs-fixed2.jpg)
+
+
+## Additional Testing
+
+### Acessibility 
+
+To check the accessibility in color regarding was used the [A11y](https://color.a11y.com/).
+
+![Acessibility validation image ](./assets/images/readme/a11y-acessibility-validator.jpg) 
+
+### Lighthouse
+
+This website was also tested on [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) through  Chrome Developer Tools.
+
+It tests each of the pages for ***performance, acessibility, best practices and SEO***
+
+![Lighthouse test results](assets/images/readme/lighhouse-desktop.jpg.png)
+
+
+[Back to top](<#contents>)
+
+# Deployment 
+
+### **To deploy this project**
+
+This website was deployed to Github by following the steps below:
+
+1. In the Github repository for this project navigate to the ***settings*** tab.
+2. On the left side of the page, scroll down and navigate to the ***pages*** tab.
+3. Under the ***source*** tab, select the branch called ***main*** and select the folder called ***root***.
+4. The page will automatically refresh, with a message that the website has been launched and after about five minutes is possible to obtain the link to the deployed website.
+
+![GitHub pages deployed image](assets/images/readme/deployment.jpg)
+
+This is the link to the Github repository  - https://github.com/fmstacco/Carpe-Diem-Data-Solutions
+
+[Back to top](<#contents>)
+
+### **To fork this repository on GitHub**
+
+A fork of this repository can be made which will allow you to make changes on this project without affecting the original repository. 
+
+The steps below should be followed to ***fork*** a respository:
+
+1. Log in to ***GitHub*** and find the [repository](https://github.com/fmstacco/Carpe-Diem-Data-Solutions).
+
+2. Click on the button ***fork*** on the right hand side of the page to create a copy of the original repository in your GitHub Account.
+
+See the image below:
+
+![GitHub pages - to fork a depository](assets/images/readme/fork.jpg)
+
+[Back to top](<#contents>)
+
+### **To create a local clone of this project**
+
+The steps below should be followed to ***clone*** a respository:
+
+1. On the repository’s page, click on the ***code*** tab.
+2. On the ***Clone with HTTPS*** tab, click on the icon (see image below) to copy the URL.
+
+![Image to clone a repository](assets/images/readme/clone.jpg)
+
+3. Open ***Git Bash*** on your IDE terminal.
+4. Change the current working directory to the location where you want the cloned directory.
+5. Type ***git clone***, and then paste the URL copied from GitHub.
+
+Type: git clone + https://github.com/fmstacco/Carpe-Diem-Data-Solutions.git
+
+6. Press ***enter*** and the local clone will be created.
+
+
+Help on cloning a repository from GitHub can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+
+[Back to top](<#contents>)
+
+# Credits 
+
+## Content
+
+* [Alura](https://www.alura.com.br/) to learn Flexbox and Responsiveness concepts.
+
+* [Font Awesome](https://fontawesome.com/) - to import the social icons to the website.
+
+* [Google Fonts](https://fonts.google.com/) - to import the 'Inter' font into the style.css file.
+
+* [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)- inspiration for the hero section - animation and for the website structure.
+
+* [Oper Data](https://operdata.com.br/data-science/cases-e-clientes/) - inspiration for Success Cases content.
+
+* [Indicium](https://blog.indicium.tech/4-etapas-consultoria-data-science/) - inspiration for data science content.
+
+* [Tiny PNG](https://tinypng.com/) - to compress images.
+
+* [W3Schools](https://www.w3schools.com/) - to reinforce learning about coding concepts.
+
+* [Youtube Professor Jose de Assis](https://www.youtube.com/watch?v=SsOuGMM2_yM&list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk&index=14) - inspiration for the header - navigation bar with hamburguer menu. 
+
+* [Youtube - Dev Reis Channel](https://www.youtube.com/watch?v=CFmMNuxZ3YY) - inspiration for the header - navigation bar with hamburguer menu. 
+
+* [Love-Light-Photography](https://github.com/rhiannonmcn/Love-Light-Photography), [Natural Clean](https://github.com/Elvira-94/natural-clean) and [Wawaswoods](https://github.com/EwanColquhoun/wawaswoods) were my inspirations for README structure. 
+
+* [MindTitan](https://mindtitan.com/about/) inspired the structure of Meet Our Team content.   
+
+## Media
+
+* [Canva](https://www.canva.com/en_gb/) to design the logo, the color palete and to source images for this website.
+
+* [Unplash](https://unsplash.com/photos/toCKeKuQpL0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create Meet Our Team section on Page About - Jane Smith.
+
+* [Unplash](https://unsplash.com/photos/p5BoBF0XJUA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create Meet Our Team section on Page About - Sidharta Rodriguez.
+
+* [Unplash](https://unsplash.com/photos/S3GrMiUhpNU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create Meet Our Team section on Page About - Malala Ababuo.
+
+* [Unplash](https://unsplash.com/photos/Oalh2MojUuk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create About section Home Page and Page About. 
+
+* [Unplash](https://unsplash.com/photos/g5_rxRjvKmg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create section services on Page Services.
+
+* [Unplash](https://unsplash.com/photos/vbxyFxlgpjM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create section services on Page Services.
+
+* [Unplash(https://unsplash.com/photos/5fNmWej4tAA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create section services on Page Services.
+
+* [Python](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png) logo python - section tools.
+
+* [R Logo](https://www.r-project.org/) logo R for the section tools on Services page.
+
+* [Jupyter Logo](https://jupyter.org/)logo Jupyter for the section tools on Services page.
+
+* [Tableau Logo](https://www.tableau.com/about/media-kit/brand-assets)logo Tableau for the section tools on Services page.
+
+* [Power Bi Logo](https://powerbi.microsoft.com/en-us/)logo Power Bi for the section tools on Services page.
+
+
+
+[Back to top](<#contents>)
+
+# Acknowledgements
+
+This site, Carpe Diem Digital Solutions was designed and developed for Portfolio 1 project, a requirement of Full Stack Software Developer Diploma Course (Eccommerce) at the [Code Institute](https://codeinstitute.net/). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), my Cohort facilitators [Kasia Bogucka](https://www.linkedin.com/in/kasbogucka/) and [Kenan Wright](https://se.linkedin.com/in/kenan-wright-bb0359b8), my Cohort coleagues, the Slack community and the Student care for all support during this journey. I am thankful to the ***Mayo, Sligo and Leitrim Education Training Board (msletb)*** for this opportunity. I  would also like to say thank you to my family, my husband Michel and my children, Alanna, and Peter who is just 3 months old at the time of this project submission. 
+
+Fabiana Tacco (2022)
+
+[Back to top](<#contents>)
