@@ -1,6 +1,6 @@
 # **Data Maturity Assessment - Project Portfolio 2 - JavaScript**
 
-Carpe Diem Data Solutions is a small business consulting company that offers data analysis, data science and data engineering services. Our target audience through this website are small and medium -sized companies that want to improve their performance, profitability and customer services through their data.
+Data Maturity Assessment is a tool that will help small and medium -sized companies evaluate the maturity level of their data management. This evaluation will indicate at what stage the company is in data management as well as ways to improve company data maturity.
 
 Welcome to the live site here: <a href="https://fmstacco.github.io/Carpe-Diem-Data-Solutions/index.html" target="_blank">Data Maturity Assessment</a>
 
