@@ -4,7 +4,7 @@ Data Maturity Assessment is a tool that will help small and medium -sized compan
 
 Welcome to the live site here: <a href="https://fmstacco.github.io/Carpe-Diem-Data-Solutions/index.html" target="_blank">Data Maturity Assessment</a>
 
-![Carpe Diem Data Solutions responsive design](./assets/images/readme/responsive.jpg)
+![Data Maturity Assessment multidevice mock design](./assets/images/readme/responsive.jpg)
 
 # Contents
 
@@ -39,7 +39,7 @@ Welcome to the live site here: <a href="https://fmstacco.github.io/Carpe-Diem-Da
 
 # Objective 
 
-This project aims to deliver a professional website of a business consultancy focused on data analysis and data science, so that potential customers - small and medium -sized companies - know the services offered and the benefits they will have through them.
+This project aims to deliver an interactive website where potential customers - small and medium -sized companies - will be able to self -assess the maturity level of their company data management.
 
 # User Experience (UX)
 
