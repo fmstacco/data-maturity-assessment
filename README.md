@@ -45,6 +45,7 @@ This project aims to deliver an interactive website where potential customers - 
 
 ## Target Audience
 
+* Users (potential customers) who wants to know are looking for data analysis and data science services to leverage their business.
 * Users (potential customers) who are looking for data analysis and data science services to leverage their business.
 * Users (potential customers) who want to implement a data strategy in their business to increase profitability and improve customer services.
 
@@ -71,24 +72,19 @@ This project aims to deliver an interactive website where potential customers - 
 
 ## Wireframes
 
-The wireframes for Carpe Diem Data Solutions website were produced on [Balsamiq](https://balsamiq.com). They are of low fidelity as there have been modifications throughout the development of the website. 
+The wireframes for Data Maturity Assessment on [Balsamiq](https://balsamiq.com). They are of low fidelity as there have been modifications throughout the development of the website. 
 
-<details><summary><b>Home Page Wireframe</b></summary>
+<details><summary><b>Welcome Page Wireframe</b></summary>
 
-<img src="./assets/images/readme/wireframe-homepage.png" alt="Home Page Wireframe"></details>
+<img src="./assets/images/readme/wireframe-welcome-page.jpg" alt="Welcome Page Wireframe"></details>
 
-<details><summary><b>About Page Wireframe</b></summary>
+<details><summary><b>Quizz Page Wireframe</b></summary>
 
-<img src="./assets/images/readme/wireframe-aboutpage.png" alt="About Page Wireframe"></details>
+<img src="./assets/images/readme/wireframe-quizz-page.jpg" alt="Quizz Page Wireframe"></details>
 
-<details><summary><b>Services Page Wireframe</b></summary>
+<details><summary><b>Score Page Wireframe</b></summary>
 
-<img src="./assets/images/readme/wireframe-servicespage.png" alt="Services Page Wireframe"></details>
-
-<details><summary><b>Contact Page Wireframe</b></summary>
-
-<img src="./assets/images/readme/wireframe-contactpage.png" alt="Contact Page Wireframe"></details>
-
+<img src="./assets/images/readme/wireframe-score-page.jpg" alt="Score Page Wireframe"></details>
 
 [Back to top](<#contents>)
 
