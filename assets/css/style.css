@@ -61,6 +61,23 @@ header {
    }
 
 .quizz-level-btn {
+    font-size: 1rem;
     padding: 0.5rem;
     font-weight: 700;
+    border:var(--dark) solid 0.1rem;
+    border-radius: 5%;
+
+
 }
+
+.quizz-level-btn:hover {
+    font-size: 1.1rem;
+    font-weight: 700;
+
+    padding: 0.5rem;
+    letter-spacing: 0.031rem;
+    border:var(--dark) solid 0.2rem;
+    background-color: var(--cream);
+    transition: 0.5s ease;
+    
+    }
