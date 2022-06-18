@@ -2,7 +2,7 @@
 
 Data Maturity Assessment is a tool that will help small and medium -sized companies evaluate the maturity level of their data management. This evaluation will indicate at what stage the company is in data management as well as ways to improve company data maturity.
 
-Welcome to the live site here: <a href="https://fmstacco.github.io/Carpe-Diem-Data-Solutions/index.html" target="_blank">Data Maturity Assessment</a>
+Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity-assessment/" target="_blank">Data Maturity Assessment</a>
 
 ![Data Maturity Assessment multidevice mock design](./assets/images/readme/responsive.jpg)
 
