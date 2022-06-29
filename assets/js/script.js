@@ -18,6 +18,9 @@
 const basicButton = document.getElementById ('basic-level');
 const intermediateButton = document.getElementById ('intermediate-level');
 const advancedButton = document.getElementById('advanced-level')
+const previousButton = document.getElementById('btn-previous')
+const nextButton = document.getElementById('btn-next')
+
 
 // push the questions into  availableQuestions Array
 function setbasicQuestions(){
