@@ -1,3 +1,4 @@
+//Define function startQuizz 
 //Set of questions and answers 
 //Give each answer an identifier 
 //Each identifier will increment through each question
@@ -6,11 +7,26 @@
 
 //pass results frm previous question to the next page usig localcache
 
-//Randomise the background of the quiz for each questiion
+//Randomise the background of the quiz for each question
 
 //Possible Results 
-// 15 -21- You Need Help
-// 10 - 15 - Good Soul
-// 5- 10 - Meh 
-// 5 - Are You Even Real
+// 15 -21- 
+// 10 - 15 - 
+// 5- 10 -  
+// 5 - A
+
+const basicButton = document.getElementById ('basic-level');
+const intermediateButton = document.getElementById ('intermediate-level');
+const advancedButton = document.getElementById('advanced-level')
+
+// push the questions into  availableQuestions Array
+function setbasicQuestions(){
+    const totalQuestion = basicQuestions.length;
+    for(let i=0; i<totalQuestion; i++){
+    	availableQuestions.push(basicQuestions[i]);
+        console.log(okay)
+    }
+ }
+
+
 
