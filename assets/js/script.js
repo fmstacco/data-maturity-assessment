@@ -17,8 +17,8 @@
 
 //Global Variables 
 
-const questionNumber = document.querySelector ('.question-number');
-const questionText = document.querySelector ('.question-text');
+const questionNumber = document.querySelector('.question-number');
+const questionText = document.querySelector('.question-text');
 const optionContainer = document.querySelector('option-container');
 
 const basicButton = document.getElementById ('basic-level');
@@ -30,6 +30,8 @@ const nextButton = document.getElementById('btn-next');
 let questionCounter = 0;
 let currentQuestion;
 let availableBasicQuestions = [];
+let availableIntermediateQuestions = [];
+let availableAdvancedQuestions = [];
 
 // push the questions into  availableQuestions Array
 function loadBasicQuestions(){
@@ -49,9 +51,24 @@ function getNewBasicQuestion(){
     currentQuestion = questionBasicIndex;
     questionText.innerHTML = currentQuestion.q;
     
-    //console.log(questionBasicIndex)
+    //get the postition of 'questionIndex' from the availableBasicQuestions Array
+    const indexBasic1 = availableBasicQuestions.indexOf(questionBasicIndex)
+        
+    //remove the 'questionBasicIndex' from the availableBasiQuestions Array, so that the question does not repeat
+    availableBasicQuestions.splice(indexBasic1,1);
+    console.log(questionBasicIndex)
+    console.log(availableBasicQuestions)
+
+    questionCounter++
 }
 
+function next(){
+    if(questionCounter === basicQuestions.length){
+        console.log("quiz over")
+    }else{
+        getNewBasicQuestion();
+    }
+}
 
 
 window.onload = function() {

@@ -35,6 +35,7 @@ header {
     margin: 1rem;
     margin-top: 2rem;
     border-radius: 5%;
+    min-height: 15px;
     }
 
 #welcome-headline {
@@ -81,3 +82,46 @@ header {
     transition: 0.5s ease;
     
     }
+
+    .quiz-box {
+      min-height: 23.438rem;
+      min-width: 15rem;
+      background-color: var(--grey);
+      padding: 1rem;
+      margin: 1rem;
+      margin-top: 2rem;
+      border-radius: 5%;
+    }
+
+
+   .question-number {
+      font-size: 1.125rem;
+      color: var(--dark);
+      line-height: 1.563rem;
+      font-weight: 600;
+      padding-bottom: 0.063rem;
+      border-bottom: 0.5px solid var(--dark);
+    } 
+
+    .question-text {
+      font-size: 1.375rem;
+      color: var(--dark);
+      line-height: 1.75rem;
+      font-weight: 400;
+      padding: 0.625rem 0 ;
+      border-bottom: 0.5px solid var(--dark);
+    } 
+
+.option-container .option{
+      background-color: var(--cream);
+      padding: 0.938rem;
+      font-size: 1rem;
+      line-height: 1.375rem;
+      border-radius: 0.313rem;
+      margin-bottom: 0.625rem;
+      cursor: pointer;
+
+    }
+      
+
+    
