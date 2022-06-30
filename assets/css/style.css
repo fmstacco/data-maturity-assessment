@@ -9,6 +9,8 @@
 * {
   margin: 0;
   padding: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,6 +18,38 @@ body {
   color: var(--dark);
   font-family: "Montserrat", sans-serif;
 }
+
+.custom-box{
+	max-width: 43.75rem;
+	background-color: #f7f6f5;
+	margin:42.5rem auto;
+	padding: 1.875rem;
+	border-radius: 0.625px;
+	animation: fadeInRight 1s ease;
+}
+
+@keyframes fadeInRight{
+	0%{
+		transform: translateX(40px);
+		opacity:0;
+	}
+	100%{
+	  transform: translateX(0px);	
+	  opacity:1;
+	}
+}
+
+.custom-box::before,
+.custom-box::after{
+	content: '';
+	clear: both;
+	display: table;
+}
+.custom-box.hide{
+	display: none;
+}
+
+
 
 header {
   background-color: var(--dark);
