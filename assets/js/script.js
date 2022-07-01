@@ -109,8 +109,15 @@ function getBasicResult(element){
       
 }else{
     //set the red color to the incorrect option
-    element.classList.add("wrong")  
+    element.classList.add("wrong");
+}
+ // if the answer is incorrect then show the correct option by adding green color the correct option
+ const optionLen = optionContainer.children.length;
+ for(let i=0; i<optionLen; i++){
+     if(parseInt(optionContainer.children[i].id) === currentBasicQuestion.answer){
+       optionContainer.children[i].classList.add("correct");  	    
   }
+}
   unclickableOptions();
 
 }
