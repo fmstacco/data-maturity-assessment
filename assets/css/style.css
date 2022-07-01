@@ -176,3 +176,7 @@ header {
     margin-top: 2rem;
     border-radius: 5%;
   }
+
+  .result-box.hide{
+    display: none;
+  }
