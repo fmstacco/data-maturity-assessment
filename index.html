@@ -20,11 +20,7 @@
     <!--Welcome Section-->
     <section>
         <!-- Welcome and Description of the Data Maturity Assessment-->
-        <div id="welcome-section-container">
-
-       <!-- Welcome content-->
-            <div id="welcome-section">
-        
+        <div class="welcome-section-container custom-box">
             <h2 id="welcome-headline">Data Maturity Assessment</h2>
             <h3 class="headline2">Find out what is the level of maturity of your company's data management.</h3>  
             <p class="content">Our quizzes will help you understand the maturity level of your company's data management and what steps to follow to raise your organization's level!</p>
@@ -33,7 +29,6 @@
             <button aria-label="Basic level button" name="Basic-level-button" class="btn" id="basic-level">Basic</button> 
             <button aria-label="Intermediate level button" name="Intermediate-level-button" class="btn" id="intermediate-level">Intermediate</button>
             <button aria-label="Advanced level button" name="Advanced-level-button" class="btn" id="advanced-level">Advanced</button>
-        </div>
         </div>
         </div>
         </section>
@@ -59,9 +54,24 @@
             </div>
         </div>
           </div>
-
         </section> 
 
+
+
+        <section>
+          <div class="result-box custom-box">
+            <h2 id="welcome-headline">Data Maturity Assessment</h2>
+            <h3 class="headline2">Your Score:</h3>  
+            <p class="content">The following results are intended to self-evaluate your company's current data management, as well as give you directions of what can be implement to improve your company's data management.</p>
+            <h3 class="headline2">If you want to redo the quiz or try another level click on one of the buttons below:</h3>
+
+            <div class="quizz-level-button"> 
+            <button type="button" class="btn" onclick="restartQuiz()">Restart Quiz</button>
+            <button type="button" class="btn" onclick="selectLevel()">Choose another level</button>
+            </div>
+          </div>
+
+        </section>
 
     <script src="assets/js/script.js"></script>
     <script src="assets/js/questions.js"></script>

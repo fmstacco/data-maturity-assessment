@@ -21,7 +21,7 @@ body {
 
 .custom-box{
 	max-width: 43.75rem;
-	background-color: #f7f6f5;
+	background-color: var(--grey);
 	margin:42.5rem auto;
 	padding: 1.875rem;
 	border-radius: 0.625px;
@@ -63,14 +63,15 @@ header {
     width: 15.81rem;
   }
 
-#welcome-section-container {
+ .welcome-section-container {
+    min-height: 23.438rem;
+    min-width: 15rem;
     background-color: var(--grey);
     padding: 1rem;
     margin: 1rem;
     margin-top: 2rem;
     border-radius: 5%;
-    min-height: 15px;
-    }
+  }
 
 #welcome-headline {
     text-align: center;
@@ -166,5 +167,12 @@ header {
 
     }
       
-
-    
+.result-box {
+    min-height: 23.438rem;
+    min-width: 15rem;
+    background-color: var(--grey);
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    border-radius: 5%;
+  }
