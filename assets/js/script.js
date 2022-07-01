@@ -30,6 +30,7 @@ const nextButton = document.getElementById('btn-next');
 
 let questionCounter = 0;
 let currentBasicQuestion;
+
 let currentIntermediateQuestion;
 let currentAdvancedQuestion;
 let availableBasicQuestions = [];
@@ -38,7 +39,8 @@ let availableAdvancedQuestions = [];
 let availableBasicOptions = [];
 let availableIntermediateOptions = [];
 let availableAdvancedOptions = [];
-
+let correctAnswers = 0;
+let attempt = 0;
 
 // push the questions into availableQuestions Array
 function loadBasicQuestions(){
@@ -97,7 +99,20 @@ function getNewBasicQuestion(){
  }
     
 
+// get the basic result of current attempt question
+function getBasicResult(element){
+  const id = element.id;
+  if(id === currentBasicQuestion.answer){
+    console.log("answer is correct");
+  }else{
+    console.log("answer is wrong")
+  }
+}
 
+
+function updateAnswerIndicator(markType){
+    answersIndicatorContainer.children[questionCounter-1].classList.add(markType);
+}
 
 function next(){
     if(questionCounter === basicQuestions.length){
