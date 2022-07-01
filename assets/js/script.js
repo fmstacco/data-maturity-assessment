@@ -28,12 +28,14 @@ const previousButton = document.getElementById('btn-previous');
 const nextButton = document.getElementById('btn-next');
 
 let questionCounter = 0;
-let currentQuestion;
+let currentBasicQuestion;
+let currentIntermediateQuestion;
+let currentAdvancedQuestion;
 let availableBasicQuestions = [];
 let availableIntermediateQuestions = [];
 let availableAdvancedQuestions = [];
 
-// push the questions into  availableQuestions Array
+// push the questions into availableQuestions Array
 function loadBasicQuestions(){
     const totalQuestion = basicQuestions.length;
     for(let i=0; i<totalQuestion; i++){
@@ -48,8 +50,8 @@ function getNewBasicQuestion(){
 //set question text
 //get random question
     const questionBasicIndex = availableBasicQuestions[Math.floor(Math.random() * availableBasicQuestions.length)]
-    currentQuestion = questionBasicIndex;
-    questionText.innerHTML = currentQuestion.q;
+    currentBasicQuestion = questionBasicIndex;
+    questionText.innerHTML = currentBasicQuestion.question;
     
     //get the postition of 'questionIndex' from the availableBasicQuestions Array
     const indexBasic1 = availableBasicQuestions.indexOf(questionBasicIndex)
