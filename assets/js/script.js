@@ -111,20 +111,18 @@ function getBasicResult(element){
     //set the red color to the incorrect option
     element.classList.add("wrong")  
   }
+  unclickableOptions();
+
 }
 
-unclickableOptions(
-    
-)
 
 //make all the options unclickable once the user select a option ()
-function unclickableOptions() {
-    const basicOptionLength = optionContainer.children.length;
-    for (let i=0; i<basicOptionLength; i++){
-        optionContainer.children.classList.add("already-answered");
+function unclickableOptions(){
+    const optionLen = optionContainer.children.length;
+    for(let i=0 ; i < optionLen; i++){
+    	optionContainer.children[i].classList.add("already-answered");
     }
-}
-
+ }
 
 function updateAnswerIndicator(markType){
     answersIndicatorContainer.children[questionCounter-1].classList.add(markType);
