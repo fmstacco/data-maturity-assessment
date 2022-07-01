@@ -108,7 +108,8 @@ function getBasicResult(element){
     element.classList.add("correct")  
       
 }else{
-    console.log("answer is wrong")
+    //set the red color to the incorrect option
+    element.classList.add("wrong")  
   }
 }
 

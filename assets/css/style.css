@@ -155,8 +155,25 @@ header {
            transform: translateX(0%);	
           }
      }   
+
+     .quiz-box .option-container .option.wrong::before {
+      content:'';
+      position:absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      background-color: var(--cream) ;
+      z-index: -1;
+      animation: slideInLeft .5s ease forwards;
+        }
+
+        .quiz-box .option-container .option.wrong {
+          color: red;
+        }
+
     .quiz-box .option-container .option.correct {
-      color: var(--cream);
+      color: var(--cream)
       }
 
    .question-number {
