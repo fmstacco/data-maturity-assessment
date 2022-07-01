@@ -20,7 +20,10 @@
 const questionNumber = document.querySelector('.question-number');
 const questionText = document.querySelector('.question-text');
 const optionContainer = document.querySelector('.option-container');
-const answersIndicatorContainer = document.querySelector(".answers-indicator");
+
+const welcomeSectionContainer = document.querySelector(".welcome-section-container");
+const quizBox = document.querySelector(".quiz-box");
+const resultBox = document.querySelector(".result-box");
 
 const basicButton = document.getElementById ('basic-level');
 const intermediateButton = document.getElementById ('intermediate-level');
@@ -143,6 +146,14 @@ function next(){
     }
 }
 
+
+function quizOver(){
+    //hide quiz quizBox
+    quizBox.classList.add("hide");
+    //show resultBox 
+    resultBox.classList.remove("hide");
+    quizResult();
+}
 
 window.onload = function() {
     //set all questions in availableQuestions Array

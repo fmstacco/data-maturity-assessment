@@ -142,7 +142,7 @@ header {
       top: 0;
       height: 100%;
       width: 100%;
-      background-color: #cfffae  ;
+      background-color: #6ff0a8 ;
       z-index: -1;
       animation: slideInLeft .5s ease forwards;
         }
@@ -165,7 +165,7 @@ header {
       top: 0;
       height: 100%;
       width: 100%;
-      background-color:#ffaeae;
+      background-color:#fd6f6f;
       z-index: -1;
       animation: slideInLeft .5s ease forwards;
         }
