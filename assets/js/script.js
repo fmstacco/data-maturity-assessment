@@ -101,10 +101,13 @@ function getNewBasicQuestion(){
 
 // get the basic result of current attempt question
 function getBasicResult(element){
-  const id = element.id;
+  const id = parseInt(element.id);
+  //get the answer by comparing the id
   if(id === currentBasicQuestion.answer){
-    console.log("answer is correct");
-  }else{
+    //set the blue color to the correct option
+    element.classList.add("correct")  
+      
+}else{
     console.log("answer is wrong")
   }
 }
