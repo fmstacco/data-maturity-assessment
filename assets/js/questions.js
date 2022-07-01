@@ -1,197 +1,54 @@
 const basicQuestions = [
   {
-    question: "renata ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    answer1: "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    answer1Total: "1",
-    answer2: "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    answer2Total: "2",
-    answer3: "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    answer3Total: "3"
+  	question:'Which month comes right before june ?',
+  	options:['may','september','july','august'],
+  	answer:0
   },
   {
-    "question": "teste ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
+  	question:'What color is a banana?',
+  	options:['red','yellow','white','blue'],
+  	answer:1
   },
   {
-    "question": "fabiana ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
+  	question:'3 + 4 = 7 ?',
+  	options:['true','false'],
+  	answer:0
   },
   {
-    "question": "peter ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
+  	question:'What time of day do we have breakfast?',
+  	options:['In the afternoon','In the evening','In the morning'],
+  	answer:2
   },
   {
-    "question": "michel ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
+  	question:'What is 22 + 6?',
+  	options:['99','56','16','28'],
+  	answer:3
   },
   {
-    "question": "joyce ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
+    question:'How many squares are there in the following figure?',
+    options:['35','30','40','50'],
+    answer:2,
+    img:'img/square.jpg'
   },
   {
-    "question": "rodolpho ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-]
-
-const IntermediateQuestions = [
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
+    question:'Count the triangles in picture below.',
+    options:['7','9','12','13'],
+    answer:3,
+    img:'img/triangle.jpg'
   },
   {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
+    question:'Windows, macOS, and Linux are examples of ________.?',
+    options:['web browsers','mobile devices','filmy heroines','operating systems'],
+    answer:3,
   },
   {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
+    question:'What does "GUI" stand for?',
+    options:['Global user index','Graphical user interface','golu use iphone'],
+    answer:1,
   },
   {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-]
-
-const AdvancedQuestions = [
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-  {
-    "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, alias!",
-    "answer1": "1 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer1Total": "1",
-    "answer2": "2 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer2Total": "2",
-    "answer3": "3 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ullam esse, iste porro quae perspiciatis at error ipsa ea eos?",
-    "answer3Total": "3"
-  },
-]
+    question:'Mark Zuckerberg is the owner of  ?',
+    options:['facebook','google','linux','linkedin'],
+    answer:0,
+  }
+ ]

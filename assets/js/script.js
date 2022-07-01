@@ -19,7 +19,7 @@
 
 const questionNumber = document.querySelector('.question-number');
 const questionText = document.querySelector('.question-text');
-const optionContainer = document.querySelector('option-container');
+const optionContainer = document.querySelector('.option-container');
 
 const basicButton = document.getElementById ('basic-level');
 const intermediateButton = document.getElementById ('intermediate-level');
@@ -34,6 +34,10 @@ let currentAdvancedQuestion;
 let availableBasicQuestions = [];
 let availableIntermediateQuestions = [];
 let availableAdvancedQuestions = [];
+let availableBasicOptions = [];
+let availableIntermediateOptions = [];
+let availableAdvancedOptions = [];
+
 
 // push the questions into availableQuestions Array
 function loadBasicQuestions(){
@@ -58,12 +62,39 @@ function getNewBasicQuestion(){
         
     //remove the 'questionBasicIndex' from the availableBasiQuestions Array, so that the question does not repeat
     availableBasicQuestions.splice(indexBasic1,1);
-    console.log(questionBasicIndex)
-    console.log(availableBasicQuestions)
 
-    questionCounter++
-}
+    //set options
+    //get the lenght of options
 
+    const basicOptionLength = currentBasicQuestion.options.length;
+     // push options into availableBasicOptions Array
+    for(let i=0; i<basicOptionLength; i++) {
+        availableBasicOptions.push(i)
+    }
+    optionContainer.innerHTML = '';
+    let animationDelay = 0.15;
+    // create options in html
+    for(let i=0; i<basicOptionLength; i++) {
+    // random option
+    const optionBasicIndex = availableBasicOptions[Math.floor(Math.random() * availableBasicOptions.length)];    
+    // get the position of 'optionBasicIndex' from the availableBasicOptions Array
+    const indexBasic2 =  availableBasicOptions.indexOf(optionBasicIndex);
+    // remove the  'optionBasicIndex' from the availableBasicOptions Array , so that the option does not repeat
+    availableBasicOptions.splice(indexBasic2,1);
+    const basicOption = document.createElement("div");
+    basicOption.innerHTML = currentBasicQuestion.options[optionBasicIndex];
+    basicOption.id = optionBasicIndex;
+    basicOption.style.animationDelay =animationDelay + 's';
+    animationDelay = animationDelay + 0.15;
+    basicOption.className = "option";
+    optionContainer.appendChild(basicOption);
+    basicOption.setAttribute("onclick","getBasicResult(this)");
+    }
+   console.log(availableBasicQuestions)
+   console.log(availableBasicOptions)
+    questionCounter++;
+ }
+    
 function next(){
     if(questionCounter === basicQuestions.length){
         console.log("quiz over")

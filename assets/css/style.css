@@ -113,9 +113,6 @@ header {
 
 }
 
-
-
-
 .quizz-level-btn:hover {
     font-size: 1.1rem;
     font-weight: 700;
@@ -164,7 +161,6 @@ header {
       border-radius: 0.313rem;
       margin-bottom: 0.625rem;
       cursor: pointer;
-
     }
       
 .result-box {
