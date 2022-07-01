@@ -150,4 +150,6 @@ window.onload = function() {
  //Add Event Listener for buttons 
 
  basicButton.addEventListener('click', loadBasicQuestions)
+ intermediateButton.addEventListener('click', loadIntermediateQuestions)
+advancedButton.addEventListener('click', loadAdvancedQuestions)
 
