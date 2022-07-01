@@ -20,6 +20,7 @@
 const questionNumber = document.querySelector('.question-number');
 const questionText = document.querySelector('.question-text');
 const optionContainer = document.querySelector('.option-container');
+const answersIndicatorContainer = document.querySelector(".answers-indicator");
 
 const basicButton = document.getElementById ('basic-level');
 const intermediateButton = document.getElementById ('intermediate-level');
@@ -95,6 +96,9 @@ function getNewBasicQuestion(){
     questionCounter++;
  }
     
+
+
+
 function next(){
     if(questionCounter === basicQuestions.length){
         console.log("quiz over")
