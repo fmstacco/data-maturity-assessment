@@ -147,6 +147,10 @@ header {
       animation: slideInLeft .5s ease forwards;
         }
 
+        .quiz-box .option-container option.already-answered {
+          pointer-events: none;
+        }
+
         @keyframes slideInLeft{
           0%{
             transform: translateX(-100%);

@@ -113,6 +113,18 @@ function getBasicResult(element){
   }
 }
 
+unclickableOptions(
+    
+)
+
+//make all the options unclickable once the user select a option ()
+function unclickableOptions() {
+    const basicOptionLength = optionContainer.children.length;
+    for (let i=0; i<basicOptionLength; i++){
+        optionContainer.children.classList.add("already-answered");
+    }
+}
+
 
 function updateAnswerIndicator(markType){
     answersIndicatorContainer.children[questionCounter-1].classList.add(markType);
