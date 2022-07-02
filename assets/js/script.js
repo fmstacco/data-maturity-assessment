@@ -26,23 +26,16 @@ const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 
 const basicButton = document.getElementById ('basic-level');
-const intermediateButton = document.getElementById ('intermediate-level');
-const advancedButton = document.getElementById('advanced-level');
 const previousButton = document.getElementById('btn-previous');
 const nextButton = document.getElementById('btn-next');
 
 const questionLimit = 5; // if you want all questions "quiz.length"
 let questionCounter = 0;
-let currentBasicQuestion;
+let currentQuestion;
 
-let currentIntermediateQuestion;
-let currentAdvancedQuestion;
-let availableBasicQuestions = [];
-let availableIntermediateQuestions = [];
-let availableAdvancedQuestions = [];
-let availableBasicOptions = [];
-let availableIntermediateOptions = [];
-let availableAdvancedOptions = [];
+let availableQuestions = [];
+let availableOptions = [];
+
 let correctAnswers = 0;
 let attempt = 0;
 
@@ -56,7 +49,7 @@ function loadBasicQuestions(){
 
 //set question number and question and options 
 function getNewBasicQuestion(){
-    questionNumber.innerHTML = "Question " + (questionCounter +1) + " of " + basicQuestions.length;
+    questionNumber.innerHTML = "Question " + (questionCounter) + " of " + basicQuestions.length;
 
 //set question text
 //get random question
@@ -177,17 +170,7 @@ function startBasicQuiz(){
    getNewBasicQuestion();
   }
 
-  function startIntermediateQuiz(){
-  
-    // hide home box 
-    welcomeSectionContainer.classList.add("hide");
-    // show quiz Box
-    quizBox.classList.remove("hide");
-   // first we will set all questions in availableQuestions Array
-   loadIntermediateQuestions();
-   // second we will call getNewQuestion(); function
-   getNewIntermediateQuestion();
-  }
+
 
 
 
@@ -201,7 +184,5 @@ window.onload = function() {
 
  //Add Event Listener for buttons 
 
- basicButton.addEventListener('click', startBasicQuiz)
- intermediateButton.addEventListener('click', startIntermediateQuiz)
-advancedButton.addEventListener('click', startAdvancedQuiz)
-
+basicButton.addEventListener('click', startBasicQuiz)
+nextButton.addEventListener('click', next)
