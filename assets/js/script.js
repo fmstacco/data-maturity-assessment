@@ -48,55 +48,55 @@ function loadQuestions(){
     }
 
 //set question number and question and options 
-function getNewBasicQuestion(){
-    questionNumber.innerHTML = "Question " + (questionCounter) + " of " + basicQuestions.length;
+function getNewQuestion(){
+    questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + Questions.length;
 
 //set question text
 //get random question
-    const questionBasicIndex = availableBasicQuestions[Math.floor(Math.random() * availableBasicQuestions.length)]
-    currentBasicQuestion = questionBasicIndex;
-    questionText.innerHTML = currentBasicQuestion.question;
+    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)]
+    currentQuestion = questionIndex;
+    questionText.innerHTML = currentQuestion.question;
     
-    //get the postition of 'questionIndex' from the availableBasicQuestions Array
-    const indexBasic1 = availableBasicQuestions.indexOf(questionBasicIndex)
+    //get the postition of 'questionIndex' from the availableQuestions Array
+    const index1 = availableQuestions.indexOf(questionIndex)
         
-    //remove the 'questionBasicIndex' from the availableBasiQuestions Array, so that the question does not repeat
-    availableBasicQuestions.splice(indexBasic1,1);
+    //remove the 'questionIndex' from the availableQuestions Array, so that the question does not repeat
+    availableQuestions.splice(index1,1);
 
     //set options
     //get the lenght of options
 
-    const basicOptionLength = currentBasicQuestion.options.length;
-     // push options into availableBasicOptions Array
-    for(let i=0; i<basicOptionLength; i++) {
-        availableBasicOptions.push(i)
+    const OptionLength = currentQuestion.options.length;
+     // push options into availableOptions Array
+    for(let i=0; i<OptionLength; i++) {
+        availableOptions.push(i)
     }
     optionContainer.innerHTML = '';
     let animationDelay = 0.15;
     // create options in html
-    for(let i=0; i<basicOptionLength; i++) {
+    for(let i=0; i<OptionLength; i++) {
     // random option
-    const optionBasicIndex = availableBasicOptions[Math.floor(Math.random() * availableBasicOptions.length)];    
-    // get the position of 'optionBasicIndex' from the availableBasicOptions Array
-    const indexBasic2 =  availableBasicOptions.indexOf(optionBasicIndex);
-    // remove the  'optionBasicIndex' from the availableBasicOptions Array , so that the option does not repeat
-    availableBasicOptions.splice(indexBasic2,1);
-    const basicOption = document.createElement("div");
-    basicOption.innerHTML = currentBasicQuestion.options[optionBasicIndex];
-    basicOption.id = optionBasicIndex;
-    basicOption.style.animationDelay =animationDelay + 's';
+    const optionIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)];    
+    // get the position of 'optionIndex' from the availableOptions Array
+    const index2 =  availableOptions.indexOf(optionIndex);
+    // remove the  'optionIndex' from the availableOptions Array , so that the option does not repeat
+    availableOptions.splice(index2,1);
+    const Option = document.createElement("div");
+    Option.innerHTML = currentQuestion.options[optionIndex];
+    Option.id = optionIndex;
+    Option.style.animationDelay =animationDelay + 's';
     animationDelay = animationDelay + 0.15;
-    basicOption.className = "option";
-    optionContainer.appendChild(basicOption);
-    basicOption.setAttribute("onclick","getBasicResult(this)");
+    Option.className = "option";
+    optionContainer.appendChild(Option);
+    Option.setAttribute("onclick","getResult(this)");
     }
-   console.log(availableBasicQuestions)
-   console.log(availableBasicOptions)
+   console.log(availableQuestions)
+   console.log(availableOptions)
     questionCounter++;
  }
     
 
-// get the basic result of current attempt question
+// get the result of current attempt question
 function getBasicResult(element){
   const id = parseInt(element.id);
   //get the answer by comparing the id
