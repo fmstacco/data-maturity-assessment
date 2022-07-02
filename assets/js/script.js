@@ -165,6 +165,22 @@ function quizResult(){
 
 }
 
+function startBasicQuiz(){
+  
+    // hide home box 
+    welcomeSectionContainer.classList.add("hide");
+    // show quiz Box
+    quizBox.classList.remove("hide");
+   // first we will set all questions in availableQuestions Array
+   loadBasicQuestions();
+   // second we will call getNewQuestion(); function
+   getNewBasicQuestion();
+  }
+
+
+
+
+
 window.onload = function() {
     //set all questions in availableQuestions Array
     loadBasicQuestions();

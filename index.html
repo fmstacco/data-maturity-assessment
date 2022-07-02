@@ -20,13 +20,13 @@
     <!--Welcome Section-->
     <section>
         <!-- Welcome and Description of the Data Maturity Assessment-->
-        <div class="welcome-section-container custom-box hide">
+        <div class="welcome-section-container custom-box">
             <h2 id="welcome-headline">Data Maturity Assessment</h2>
             <h3 class="headline2">Find out what is the level of maturity of your company's data management.</h3>  
             <p class="content">Our quizzes will help you understand the maturity level of your company's data management and what steps to follow to raise your organization's level!</p>
             <h3 class="headline2">Chose a quizz type to begin!</h3>
             <div class="quizz-level-button"> 
-            <button aria-label="Basic level button" name="Basic-level-button" class="btn" id="basic-level">Basic</button> 
+            <button aria-label="Basic level button" name="Basic-level-button" class="btn" id="basic-level" onclick="startBasicQuiz()">Basic</button> 
             <button aria-label="Intermediate level button" name="Intermediate-level-button" class="btn" id="intermediate-level">Intermediate</button>
             <button aria-label="Advanced level button" name="Advanced-level-button" class="btn" id="advanced-level">Advanced</button>
         </div>
@@ -34,7 +34,7 @@
         </section>
 
         <section>
-        <div class="quiz-box custom-box">
+        <div class="quiz-box custom-box hide">
             <div class="question-number">
             </div>
             <div class="question-text">
