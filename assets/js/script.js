@@ -177,7 +177,17 @@ function startBasicQuiz(){
    getNewBasicQuestion();
   }
 
-
+  function startIntermediateQuiz(){
+  
+    // hide home box 
+    welcomeSectionContainer.classList.add("hide");
+    // show quiz Box
+    quizBox.classList.remove("hide");
+   // first we will set all questions in availableQuestions Array
+   loadIntermediateQuestions();
+   // second we will call getNewQuestion(); function
+   getNewIntermediateQuestion();
+  }
 
 
 
@@ -191,7 +201,7 @@ window.onload = function() {
 
  //Add Event Listener for buttons 
 
- basicButton.addEventListener('click', loadBasicQuestions)
- intermediateButton.addEventListener('click', loadIntermediateQuestions)
-advancedButton.addEventListener('click', loadAdvancedQuestions)
+ basicButton.addEventListener('click', startBasicQuiz)
+ intermediateButton.addEventListener('click', startIntermediateQuiz)
+advancedButton.addEventListener('click', startAdvancedQuiz)
 
