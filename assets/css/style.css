@@ -79,6 +79,7 @@ header {
 
 .headline2{
     padding-top: 1rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -87,7 +88,7 @@ header {
     text-align: center;
 }
 
-.quizz-level-button {
+.start-button {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
