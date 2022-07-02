@@ -1,4 +1,4 @@
-const Questions = [
+const questions = [
   {
   	question:'Which month comes right before june ?',
   	options:['may','september','july','august'],

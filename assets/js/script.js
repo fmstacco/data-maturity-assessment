@@ -41,15 +41,15 @@ let attempt = 0;
 
 // push the questions into availableQuestions Array
 function loadQuestions(){
-    const totalQuestion = Questions.length;
+    const totalQuestion = questions.length;
     for(let i=0; i<totalQuestion; i++){
-        availableQuestions.push(Questions[i]);
+        availableQuestions.push(questions[i]);
         }
     }
 
 //set question number and question and options 
 function getNewQuestion(){
-    questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + Questions.length;
+    questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + questions.length;
 
 //set question text
 //get random question
@@ -58,37 +58,36 @@ function getNewQuestion(){
     questionText.innerHTML = currentQuestion.question;
     
     //get the postition of 'questionIndex' from the availableQuestions Array
-    const index1 = availableQuestions.indexOf(questionIndex)
-        
+    const index1= availableQuestions.indexOf(questionIndex);        
     //remove the 'questionIndex' from the availableQuestions Array, so that the question does not repeat
     availableQuestions.splice(index1,1);
 
     //set options
     //get the lenght of options
 
-    const OptionLength = currentQuestion.options.length;
+    const optionLength = currentQuestion.options.length;
      // push options into availableOptions Array
-    for(let i=0; i<OptionLength; i++) {
+    for(let i=0; i<optionLength; i++) {
         availableOptions.push(i)
     }
     optionContainer.innerHTML = '';
     let animationDelay = 0.15;
     // create options in html
-    for(let i=0; i<OptionLength; i++) {
+    for(let i=0; i<optionLength; i++) {
     // random option
     const optionIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)];    
     // get the position of 'optionIndex' from the availableOptions Array
     const index2 =  availableOptions.indexOf(optionIndex);
-    // remove the  'optionIndex' from the availableOptions Array , so that the option does not repeat
+    // remove the  'optionIndex' from the availableOptions Array, so that the option does not repeat
     availableOptions.splice(index2,1);
-    const Option = document.createElement("div");
-    Option.innerHTML = currentQuestion.options[optionIndex];
-    Option.id = optionIndex;
-    Option.style.animationDelay =animationDelay + 's';
+    const option = document.createElement("div");
+    option.innerHTML = currentQuestion.options[optionIndex];
+    option.id = optionIndex;
+    option.style.animationDelay =animationDelay + 's';
     animationDelay = animationDelay + 0.15;
-    Option.className = "option";
-    optionContainer.appendChild(Option);
-    Option.setAttribute("onclick","getResult(this)");
+    option.className = "option";
+    optionContainer.appendChild(option);
+    option.setAttribute("onclick","getResult(this)");
     }
    console.log(availableQuestions)
    console.log(availableOptions)
@@ -97,10 +96,10 @@ function getNewQuestion(){
     
 
 // get the result of current attempt question
-function getBasicResult(element){
+function getResult(element){
   const id = parseInt(element.id);
   //get the answer by comparing the id
-  if(id === currentBasicQuestion.answer){
+  if(id === currentQuestion.answer){
     //set the blue color to the correct option
     element.classList.add("correct")  
     correctAnswers++;
@@ -111,7 +110,7 @@ function getBasicResult(element){
  // if the answer is incorrect then show the correct option by adding green color the correct option
  const optionLen = optionContainer.children.length;
  for(let i=0; i<optionLen; i++){
-     if(parseInt(optionContainer.children[i].id) === currentBasicQuestion.answer){
+     if(parseInt(optionContainer.children[i].id) === currentQuestion.answer){
        optionContainer.children[i].classList.add("correct");  	    
   }
 }
@@ -133,10 +132,10 @@ function updateAnswerIndicator(markType){
 }
 
 function next(){
-    if(questionCounter === basicQuestions.length){
+    if(questionCounter === questions.length){
         quizOver();
     }else{
-        getNewBasicQuestion();
+        getNewQuestion();
     }
 }
 
@@ -158,31 +157,38 @@ function quizResult(){
 
 }
 
-function startBasicQuiz(){
+function startQuiz(){
   
     // hide home box 
     welcomeSectionContainer.classList.add("hide");
     // show quiz Box
     quizBox.classList.remove("hide");
    // first we will set all questions in availableQuestions Array
-   loadBasicQuestions();
+   loadQuestions();
    // second we will call getNewQuestion(); function
-   getNewBasicQuestion();
+   getNewQuestion();
   }
 
 
-
+  function tryAgainQuiz(){
+    // hide the resultBox
+    resultBox.classList.add("hide");
+    // show the quizBox
+    quizBox.classList.remove("hide");
+   resetQuiz();
+   startQuiz();
+}
 
 
 window.onload = function() {
     //set all questions in availableQuestions Array
-    loadBasicQuestions();
+    loadQuestions();
     //call getNewQuestion funtion
-    getNewBasicQuestion();
+    getNewQuestion();
 }
 
 
  //Add Event Listener for buttons 
 
-basicButton.addEventListener('click', startBasicQuiz)
+startButton.addEventListener('click', startQuiz)
 nextButton.addEventListener('click', next)
