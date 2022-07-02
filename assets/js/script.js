@@ -31,6 +31,7 @@ const advancedButton = document.getElementById('advanced-level');
 const previousButton = document.getElementById('btn-previous');
 const nextButton = document.getElementById('btn-next');
 
+const questionLimit = 5; // if you want all questions "quiz.length"
 let questionCounter = 0;
 let currentBasicQuestion;
 
@@ -109,7 +110,7 @@ function getBasicResult(element){
   if(id === currentBasicQuestion.answer){
     //set the blue color to the correct option
     element.classList.add("correct")  
-      
+    correctAnswers++;
 }else{
     //set the red color to the incorrect option
     element.classList.add("wrong");
@@ -157,9 +158,11 @@ function quizOver(){
 
 //get the quiz Result
 function quizResult(){
-    const percentage = (correctAnswers/questionLimit)*100;
-    resultBox.querySelector(".percentage").innerHTML =percentage.toFixed(2) + "%";
-   resultBox.querySelector(".total-score").innerHTML =correctAnswers +" / " + questionLimit;
+    const totalScore = correctAnswers;
+        resultBox.querySelector(".total-score").innerHTML = 
+         `<h1 class="total-score">Your score: ${totalScore}</h1>`;
+      
+
 }
 
 window.onload = function() {
