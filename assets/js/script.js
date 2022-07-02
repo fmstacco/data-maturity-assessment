@@ -140,7 +140,7 @@ function updateAnswerIndicator(markType){
 
 function next(){
     if(questionCounter === basicQuestions.length){
-        console.log("quiz over")
+        quizOver();
     }else{
         getNewBasicQuestion();
     }
@@ -153,6 +153,13 @@ function quizOver(){
     //show resultBox 
     resultBox.classList.remove("hide");
     quizResult();
+}
+
+//get the quiz Result
+function quizResult(){
+    const percentage = (correctAnswers/questionLimit)*100;
+    resultBox.querySelector(".percentage").innerHTML =percentage.toFixed(2) + "%";
+   resultBox.querySelector(".total-score").innerHTML =correctAnswers +" / " + questionLimit;
 }
 
 window.onload = function() {
