@@ -25,7 +25,7 @@ const welcomeSectionContainer = document.querySelector(".welcome-section-contain
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 
-const basicButton = document.getElementById ('basic-level');
+const startButton = document.getElementById ('start-button-id');
 const previousButton = document.getElementById('btn-previous');
 const nextButton = document.getElementById('btn-next');
 
@@ -40,10 +40,10 @@ let correctAnswers = 0;
 let attempt = 0;
 
 // push the questions into availableQuestions Array
-function loadBasicQuestions(){
-    const totalQuestion = basicQuestions.length;
+function loadQuestions(){
+    const totalQuestion = Questions.length;
     for(let i=0; i<totalQuestion; i++){
-        availableBasicQuestions.push(basicQuestions[i]);
+        availableQuestions.push(Questions[i]);
         }
     }
 
