@@ -70,7 +70,68 @@ const questions = [
     options:['Yes, they can create the reports and give maintenance',"No, only IT has access"],
     answer:0,
   },
+  {
+    question:'Considering current applications, any of them have the characteristics: data inconsistency, data duplicity, update failures?',
+    options:['No','Yes',"I don't know"],
+    answer:0,
+  },
+  {
+    question:'What platforms and tools do your business use for data storage?',
+    options:['Excel, SQL, WeDo not use, Athena, others',"We do'nt use","I don't know"],
+    answer:0,
+  },
+  {
+    question:'What methods do you use for statistical analysis?',
+    options:['Analysis of variance, null hypothesis, regression, a/b tests, temporal series, correlation, others ...','We do not use',"I don't know."],
+    answer:0,
+  },
+  {
+    question:'What types of models do you use for Machine Learning?',
+    options:['Supervised, not supervised, Reinforcement Learning, Deep Learning, Others.','We do not use Machine Learning.',"I don't know."],
+    answer:0,
+  },
+  {
+    question:'What types of solutions have already been developed in the company',
+    options:['Web Service Analytics, Database, Dashboard, others.','There are no developed solutions.',"I don't know."],
+    answer:0,
+  },
+  {
+    question:'What platforms and tools do you use for mlops?',
+    options:['Gitlab, Airflow, Mlflow, Docker, others.','We do not use mlop platforms and tools.',"I don't know."],
+    answer:0,
+  },
+  {
+    question:'What methods do you use to ensure data quality?',
+    options:['Accessibility, accuracy, coherence, comparability, completeity, consistency, etc ...','We do not use methods to ensure data quality.',"I don't know."],
+    answer:0,
+  },
+  {
+    question:'Considering current applications, which audience has access to them?',
+    options:['Department Analysis, Management/Corporate Analysis, External Analysis via Portal, Report Analysis (Export to Excel), etc ...%','We do not have',"I don't know."],
+    answer:0,
+  },
+  {
+    question:'Regarding the process maturity, please select the statement that best fits your organization:',
+    options:['Across the organization, we share best practices and standards, and we’re capable of improving and restructuring processes.','We have largely informal and ad hoc analytical processes in place.','We have formalized analytical processes in place.'],
+    answer:0,
+  },
+  {
+    question:'',
+    options:['above 7%','5%','3%','1%'],
+    answer:0,
+  },
+  {
+    question:'',
+    options:['above 7%','5%','3%','1%'],
+    answer:0,
+  },
+  {
+    question:'',
+    options:['above 7%','5%','3%','1%'],
+    answer:0,
+  },
 
+  
  ]
 
  
