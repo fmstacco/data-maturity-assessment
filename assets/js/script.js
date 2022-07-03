@@ -39,6 +39,7 @@ let correctAnswers = 0;
 let attempt = 0;
 
 // push the questions into availableQuestions Array
+
 function loadQuestions() {
     const totalQuestion = questions.length;
     for (let i=0; i<totalQuestion; i++) {
@@ -49,7 +50,7 @@ function loadQuestions() {
 //set question number and question and options 
 function getNewQuestion(){
     // set question number 
-    questionNumber.innerHTML = "Question " + (questionCounter +1) + " of " + questions.length;
+    questionNumber.innerHTML = "Question " + (questionCounter +1) + " of " + questions.questionLimit;
 
     // set question text
     // get random question
@@ -130,7 +131,7 @@ function updateAnswerIndicator(markType) {
 }
 
 function next() {
-    if (questionCounter === questions.length) {
+    if (questionCounter === questions.questionLimit) {
         quizOver();
     } else {
         getNewQuestion();
