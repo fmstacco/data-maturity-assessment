@@ -12,7 +12,7 @@ const questions = [
   {
   	question:'Does your company have any GPDP control?',
   	options:['No','Yes, with IT department', 'Yes, implemented', 'Yes, implemented with Governance Department' ],
-  	answer:0
+  	answer:3
   },
   {
   	question:'Does your company use strategic planning tools or methodologies?',
@@ -25,32 +25,52 @@ const questions = [
   	answer:0
   },
   {
-    question:'How many squares are there in the following figure?',
-    options:['35','30','40','50'],
-    answer:2,
-    img:'img/square.jpg'
-  },
-  {
-    question:'Count the triangles in picture below.',
-    options:['7','9','12','13'],
-    answer:3,
-    img:'img/triangle.jpg'
-  },
-  {
-    question:'Windows, macOS, and Linux are examples of ________.?',
-    options:['web browsers','mobile devices','filmy heroines','operating systems'],
-    answer:3,
-  },
-  {
-    question:'What does "GUI" stand for?',
-    options:['Global user index','Graphical user interface','golu use iphone'],
-    answer:1,
-  },
-  {
-    question:'Mark Zuckerberg is the owner of  ?',
-    options:['facebook','google','linux','linkedin'],
+    question:"What is the percentage of investment on the company's revenue to the data area annually? *approximately",
+    options:['above 7%','5%','3%','1%'],
     answer:0,
-  }
+    
+  },
+  {
+    question:'Do people usually make data based decisions?',
+    options:['True','False'],
+    answer:0,
+     },
+  {
+    question:'Do company leaders advocate and continually communicate on data culture??',
+    options:['True','False'],
+    answer:0,
+  },
+  {
+    question:'Do employees have access to the data and are encouraged to use it in their daily work?',
+    options:['True','False'],
+    answer:0,
+  },
+  {
+    question:'Are the metrics consistent throughout the company and employees understand their meanings?',
+    options:['True','False'],
+    answer:0,
+  },
+  {
+    question:'Does the company have clear business goals that want to achieve through data use?',
+    options:['True','False'],
+    answer:0,
+  },
+  {
+    question:'Do employees know the ethical and legal implications that involve data analysis?',
+    options:['True','False'],
+    answer:0,
+  },
+  {
+    question:'Does your company use Business Intelligence (BI tools?',
+    options:['Yes, we use PowerBI, Tableau, Excel, etc',"I don't know which tools are used", 'We have no BI tools', 'We intent to start using soon'],
+    answer:0,
+  },
+  {
+    question:'Are employees of the finance department, operations, commercial and HR able to create their own self service reports?',
+    options:['Yes, they can create the reports and give maintenance',"No, only IT has access"],
+    answer:0,
+  },
+
  ]
 
  
