@@ -214,4 +214,3 @@ window.onload = function() {
 startButton.addEventListener('click', startQuiz)
 restartButton.addEventListener('click', tryAgainQuiz)
 nextButton.addEventListener('click', next)
-previousButton.addEventListener('click', loadPreviousQuestion)

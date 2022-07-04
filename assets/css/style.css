@@ -87,7 +87,7 @@ header {
 .headline2{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .content {
@@ -112,6 +112,10 @@ header {
     border-radius: 5%;
 }
 
+#btn-next {
+  margin-left: 15rem;
+  }
+
 .option-container-buttons {
     display: flex;
     align-items:center;
@@ -132,6 +136,7 @@ header {
     transition: 0.5s ease;
     
     }
+
 
     .quiz-box {
       min-height: 23.438rem;
@@ -328,6 +333,11 @@ header {
     align-items: center;
     justify-content: space-around;
 
+  }
+
+
+#btn-next {
+  margin-left: 36rem;
   }
 
 }
