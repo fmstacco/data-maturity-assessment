@@ -23,9 +23,11 @@ body {
 	max-width: 43.75rem;
 	background-color: var(--grey);
 	margin:42.5rem auto;
+  margin-bottom: 10rem;
 	padding: 1.875rem;
 	border-radius: 0.625px;
 	animation: fadeInRight 1s ease;
+
 }
 
 @keyframes fadeInRight{
@@ -57,6 +59,7 @@ header {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
   text-align: center;
+  
 }
 
 #logo-header {
@@ -71,6 +74,10 @@ header {
     margin: 1rem;
     margin-top: 2rem;
     border-radius: 5%;
+    margin-bottom: 6rem;
+
+    
+
   }
 
 #welcome-headline {
@@ -229,6 +236,8 @@ header {
     margin: 1rem;
     margin-top: 2rem;
     border-radius: 5%;
+    margin-bottom: 6rem;
+
   }
 
   .result-box.hide{
@@ -250,3 +259,75 @@ header {
 
    
       }
+
+      /*Footer*/
+
+.footer-section {
+  min-height: 10rem;
+  background-color: var(--dark);
+  bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.navbarfooter_logo {
+  width: 15.81rem;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 7rem;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+
+
+.footer-social-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-social-links a {
+  color: var(--cream);
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.footer-social-links a:hover {
+  color: var(--grey);
+  transition: ease-in;
+}
+
+.copyright {
+  background-color: var(--dark);
+  color: var(--cream);
+  text-align: center;
+  padding: 0.3rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-section {
+    height: 10rem;
+    background-color: var(--dark);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+
+  }
+
+  .footer-container {
+    height: 7rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+  }
+
+}

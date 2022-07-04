@@ -156,10 +156,19 @@ function quizOver() {
 function quizResult() {
     const totalScore = correctAnswers;
     resultBox.querySelector(".total-score").innerHTML =
-        `<h1 class="total-score">Your score: ${totalScore}</h1>`;
+        `<h2 class="total-score">Your score: ${totalScore}</h2>`;
+      
+        if (totalScore > 7) {
+            document.getElementById('score-feedback').innerHTML= `Congratulations! Your company seems be data driven. You take data management seriously. You consider Information management as an asset and understand that data strategy is key to business success. Your company's data analysis are trusted, relevant and at the right quality. As you value continuous improvement, we invite you to fill the form below to discuss how Carpe Diem Data Solutions can support the sustentability of your data management.`;
+        } else if (totalScore > 4) {
+            document.getElementById('score-feedback').innerHTML = `Not bad!`;
+        } else {
+            document.getElementById('score-feedback').innerHTML = `No formal data management exists. Data is collected, stored, and processed in an entirely operational context. Business processes are embryonic at best, while technology is very limited in use. Dealing with operation and change is difficult and quality of outputs is not trusted.`;
+        }
+        
+    }
 
 
-}
 
 function startQuiz() {
 
