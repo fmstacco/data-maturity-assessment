@@ -159,11 +159,11 @@ function quizResult() {
         `<h2 class="total-score">Your score: ${totalScore}</h2>`;
       
         if (totalScore > 7) {
-            document.getElementById('score-feedback').innerHTML= `Congratulations! Your company seems be data driven. You take data management seriously. You consider Information management as an asset and understand that data strategy is key to business success. Your company's data analysis are trusted, relevant and at the right quality. As you value continuous improvement, we invite you to fill the form below to discuss how Carpe Diem Data Solutions can support the sustentability of your data management.`;
+            document.getElementById('score-feedback').innerHTML= `Congratulations! Your company seems to be data driven. You take data management seriously. You consider Information management as an asset and understand that data strategy is key to business success. Your company's data analysis are trusted, relevant and at the right quality. As you value continuous improvement, we invite you to fill the form below to discuss how Carpe Diem Data Solutions can support the sustentability of your data management.`;
         } else if (totalScore > 4) {
-            document.getElementById('score-feedback').innerHTML = `Not bad!`;
+            document.getElementById('score-feedback').innerHTML = `Not bad! Your company seems to have a primary understood of data management. You have key performance indicators (KPY) in place. Governance is defined although there are informal roles, only some data is trusted and a get's data culture in place. Carpe Diem Data Solutions can help you to improve your processes and became a data driven company`;
         } else {
-            document.getElementById('score-feedback').innerHTML = `No formal data management exists. Data is collected, stored, and processed in an entirely operational context. Business processes are embryonic at best, while technology is very limited in use. Dealing with operation and change is difficult and quality of outputs is not trusted.`;
+            document.getElementById('score-feedback').innerHTML = `Awn... Your company seems to have no formal data management. Data is collected, stored, and processed in an entirely operational context. Business processes are embryonic at best, while technology is very limited in use. Dealing with operation and change is difficult and quality of outputs is not trusted.`;
         }
         
     }
