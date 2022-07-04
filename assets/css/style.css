@@ -234,3 +234,19 @@ header {
   .result-box.hide{
     display: none;
   }
+
+  @media screen and (min-width: 1024px) {
+
+    .custom-box{
+      max-width: 43.75rem;
+      background-color: var(--grey);
+      margin:2rem auto;
+      padding: 1.875rem;
+      border-radius: 0.625px;
+      animation: fadeInRight 1s ease;
+      border-radius: 5%;
+
+    }
+
+   
+      }

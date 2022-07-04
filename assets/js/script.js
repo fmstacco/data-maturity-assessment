@@ -21,7 +21,7 @@ const questionText = document.querySelector('.question-text');
 const optionContainer = document.querySelector('.option-container');
 
 let questionCounter = 0;
-let currentQuestion;
+let currentQuestion = 0;
 let availableQuestions = [];
 let availableOptions = [];
 const questionLimit = 5; // if you want all questions "quiz.length"
@@ -50,7 +50,7 @@ function loadQuestions() {
 //set question number and question and options 
 function getNewQuestion(){
     // set question number 
-    questionNumber.innerHTML = "Question " + (questionCounter +1) + " of " + questions.questionLimit;
+    questionNumber.innerHTML = "Question " + (questionCounter +1) + " of " + questions.length;
 
     // set question text
     // get random question
@@ -126,17 +126,22 @@ function unclickableOptions() {
     }
 }
 
-function updateAnswerIndicator(markType) {
-    answersIndicatorContainer.children[questionCounter - 1].classList.add(markType);
-}
+
+//Function to load next question
 
 function next() {
-    if (questionCounter === questions.questionLimit) {
+ 
+    if (questionCounter === questions.length) {
         quizOver();
     } else {
         getNewQuestion();
     }
+  
 }
+
+//Function to load previous question
+
+
 
 
 function quizOver() {
@@ -200,4 +205,4 @@ window.onload = function() {
 startButton.addEventListener('click', startQuiz)
 restartButton.addEventListener('click', tryAgainQuiz)
 nextButton.addEventListener('click', next)
-nextButton.addEventListener('click', next)
+previousButton.addEventListener('click', loadPreviousQuestion)
