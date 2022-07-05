@@ -72,7 +72,7 @@ header {
     background-color: var(--grey);
     padding: 1rem;
     margin: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border-radius: 5%;
     margin-bottom: 6rem;
 
@@ -82,12 +82,14 @@ header {
 
 #welcome-headline {
     text-align: center;
+    margin-top: 1rem;
+
 }
 
 .headline2{
     padding-top: 1rem;
     padding-bottom: 1rem;
-    text-align: justify;
+    text-align: center;
 }
 
 .content {
@@ -95,13 +97,16 @@ header {
     text-align: center;
 }
 
-.start-button {
+
+   .start-buttons{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    justify-items: stretch;
-    margin-top: 1rem;
+    justify-content:center;
+       margin-top: 1rem;
+   }
 
+   .start-button{
+   margin-right: 1rem;
    }
 
 .btn {
@@ -232,6 +237,13 @@ header {
         opacity: 1;
       }
     }
+
+    #progress_bar {
+      background-color: var(--dark);
+      width: 20%;
+      height: 10px;
+      transition: all 100ms ease-in-out;
+    } 
       
 .result-box {
     min-height: 23.438rem;

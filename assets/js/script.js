@@ -88,10 +88,7 @@ for (let i=0; i < optionLength; i++) {
     optionContainer.appendChild(option);
     option.setAttribute("onclick", "getResult(this)");
 }
-console.log(availableQuestions)
-console.log(availableOptions)
 questionCounter++;
-
 }
 
 // get the result of current attempt question
@@ -130,18 +127,23 @@ function unclickableOptions() {
 //Function to load next question
 
 function next() {
- 
-    if (questionCounter === questions.length) {
-        quizOver();
-    } else {
+    const questionAnswered = optionContainer.classList.contains('already-answered');
+     if(questionAnswered === true){
         getNewQuestion();
-    }
-  
+    }else if (questionCounter === questions.length){
+        quizOver();
+             }else {
+        alert('please, answer the question');
+       
+        console.log(questionAnswered)
+}
 }
 
-//Function to load previous question
 
-
+function growProgressBar(percentage_width){
+    var bar = document.getElementById("progress-bar")
+    bar.style.width = percentage_width;
+}
 
 
 function quizOver() {
