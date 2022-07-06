@@ -67,10 +67,51 @@
             <div class="result-box-buttons"> 
             <button type="button" class="btn" id="restart-quiz">Restart Quiz</button>          
             <button type="button" class="btn" id="go-back-home-page">Go Back Home Page</button>
+            <button type="button" class="btn" id="contact-us">Contact Us</button>
+
           </div>
           </div>
 
         </section>
+
+ <!--Form section-->
+ <section class="section-form" >
+  <form method="GET" action="form-destination-page.html" class="signup-form">
+    <div class="form-container hide">
+      <div>
+        <h1 id="formtitle">Book a 30 min Free Consultation Call</h1>
+        <p id="formsubtitle">Fill out this form and we will get in touch</p>
+        <br />
+      </div>
+      <fieldset class="formgroup">
+        <div class="field">
+          <label for="name"><strong>Name</strong></label>
+          <input type="text" name="name" id="name" required placeholder="Your Name" />
+        </div>
+        <div class="field">
+          <label for="companyname"><strong>Company</strong></label>
+          <input type="text" name="companyname" id="companyname" required placeholder="Company Name" />
+        </div>
+        <div class="field">
+          <label for="email"><strong>Email</strong></label>
+          <input type="email" name="email" id="email" required placeholder="email@email.com" />
+        </div>
+        <div class="field">
+          <label for="preferredtime"><strong>What is the preferred time to schedule a meeting</strong></label>
+        </div>
+        <div class="field">
+          <select id="preferredtime">
+            <option>Select</option>
+            <option>Morning</option>
+            <option>Afternoon</option>
+            <option>Evening</option>
+          </select>
+        </div>
+        <button class="formbutton" type="submit">Submit</button>
+      </fieldset>
+    </div>
+  </form>
+</section>
 
 
          <!-- Footer Section-->

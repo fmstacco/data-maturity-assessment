@@ -335,7 +335,6 @@ header {
   .footer-section {
     height: 10rem;
     background-color: var(--dark);
-    position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
@@ -355,5 +354,130 @@ header {
 #btn-next {
   margin-left: 36rem;
   }
+
+}
+
+/*Form section*/
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  padding-top: 2rem;
+}
+
+.form-container {
+  width: 87%;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem;
+  margin: 0.5rem auto;
+  border-radius: 5%;
+  background-color: var(--grey);
+}
+
+.form-container.hide {
+  display: none;
+}
+
+.field {
+  margin-bottom: 0.8rem;
+}
+
+.field label {
+  margin-bottom: 0.2em;
+}
+
+.field input[type="text"],
+.field input[type="email"],
+.field select,
+.field textarea {
+  padding: 0.3rem;
+  border: 1px solid var(--dark);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.formbutton {
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+  background-color: var(--dark);
+  border-radius: 1rem;
+  color: var(--cream);
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.formbutton:hover {
+  color: #f7f0ef;
+  background-color: var(--grey);
+  color: var(--dark);
+  transition: 1s ease;
+}
+
+.formbutton,
+select {
+  cursor: pointer;
+}
+
+.formgroup {
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .form-container {
+    width: 40%;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+    margin: 2rem auto;
+    border-radius: 5%;
+    background-color: var(--grey);
+  }
+
+  .formgroup {
+    padding: 1rem;
+  }
+}
+
+/*Form Destination Page */
+
+.thankyou {
+  height: 45rem;
+}
+
+.thankyou-container {
+  margin: 0 auto;
+  height: 45rem;
+}
+
+#thankyou-headline {
+  padding-top: 15rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#thankyou-text {
+  padding: 1rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#thankyou-p {
+  font-weight: lighter;
+  text-align: center;
+  padding: 1rem;
 
 }

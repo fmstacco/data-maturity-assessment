@@ -12,11 +12,13 @@ const questionLimit = 5;
 const welcomeSectionContainer = document.querySelector(".welcome-section-container");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
+const contactUsbox = document.querySelector('.form-container')
 
 const startButton = document.getElementById('start-button-id');
 const restartButton = document.getElementById('restart-quiz');
 const nextButton = document.getElementById('btn-next');
-const goBackHomePagebutton = document.getElementById('go-back-home-page')
+const goBackHomePageButton = document.getElementById('go-back-home-page')
+const contactUsButton = document.getElementById('contact-us')
 
 let correctAnswers = 0;
 let attempt = 0;
@@ -182,6 +184,13 @@ function goBackHomePage(){
 
 }
 
+function contactUs(){
+    // hide the resultBox
+    resultBox.classList.add("hide");
+    // show the welcome section
+    contactUsbox.classList.remove("hide");
+}
+
 
 window.onload = function() {
     //set all questions in availableQuestions Array
@@ -196,5 +205,6 @@ window.onload = function() {
 startButton.addEventListener('click', startQuiz)
 restartButton.addEventListener('click', tryAgainQuiz)
 nextButton.addEventListener('click', next)
-goBackHomePagebutton.addEventListener ('click', goBackHomePage)
+goBackHomePageButton.addEventListener ('click', goBackHomePage)
+contactUsButton.addEventListener('click', contactUs)
 
