@@ -481,3 +481,7 @@ select {
   padding: 1rem;
 
 }
+
+.btn, h6 {
+  padding-top: 0.3rem;
+}

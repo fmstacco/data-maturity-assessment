@@ -275,9 +275,9 @@ function contactUs(){
 window.onload = function() {
     //set all questions in availableQuestions Array
     loadQuestions();
+    loadQuickQuizQuestions();
     //call getNewQuestion funtion
     getNewQuestion();
-    loadQuickQuizQuestions();
     getNewQuickQuestionQuiz();
 }
 
