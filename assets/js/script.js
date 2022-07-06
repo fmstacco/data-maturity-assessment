@@ -203,17 +203,19 @@ function next() {
 
  function sendEmail(){
     Email.send({
-        SecureToken: "961e77db-ed29-4b4d-bc7d-9b5c2970116f",
+        Host : "smtp.gmail.com",
+        Username : "fmstacco@gmail.com",
+        Password : "5F9018BF13C9324927D468D71B060C607332",
         To: "fmstacco@gmail.com",
         From: getElementById("email").value,
         Subject: "New contact form enquiry",
         Body: "Name:" + document.getElementById("name").value + "<br> E-mail: " + document.getElementById("email").value
         }).then(
-            message => alert(message)
+            alert("Form sent successfully")
         );
      }
 
- document.getElementById("form-api").addEventListener("submit", sendEmail);
+ document.getElementById('form-api').addEventListener('submit', sendEmail);
 
 
 function quizOver() {
