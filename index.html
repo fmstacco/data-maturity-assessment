@@ -79,7 +79,7 @@
  <!--This code was taken from my PP1 - Project Portfolio Carpe Diem Data Solutions https://github.com/fmstacco/Carpe-Diem-Data-Solutions-->
 
  <section class="section-form" >
-  <form id="form-api">
+  <form onsubmit="sendEmail(); reset(); return false;">
     <div class="form-container">
       <div>
         <h1 id="formtitle">Book a 30 min Free Consultation Call</h1>
@@ -115,7 +115,21 @@
     </div>
   </form>
 </section>
-
+<script>
+   function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "fmstacco@gmail.com",
+        Password : "5F9018BF13C9324927D468D71B060C607332",
+        To: "fmstacco@gmail.com",
+        From: getElementById("email").value,
+        Subject: "New contact form enquiry",
+        Body: "Name:" + document.getElementById("name").value + "<br> E-mail: " + document.getElementById("email").value
+        }).then(
+          message => alert("message")
+        )
+     }
+</script>
 
          <!-- Footer Section-->
       <footer class="footer-section">
@@ -138,8 +152,7 @@
     <script src="https://kit.fontawesome.com/de5916a16b.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/questions.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js">
-    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     
 </body>
 </html>

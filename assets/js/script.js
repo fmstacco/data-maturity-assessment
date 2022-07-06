@@ -198,26 +198,6 @@ function next() {
     }
   }
   
-
-
-
- function sendEmail(){
-    Email.send({
-        Host : "smtp.gmail.com",
-        Username : "fmstacco@gmail.com",
-        Password : "5F9018BF13C9324927D468D71B060C607332",
-        To: "fmstacco@gmail.com",
-        From: getElementById("email").value,
-        Subject: "New contact form enquiry",
-        Body: "Name:" + document.getElementById("name").value + "<br> E-mail: " + document.getElementById("email").value
-        }).then(
-            alert("Form sent successfully")
-        );
-     }
-
- document.getElementById('form-api').addEventListener('submit', sendEmail);
-
-
 function quizOver() {
     //hide quiz quizBox
     quizBox.classList.add("hide");
