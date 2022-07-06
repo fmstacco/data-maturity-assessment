@@ -105,9 +105,7 @@ header {
        margin-top: 1rem;
    }
 
-   .start-button{
-   margin-right: 1rem;
-   }
+ 
 
 .btn {
     font-size: 1rem;
@@ -115,6 +113,8 @@ header {
     font-weight: 700;
     border:var(--dark) solid 0.1rem;
     border-radius: 5%;
+    margin-right: 1rem;
+
 }
 
 #btn-next {
@@ -255,6 +255,16 @@ header {
     display: none;
   }
 
+
+.result-box-buttons {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 1rem;
+ }
+
+  
+  
   @media screen and (min-width: 1024px) {
 
     .custom-box{
