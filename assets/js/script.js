@@ -2,7 +2,8 @@
 const questionNumber = document.querySelector('.question-number');
 const questionText = document.querySelector('.question-text');
 const optionContainer = document.querySelector('.option-container');
-const option = document.querySelector('option')
+const option = document.querySelector('option');
+const submitForm = document.getElementById('form-api')
 
 let questionCounter = 0;
 let currentQuestion = 0;
@@ -189,7 +190,6 @@ function unclickableOptions() {
 
 
 //Function to load next question
-
 function next() {
     if(questionCounter === questions.length){
           quizOver();
@@ -198,7 +198,22 @@ function next() {
          getNewQuestion();
     }
   }
+  
 
+
+
+ function sendEmail(){
+    Email.send({
+    SecureToken: "961e77db-ed29-4b4d-bc7d-9b5c2970116f",
+    To: "fmstacco@gmail.com",
+    From: getElementById("email").value,
+    Subject: "New contact form enquiry",
+    Body: "Name:" + document.getElementById("name").value + "<br> E-mail: " + document.getElementById("email").value
+     }).then(
+        message => alert(message)
+     );
+     return false;
+ }
 function quizOver() {
     //hide quiz quizBox
     quizBox.classList.add("hide");
@@ -290,4 +305,6 @@ restartButton.addEventListener('click', tryAgainQuiz)
 nextButton.addEventListener('click', next)
 goBackHomePageButton.addEventListener ('click', goBackHomePage)
 contactUsButton.addEventListener('click', contactUs)
+submitForm.addEventListener('onsubmit', sendEmail)
+
 

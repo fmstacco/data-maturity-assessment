@@ -2,7 +2,7 @@
 const questionNumber = document.querySelector('.question-number');
 const questionText = document.querySelector('.question-text');
 const optionContainer = document.querySelector('.option-container');
-const option = document.querySelector('option')
+const option = document.getElementsByClassName('option')
 
 let questionCounter = 0;
 let currentQuestion = 0;
@@ -109,16 +109,22 @@ function unclickableOptions() {
 }
 
 
-//Function to load next question
 
+
+//Function to load next question
 function next() {
-    if(questionCounter === questions.length){
-          quizOver();
-    }
-    else{
-         getNewQuestion();
-    }
-  }
+    const optionSelected = option.classList.contains("already-answered");
+    const optionLen = optionContainer.children.length;
+    for (let i = 0; i = optionSelected; i++){
+        if ( optionLen == optionSelected ) {
+                getNewQuestion();
+         }
+         else{
+              alert("Please select a option");
+              return
+         }
+   }
+ }
 
 function quizOver() {
     //hide quiz quizBox
