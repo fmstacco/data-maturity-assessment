@@ -294,6 +294,7 @@ window.onload = function() {
     //call getNewQuestion funtion
     getNewQuestion();
     getNewQuickQuestionQuiz();
+    sendEmail();
 }
 
 
