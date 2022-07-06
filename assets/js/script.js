@@ -1,20 +1,3 @@
-//Define function startQuiz 
-//Set of questions and answers 
-//Give each answer an identifier 
-//Each identifier will increment through each question
-//St the end the identifier with the highest number is the winner 
-//Display the answer and rest the quiz
-
-//pass results frm previous question to the next page usig localcache
-
-//Randomise the background of the quiz for each question
-
-//Possible Results 
-// 15 -21- 
-// 10 - 15 - 
-// 5- 10 -  
-// 5 - A
-
 //Global Variables 
 const questionNumber = document.querySelector('.question-number');
 const questionText = document.querySelector('.question-text');
@@ -24,7 +7,7 @@ let questionCounter = 0;
 let currentQuestion = 0;
 let availableQuestions = [];
 let availableOptions = [];
-const questionLimit = 5; // if you want all questions "quiz.length"
+const questionLimit = 5; 
 
 const welcomeSectionContainer = document.querySelector(".welcome-section-container");
 const quizBox = document.querySelector(".quiz-box");
@@ -32,8 +15,8 @@ const resultBox = document.querySelector(".result-box");
 
 const startButton = document.getElementById('start-button-id');
 const restartButton = document.getElementById('restart-quiz');
-const previousButton = document.getElementById('btn-previous');
 const nextButton = document.getElementById('btn-next');
+const goBackHomePagebutton = document.getElementById('go-back-home-page')
 
 let correctAnswers = 0;
 let attempt = 0;
@@ -111,7 +94,6 @@ function getResult(element) {
         }
     }
     unclickableOptions();
-
 }
 
 
@@ -120,32 +102,22 @@ function unclickableOptions() {
     const optionLen = optionContainer.children.length;
     for (let i = 0; i < optionLen; i++) {
         optionContainer.children[i].classList.add("already-answered");
-    }
+            }
 }
 
 
 //Function to load next question
 
 function next() {
-    const questionAnswered = optionContainer.classList.contains('already-answered');
-     if(questionAnswered === true){
-        getNewQuestion();
-    }else if (questionCounter === questions.length){
+  if(questionCounter === questions.length){
         quizOver();
-             }else {
-        alert('please, answer the question');
-       
-        console.log(questionAnswered)
-}
-}
-
-
-function growProgressBar(percentage_width){
-    var bar = document.getElementById("progress-bar")
-    bar.style.width = percentage_width;
+  }
+  else{
+       getNewQuestion();
+  }
 }
 
-
+      
 function quizOver() {
     //hide quiz quizBox
     quizBox.classList.add("hide");
@@ -184,6 +156,7 @@ function startQuiz() {
     loadQuestions();
     // second we will call getNewQuestion(); function
     getNewQuestion();
+   
 }
 
 function resetQuiz() {
@@ -201,6 +174,13 @@ function tryAgainQuiz() {
     startQuiz();
 }
 
+function goBackHomePage(){
+    // hide the resultBox
+    resultBox.classList.add("hide");
+    // show the welcome section
+    welcomeSectionContainer.classList.remove("hide");
+
+}
 
 
 window.onload = function() {
@@ -216,3 +196,5 @@ window.onload = function() {
 startButton.addEventListener('click', startQuiz)
 restartButton.addEventListener('click', tryAgainQuiz)
 nextButton.addEventListener('click', next)
+goBackHomePagebutton.addEventListener ('click', goBackHomePage)
+

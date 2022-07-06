@@ -238,12 +238,6 @@ header {
       }
     }
 
-    #progress_bar {
-      background-color: var(--dark);
-      width: 20%;
-      height: 10px;
-      transition: all 100ms ease-in-out;
-    } 
       
 .result-box {
     min-height: 23.438rem;
