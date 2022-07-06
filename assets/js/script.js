@@ -305,6 +305,6 @@ restartButton.addEventListener('click', tryAgainQuiz)
 nextButton.addEventListener('click', next)
 goBackHomePageButton.addEventListener ('click', goBackHomePage)
 contactUsButton.addEventListener('click', contactUs)
-submitForm.addEventListener('onsubmit', sendEmail)
+submitForm.addEventListener('submit', sendEmail)
 
 
