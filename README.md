@@ -19,7 +19,7 @@ Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity
     *  [Typography](<#typography>)
     *  [Colour Scheme](<#colour-scheme>)
 * [**Features**](<#features>)
-    * [Navigation Menu](<#navigation-menu>)
+    * [Welcome Section](<#welcome-section>)
     * [Home Page](<#home-page>)
     * [About Page](<#about-page>)
     * [Services Page](<#services-page>)
@@ -97,11 +97,13 @@ Carpe Diem Maturity assessment website has three main screens. The welcome scree
 
 Colour Palette image
 
+The colour palette idea is borrowed from PP1 - Carpe Diem Digital Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
+
 <img src="./assets/images/readme/color-palette.jpg" width="80%" height="80%" alt="Colour Palette image">
 
 # Features
 
-## Navigation Menu
+## Welcome section
 
 * In the header of all the page of the site there is the logo and the navigation menu.
 
