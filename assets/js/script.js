@@ -20,7 +20,6 @@ const contactUsbox = document.querySelector('.form-container')
 const startButton = document.getElementById('start-button-id');
 const startQuickQuizButton = document.getElementById('start-quick-quiz-btn');
 const restartButton = document.getElementById('restart-quiz');
-const nextButton = document.getElementById('btn-next');
 const goBackHomePageButton = document.getElementById('go-back-home-page')
 const contactUsButton = document.getElementById('contact-us')
 
@@ -80,6 +79,9 @@ for (let i=0; i < optionLength; i++) {
     optionContainer.appendChild(option);
     option.setAttribute("onclick", "getResult(this)");
 }
+nextCompleteQuizButton.classList.add('hide');
+nextQuickQuizButton.classList.add('hide');
+
 questionCounter++;
 }
 
@@ -127,7 +129,6 @@ function getNewQuestion(){
     // remove the 'questionIndex' from the availableQuestion Array, so that the question does not repeat
     availableQuestions.splice(index1,1);
 
-    nextButton.classList.add('hide');
 
 
 //set options
@@ -156,7 +157,8 @@ for (let i=0; i < optionLength; i++) {
     optionContainer.appendChild(option);
     option.setAttribute("onclick", "getResult(this)");
 }
-
+nextCompleteQuizButton.classList.add('hide');
+nextQuickQuizButton.classList.add('hide');
 questionCounter++;
 }
 
@@ -183,8 +185,27 @@ function getResult(element) {
     unclickableOptions();
     }
 
-
-
+    function getResultQuickQuiz(element) {
+        const id = parseInt(element.id);
+        //get the answer by comparing the id
+        if (id === currentQuestion.answer) {
+            //set the blue color to the correct option
+            element.classList.add("correct")
+            correctAnswers++;
+        } else {
+            //set the red color to the incorrect option
+            element.classList.add("wrong");
+        }
+        // if the answer is incorrect then show the correct option by adding green color the correct option
+        const optionLen = optionContainer.children.length;
+        for (let i = 0; i < optionLen; i++) {
+            if (parseInt(optionContainer.children[i].id) === currentQuestion.answer) {
+                optionContainer.children[i].classList.add("correct");
+            }
+    
+        }
+        unclickableOptionsQuick()
+    }
 
 //make all the options unclickable once the user select a option ()
 function unclickableOptions() {
@@ -192,17 +213,44 @@ function unclickableOptions() {
     for (let i = 0; i < optionLen; i++) {
         optionContainer.children[i].classList.add("already-answered");
             }
+            nextCompleteQuizButton.classList.remove('hide');
+
 }
 
+function unclickableOptionsQuick() {
+    const optionLength1 = optionContainer.children.length;
+    for (let i = 0; i < optionLength1; i++) {
+        optionContainer.children[i].classList.add("already-answered");
+            }
+            nextCompleteQuizButton.classList.add('hide');
+            nextCompleteQuickQuizButton.classList.remove('hide');
+
+}
 
 //Function to load next question
-function next() {
+function nextCompleteQuiz() {
+
     if(questionCounter === questions.length){
           quizOver();
     }else{
         getNewQuestion();
     } 
   }
+
+const nextQuickQuizButton = document.getElementById('next-quick-button'); 
+nextQuickQuizButton.addEventListener('click', nextQuickQuiz);
+
+function nextQuickQuiz() {
+    nextCompleteQuizButton.classList.add('hide');
+    if(questionCounter === quickQuizQuestions.length){
+          quizOver();
+    }else{
+        getNewQuickQuestionQuiz();
+    } 
+  }
+
+const nextCompleteQuizButton = document.getElementById('next-complete-button'); 
+nextCompleteQuizButton.addEventListener('click', nextCompleteQuiz);
 
   
 function quizOver() {
@@ -283,12 +331,17 @@ function sendEmail(){
         email_id: document.getElementById('email').value,
         company_name: document.getElementById('companyname').value
     }
-         emailjs.send('service_7hetiwd', 'template_lmgc11t', params).then(function(res){
-         alert('Success!' + res.status);
-    })
+         emailjs.send('service_7hetiwd', 'template_lmgc11t', params).then(
+         alert('Success!'))
 
 }
 
+
+
+
+const formButton = document.getElementById('formbutton');
+
+formButton.addEventListener('submit', sendEmail);
 
 window.onload = function() {
     //set all questions in availableQuestions Array
@@ -306,7 +359,6 @@ window.onload = function() {
 startButton.addEventListener('click', startQuiz)
 startQuickQuizButton.addEventListener('click', startQuickQuiz)
 restartButton.addEventListener('click', tryAgainQuiz)
-nextButton.addEventListener('click', next)
 goBackHomePageButton.addEventListener ('click', goBackHomePage)
 contactUsButton.addEventListener('click', contactUs)
 

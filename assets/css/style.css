@@ -117,9 +117,23 @@ header {
 
 }
 
-#btn-next {
+#next-complete-button {
   margin-left: 15rem;
   }
+
+#next-quick-button{
+  margin-left: 15rem;
+
+}
+
+#next-complete-button.hide {
+  display:none;
+  }
+
+#next-quick-button.hide{
+  display:none;
+
+}
 
 .option-container-buttons {
     display: flex;
@@ -352,11 +366,14 @@ header {
   }
 
 
-#btn-next {
+#next-complete-button {
   margin-left: 36rem;
   }
-
 }
+
+#next-quick-button{
+  margin-left: 36rem;
+  }
 
 /*Form section*/
 
