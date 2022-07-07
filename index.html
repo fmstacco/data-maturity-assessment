@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js'></script>
+    <script type='text/javascript'>
+        (function () {
+            emailjs.init('iPzZXnA1CPwbaOwlS');
+        })();
+    </script>
+
     <title>Data Maturity Assessment</title>
     
 </head>
@@ -77,8 +84,8 @@
  <!--Form section-->
  <!--This code was taken from my PP1 - Project Portfolio Carpe Diem Data Solutions https://github.com/fmstacco/Carpe-Diem-Data-Solutions-->
 
- <section class="section-form" >
-    <div class="form-container">
+ <section class="section-form">
+    <div class="form-container hide">
       <div>
         <h1 id="formtitle">Book a 30 min Free Consultation Call</h1>
         <p id="formsubtitle">Fill out this form and we will get in touch</p>
@@ -88,8 +95,8 @@
 
       <fieldset class="formgroup">
         <div class="field">
-          <label for="name"><strong>Name</strong></label>
-          <input type="text" name="name" id="name" required placeholder="Your Name" />
+          <label for="fullname"><strong>Name</strong></label>
+          <input type="text" name="fullname" id="fullname" required placeholder="Your Full Name" />
         </div>
         <div class="field">
           <label for="companyname"><strong>Company</strong></label>
@@ -110,7 +117,7 @@
             <option>Evening</option>
           </select>
         </div>
-        <button id="formbutton" type="submit">Submit</button>
+        <button id="formbutton" type="submit" class="btn">Submit</button>
       </fieldset>
     </div>
   </form>
@@ -136,17 +143,9 @@
         </div>
       </footer>
   
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://kit.fontawesome.com/de5916a16b.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/questions.js"></script>
-    <script type="text/javascript"
-src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-(function(){
-emailjs.init("iPzZXnA1CPwbaOwlS");
-})();
-</script>
+    
 </body>
 </html>

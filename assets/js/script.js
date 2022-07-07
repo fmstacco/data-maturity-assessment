@@ -204,21 +204,39 @@ function contactUs(){
     contactUsbox.classList.remove("hide");
 }
 
-function sendEmail(){
-    var params = {
-        from_name: document.getElementById("name").value,
-        email_id: document.getElementById('email').value,
-        company_name: document.getElementById('companyname').value
-    }
-         emailjs.send('service_7hetiwd', 'template_lmgc11t', params).then(
-         alert('Success!'))
 
-}
+//Getting the button from the DOM
+let submitButton = document.getElementById('formbutton') 
 
+//Add event listener on click to the button - notice i added the event as argument to the function
+submitButton.addEventListener('click', function(event){
 
+    //prevent the reload of the page. here i prevent the event.
+    event.preventDefault()
 
-const formButton = document.getElementById('formbutton');
-formButton.addEventListener('submit', sendEmail);
+    //Getting the name and email from the DOM
+    let fullName = document.getElementById('fullname').value;
+    let email = document.getElementById('email').value
+
+    //Sending the email with the name and email
+    emailjs.send("service_7hetiwd", "template_lmgc11t", "iPzZXnA1CPwbaOwlS", {
+        "from_name": fullName,
+        "from_email": email,
+    })
+
+        .then(
+            function (response) {
+                console.log("SUCCESS", response);
+                
+            },
+            function (error) {
+                console.log("FAILED", error);
+                
+            }
+
+        );
+})
+
 
 window.onload = function() {
     //set all questions in availableQuestions Array
