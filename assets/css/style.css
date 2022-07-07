@@ -75,12 +75,16 @@ header {
     margin-top: 3rem;
     border-radius: 5%;
     margin-bottom: 6rem;
-
-    
+ 
 
   }
 
-.welcome-headline {
+ #estimated-time {
+  font-size: 0.7rem;
+  padding-top: 0.3rem;
+ }
+
+  .welcome-headline {
     text-align: center;
     margin-top: 1rem;
 
@@ -488,6 +492,3 @@ select {
 
 }
 
-.btn, h6 {
-  padding-top: 0.3rem;
-}
