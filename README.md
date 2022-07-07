@@ -12,7 +12,6 @@ Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity
 * [**User Experience UX**](<#user-experience-ux>)
     * [Target Audience](<#target-audience>)
     * [User Stories](<#user-stories>)
-    * [Site Aims](<#site-aims>)
     * [Wireframes](<#wireframes>)
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
@@ -86,13 +85,13 @@ Carpe Diem Maturity assessment website has three main screens. The welcome scree
 
  * ### Logo
 
- The logo was designed on [Canva](https://www.canva.com/en_gb/) version Pro. A machine learning icon was chosen to convey the core concept of business consulting - data analysis and data science.
+ The logo was designed on [Canva](https://www.canva.com/en_gb/) version Pro. A machine learning icon was chosen to convey the core concept of business consulting - data analysis and data science. The logo is borrowed from PP1 - Carpe Diem Digital Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
 
 ![Carpe Diem Data Solutions logo](./assets/images/readme/logo-dark-background.png) 
 
  * ### Typography
  
- The source used throughout the site is Montserrat, as it is a nice font, elegant and also conveys confidence and professionalism. It is very good for UX/UI for having good readability on any device, large x-heigh and is also good for accessibility.
+ The source used throughout the site is Montserrat, as it is a nice font, elegant and also conveys confidence and professionalism. It is very good for UX/UI for having good readability on any device, large x-heigh and is also good for accessibility. Also the typography is borrowed from PP1 - Carpe Diem Digital Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
 
  * ### Colour Scheme
 
