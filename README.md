@@ -45,29 +45,17 @@ This project aims to deliver an interactive website where potential customers - 
 
 ## Target Audience
 
-* Users (potential customers) who wants to know are looking for data analysis and data science services to leverage their business.
-* Users (potential customers) who are looking for data analysis and data science services to leverage their business.
-* Users (potential customers) who want to implement a data strategy in their business to increase profitability and improve customer services.
+* Users (potential customers) to evaluate your company's data management.
+* Users (potential customers) want to know the metrics used to evaluate the maturity of the company's data management.
 
 ## User Stories
 
-* As a potential customer, I want to easily navigate through their website pages so I can quickly get the information that I’m looking for.
-* As a potential customer, I want to see what the results my company can achieve after contracting their services. 
-* As a potential customer, I want to see the people who are the people doing the job and its credentials, it would increase my confidence towards getting in touch and hiring them. 
-* As a potential customer, I want to know what services the company offers so I can quickly understand if they can address my business issues.
-* As a potential customer, I want to see how the company has helped other clients it helps me to see how competent they are doing their job.
-* As a potential customer, I want to know that they will get in touch quickly for a discussion on my business and how can they help me.
-* As a potential customer, I want to see what tools they use when offering their services so I can trust they know what they are doing.
-
+* As a potential customer, I want to easily navigate the data maturity assessment quiz.
+* As a potential customer, I want to know where I am getting it right and where I am missing the data management of my company.
+* As a potential customer, I want to receive feedback from my assessment of my company's data maturity.
+* As a potential customer, I want to be able to contact the company to learn more about the company services.
 
 [Back to top](<#contents>)
-
-
-## Site Aims
-
-* To establish an online presence through a website and not just rely on social networks as Facebook, Instagram.
-* Be easily found by potential customers through search engines.
-* To offer information about the company and its services as well as data analysis and data science.
 
 
 ## Wireframes
@@ -90,7 +78,7 @@ The wireframes for Data Maturity Assessment on [Balsamiq](https://balsamiq.com).
 
 ## Site Structure
 
-Carpe Diem Data Solutions website has five pages. The [home page](index.html) is the default loading page, the page [about](about.html), [services](services.html.html) and [contact](contact.html) pages are all accessible from the navigation menu and from the footer menu. The [thank you page](form-destinagion-page.html) is only displayed when the user submitt the form on the contact page. 
+Carpe Diem Maturity assessment website has three main screens. The welcome screen - the default loading page. The quiz screen, the results screen and the contact form screen, which is only displayed if the user clicks on the button "Contact Us". 
 
 [Back to top](<#contents>)
 
