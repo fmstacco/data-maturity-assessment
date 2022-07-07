@@ -127,6 +127,9 @@ function getNewQuestion(){
     // remove the 'questionIndex' from the availableQuestion Array, so that the question does not repeat
     availableQuestions.splice(index1,1);
 
+    nextButton.classList.add('hide');
+
+
 //set options
 //get the lenght of options
 const optionLength = currentQuestion.options.length;
@@ -153,6 +156,7 @@ for (let i=0; i < optionLength; i++) {
     optionContainer.appendChild(option);
     option.setAttribute("onclick", "getResult(this)");
 }
+
 questionCounter++;
 }
 
@@ -174,9 +178,12 @@ function getResult(element) {
         if (parseInt(optionContainer.children[i].id) === currentQuestion.answer) {
             optionContainer.children[i].classList.add("correct");
         }
+
     }
     unclickableOptions();
     }
+
+
 
 
 //make all the options unclickable once the user select a option ()
@@ -192,11 +199,11 @@ function unclickableOptions() {
 function next() {
     if(questionCounter === questions.length){
           quizOver();
-    }
-    else{
-         getNewQuestion();
-    }
+    }else{
+        getNewQuestion();
+    } 
   }
+
   
 function quizOver() {
     //hide quiz quizBox
@@ -270,6 +277,18 @@ function contactUs(){
     contactUsbox.classList.remove("hide");
 }
 
+function sendEmail(){
+    var params = {
+        from_name: document.getElementById("name").value,
+        email_id: document.getElementById('email').value,
+        company_name: document.getElementById('companyname').value
+    }
+         emailjs.send('service_7hetiwd', 'template_lmgc11t', params).then(function(res){
+         alert('Success!' + res.status);
+    })
+
+}
+
 
 window.onload = function() {
     //set all questions in availableQuestions Array
@@ -278,7 +297,7 @@ window.onload = function() {
     //call getNewQuestion funtion
     getNewQuestion();
     getNewQuickQuestionQuiz();
-    sendEmail();
+   
 }
 
 
