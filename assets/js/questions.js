@@ -19,11 +19,7 @@ const questions = [
 		options:['Yes (eg Crisp-DM, SaaS, Agile, etc.)','Yes, Excel','No','Yes, on premise/cloud system'],
 		answer:0
 	},
-	{
-		question:'What departaments of the company are data-driven?',
-		options:['All departments of the company.','Management','Finance','Commercial', 'Marketing', 'Human Resources', 'Operations'],
-		answer:0
-	},
+	
 	{
 	  question:"What is the percentage of investment on the company's revenue to the data area annually? *approximately",
 	  options:['above 7%','5%','3%','1%'],
@@ -115,78 +111,7 @@ const questions = [
 	  options:['Across the organization, we share best practices and standards, and we’re capable of improving and restructuring processes.','We have largely informal and ad hoc analytical processes in place.','We have formalized analytical processes in place.'],
 	  answer:0,
 	},
-	{
-	  question:'',
-	  options:['above 7%','5%','3%','1%'],
-	  answer:0,
-	},
-	{
-	  question:'',
-	  options:['above 7%','5%','3%','1%'],
-	  answer:0,
-	},
-	{
-	  question:'',
-	  options:['above 7%','5%','3%','1%'],
-	  answer:0,
-	},
-  
-	
-   ]
+
+	]
    
 
-const quickQuizQuestions = [
-	{
-		questionQuick:'Where does your company keep analytical data?',
-		optionsQuick:['We mainly keep analytical data in spreadsheets and on local PCs.','We store analytical data in siloed databases across our organization.','Our analytical data is stored in data lakes, and smart IoT devices even collect, process, store and communicate data.','We store analytical data in a central data warehouse with an extract, transform and load process (ETL).'],
-		answerQuick:3
-	},
-	{
-		questionQuick:'How does your company manage data??',
-		optionsQuick:['The right data management is ensured through data governance over the entire life-cycle of the data, speeding up data-driven innovation instead of hindering it.','We collect data on a small scale, and we have no governance in place.','We have basic governance to help ensure data quality and security.','We collect data and have in place ad hoc governance.'],
-		answerQuick:0
-	},
-	{
-		questionQuick:'Does your company have any GPDP control?',
-		optionsQuick:['No','Yes, with IT department', 'Yes, implemented', 'Yes, implemented with Governance Department' ],
-		answerQuick:3
-	},
-	{
-		questionQuick:'Does your company use strategic planning tools or methodologies?',
-		optionsQuick:['Yes (eg Crisp-DM, SaaS, Agile, etc.)','Yes, Excel','No','Yes, on premise/cloud system'],
-		answerQuick:0
-	},
-	{
-		questionQuick:'What departaments of the company are data-driven?',
-		optionsQuick:['All departments of the company.','Management','Finance','Commercial', 'Marketing', 'Human Resources', 'Operations'],
-		answerQuick:0
-	},
-	{
-	  questionQuick:"What is the percentage of investment on the company's revenue to the data area annually? *approximately",
-	  optionsQuick:['above 7%','5%','3%','1%'],
-	  answerQuick:0,
-	  
-	},
-	{
-	  questionQuick:'Do people usually make data based decisions?',
-	  optionsQuick:['True','False'],
-	  answerQuick:0,
-	   },
-	{
-	  questionQuick:'Do company leaders advocate and continually communicate on data culture??',
-	  optionsQuick:['True','False'],
-	  answerQuick:0,
-	},
-	{
-		questionQuick:'Do employees have access to the data and are encouraged to use it in their daily work?',
-		optionsQuick:['True','False'],
-		answerQuick:0,
-	},
-	{
-		questionQuick:'Are the metrics consistent throughout the company and employees understand their meanings?',
-		optionsQuick:['True','False'],
-		answerQuick:0,
-	},
-	   ]
-
- 
