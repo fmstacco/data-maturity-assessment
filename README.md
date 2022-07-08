@@ -206,19 +206,12 @@ Unsucessful submissions will see the message below. It contributes for the user 
 
 # Future Features
 
-This website can be improved in the future through new features to be developed:
+The Data Maturity Assessment can be improved in the future through new features to be developed:
 
-**Blog** - A ***blog*** section would be very relevant to potential customers get to know the thoughts and tendencies for the field as well as to increase the online presence of the business consulting company.
+**Progress Bar** - A ***Progress Bar*** section would be very relevant to potential customers get to know the thoughts and tendencies for the field as well as to increase the online presence of the business consulting company.
 
-**Content Marketing** - a future improvement for the whole website is to structure the content based in ***content marketing*** language to involve the potential client and direct them to perform the call to the action. Hiring a specialist in content marketing would be beneficial. 
+**Short Assessment** - a future improvement for the whole website is to structure the content based in ***short assessment*** language to involve the potential client and direct them to perform the call to the action. Hiring a specialist in content marketing would be beneficial. 
 
-**Success cases** - expand the success cases section by highlighting the challenges and solutions of the potential clients after going through our consultancy. Perhaps one page dedicated to the success case section with cards for each success case.
-
-**Quiz** - develop a quiz for the potential customer to find out what is the maturity level of their company's data department. 
-
-**Logo** - the logo was designed with [Canva](https://www.canva.com/en_gb/) version Pro. As a future enhancement for the brand it is important to have a logo designed for a professional designer. 
-
-**Corporate Video**  - as a future feature, a corporate video can be very interesting to increase the confidence of potential customers and their inclination to contact us.
 
 # Technologies Used
 
