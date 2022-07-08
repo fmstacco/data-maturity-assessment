@@ -76,7 +76,7 @@ The wireframes for Data Maturity Assessment on [Balsamiq](https://balsamiq.com).
 
 ## Site Structure
 
-Carpe Diem Maturity assessment website has three main screens. The welcome screen - the default loading page. The quiz screen, the results screen and the contact form screen, which is only displayed if the user clicks on the button "Contact Us". 
+Carpe Diem Maturity assessment website has three main screens. The welcome screen - the default loading page. The quiz screen and the results screen. The contact form screen, is only displayed if the user clicks on the button "Contact Us", which in turns leads the user to the form destination page in case the form submission is successful.  
 
 [Back to top](<#contents>)
 
@@ -201,7 +201,7 @@ Unsucessful submissions will see the message below. It contributes for the user 
 <img src="./assets/images/readme/form-error-submission-desktop.jpg" width="100%" height="100%" alt="Message for error on submission form">
 
 
-[Back to Form Destionation Page](<#form-destination-page>)
+[Back to top](<#contents>)
 
 
 # Future Features
@@ -223,6 +223,7 @@ This website can be improved in the future through new features to be developed:
 # Technologies Used
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML#HTML_5) - to provide the content and structure for the website.
+* [JavaScript] 
 * [Balsamiq](https://balsamiq.com/wireframes/) - to create the wireframes for the website.
 * [Canva](https://www.canva.com/en_gb/) - to create the logo, color palete and to provide images for the website (Pro version) .
 * [CSS](https://en.wikipedia.org/wiki/CSS) - to provide the styling for the website.
