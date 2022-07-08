@@ -13,7 +13,6 @@ const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 const contactUsbox = document.querySelector('.form-container');
 
-const startButton = document.getElementById('start-button-id');
 const restartButton = document.getElementById('restart-quiz');
 const goBackHomePageButton = document.getElementById('go-back-home-page');
 const contactUsButton = document.getElementById('contact-us');
@@ -134,7 +133,7 @@ function quizOver() {
 	quizResult();
 }
 
-//get the quiz Result
+/*The function quizResult gets the quiz Result(total-score) and informs the user their feedback according to the total-score*/
 function quizResult() {
 	const totalScore = correctAnswers;
 	resultBox.querySelector(".total-score").innerHTML =
@@ -150,18 +149,31 @@ function quizResult() {
 
 }
 
+//START QUIZ
+
+const startButton = document.getElementById('start-button-id');
+
+//Event Listener for the button "Complete Assessment" to start the Quiz
+startButton.addEventListener('click', startQuiz);
+
+/* The function startQuiz */
 function startQuiz() {
 
-	// hide home box 
+	// Here we hide the welcome section by adding a class "hide".
 	welcomeSectionContainer.classList.add("hide");
-	// show quiz Box
+	// Here we show quiz Box by removing the "hide" class.
 	quizBox.classList.remove("hide");
-	// first we will set all questions in availableQuestions Array
+	// Here we set all questions in availableQuestions Array
 	resetQuiz();
 	loadQuestions();
 	// second we will call getNewQuestion(); function
 	getNewQuestion();
 }
+
+
+
+
+
 
 function resetQuiz() {
 	questionCounter = 0;
@@ -233,7 +245,7 @@ window.onload = function() {
 
 //Add Event Listener for buttons 
 
-startButton.addEventListener('click', startQuiz);
+
 restartButton.addEventListener('click', tryAgainQuiz);
 goBackHomePageButton.addEventListener('click', goBackHomePage);
 contactUsButton.addEventListener('click', contactUs);
