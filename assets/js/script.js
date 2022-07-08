@@ -116,11 +116,12 @@ function unclickableOptions() {
 }
 
 /*The funcion nextCompleteQuiz() loads the next question when the user presses the button Next. 
-It also calls the quizOver() function when the user reaches the questions length/answers all the questions.*/
+It also calls the quizOver() and getResult()function and  when the user reaches the questions length/answers all the questions.*/
 function nextCompleteQuiz() {
 
 	if (questionCounter === questions.length-20) {
 		quizOver();
+    getResult();
 	} else {
 		getNewQuestion();
 	}
@@ -252,7 +253,7 @@ submitButton.addEventListener('click', function(event) {
 	let companyname = document.getElementById('companyname').value;
 
 	//Sending the email with the name and email
-	emailjs.send("service_7hetiwd", "template_lmgc11t", {
+	emailjs.send("service_7hetiwd", "template_lmgc11t",{
 			"from_name": fullName,
 			"from_email": email,
 			"from_companyname": companyname,
@@ -267,7 +268,7 @@ submitButton.addEventListener('click', function(event) {
 	 		function formSubmited() {
 				var link = "form-destination-page.html";
 				window.location.href = link;
-				window.location.assign(link)
+				window.location.assign(link);
 			},
 			function formError() {
 				//sweet alert in case error
@@ -277,4 +278,4 @@ submitButton.addEventListener('click', function(event) {
 					icon: "error",
 				  });
 }
-		)})
+		);});

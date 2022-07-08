@@ -24,7 +24,7 @@ Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity
     * [About Page](<#about-page>)
     * [Services Page](<#services-page>)
     * [Contact Page](<#contact-page>)
-    * [Thank You Page](<#thank-you-page>)
+    * [Form Destionation Page](<#form-destination-page>)
     * [Footer](<#footer>)
 * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
@@ -185,19 +185,24 @@ Please click on the links below to see **Contact Page image for mobile**:
 
 [Back to Contact Page](<#contact-page>)
 
-## Thank You Page
+## Form Destionation Page
 
-The thank you page aimed to present a feedback regarding the form submitted so the potential client can rest assured that we will get in touch quickly to book the 30 minutes freee consultation to discuss their business problem. It contributes for the user experience UX/UI. 
+The Form Destination Page intends to present a feedback regarding the form submitted so the potential client can rest assured that we will get in touch quickly to book the 30 minutes freee consultation to discuss their business problem. It contributes for the user experience UX/UI. 
 
-<img src="./assets/images/readme/thankyou-page.jpg" width="100%" height="100%" alt="Thank You Page for Desktop">
+<img src="./assets/images/readme/form-submited-page.jpg" width="100%" height="100%" alt="Destination Page for Submited forms">
 
-Please click on the links below to see the **Thank You Page images for mobile**:
+Please click on the links below to see the **Form Destination Page image for mobile**:
 
-<details><summary><b>Thank You Page - Image Mobile</b></summary>
+<details><summary><b>Form Destination Page - Image Mobile</b></summary>
 
-<img src="./assets/images/readme/thankyou-page-mobile.jpg" alt="Thank You Page for Mobile"></details>
+<img src="./assets/images/readme/form-submited-page-responsive.jpg" alt="Destination Page for Submited forms - Mobile"></details>
 
-[Back to Thank You Page](<#thankyou-page>)
+Unsucessful submissions will see the message below. It contributes for the user experience UX/UI. 
+
+<img src="./assets/images/readme/form-error-submission-desktop.jpg" width="100%" height="100%" alt="Message for error on submission form">
+
+
+[Back to Form Destionation Page](<#form-destination-page>)
 
 ## Footer
 
