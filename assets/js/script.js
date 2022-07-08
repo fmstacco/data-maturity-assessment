@@ -251,7 +251,7 @@ submitButton.addEventListener('click', function(event) {
 
 	//prevent the reload of the page. here i prevent the event.
 	event.preventDefault();
-
+	
 	//Getting the name and email from the DOM
 	let fullName = document.getElementById('fullname').value;
 	let email = document.getElementById('email').value;
@@ -265,14 +265,20 @@ submitButton.addEventListener('click', function(event) {
 		})
 
 		.then(
-			function(response) {
-				console.log("SUCCESS", response);
 
+	/*The function(response) was created with the help of this post on stackoverflow
+	 https://pt.stackoverflow.com/questions/261476/redirecionar-usu%C3%A1rios-atrav%C3%A9s-de-um-formul%C3%A1rio*/		
+			function formSubmited() {
+				var link = "form-destination-page.html";
+				window.location.href = link;
+				window.location.assign(link)
+				console.log(succes)
 			},
-			function(error) {
-				console.log("FAILED", error);
-			}
-
-		);
-});
-
+			function formError() {
+				swal({
+					title: "Aww..!",
+					text: "Something went wrongYou clicked the button!",
+					icon: "error",
+				  });
+}
+		)})
