@@ -2,7 +2,6 @@
 const questionNumber = document.querySelector('.question-number');
 const questionText = document.querySelector('.question-text');
 const optionContainer = document.querySelector('.option-container');
-const option = document.querySelector('option');
 
 let questionCounter = 0;
 let currentQuestion = 0;
@@ -12,15 +11,14 @@ let availableOptions = [];
 const welcomeSectionContainer = document.querySelector(".welcome-section-container");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
-const contactUsbox = document.querySelector('.form-container')
+const contactUsbox = document.querySelector('.form-container');
 
 const startButton = document.getElementById('start-button-id');
 const restartButton = document.getElementById('restart-quiz');
-const goBackHomePageButton = document.getElementById('go-back-home-page')
-const contactUsButton = document.getElementById('contact-us')
+const goBackHomePageButton = document.getElementById('go-back-home-page');
+const contactUsButton = document.getElementById('contact-us');
 
 let correctAnswers = 0;
-let attempt = 0;
 
 // push the questions into availableQuestions Array
 
@@ -53,7 +51,7 @@ function getNewQuestion() {
 	const optionLength = currentQuestion.options.length;
 	// push options into availableOptions Array
 	for (let i = 0; i < optionLength; i++) {
-		availableOptions.push(i)
+		availableOptions.push(i);
 	}
 	optionContainer.innerHTML = '';
 	let animationDelay = 0.15;
@@ -84,7 +82,7 @@ function getResult(element) {
 	//get the answer by comparing the id
 	if (id === currentQuestion.answer) {
 		//set the green color to the correct option
-		element.classList.add("correct")
+		element.classList.add("correct");
 		correctAnswers++;
 	} else {
 		//set the red color to the incorrect option
@@ -195,13 +193,13 @@ function contactUs() {
 }
 
 //Getting the button from the DOM
-let submitButton = document.getElementById('formbutton')
+let submitButton = document.getElementById('formbutton');
 
 //Add event listener on click to the button - notice i added the event as argument to the function
 submitButton.addEventListener('click', function(event) {
 
 	//prevent the reload of the page. here i prevent the event.
-	event.preventDefault()
+	event.preventDefault();
 
 	//Getting the name and email from the DOM
 	let fullName = document.getElementById('fullname').value;
@@ -238,4 +236,3 @@ startButton.addEventListener('click', startQuiz);
 restartButton.addEventListener('click', tryAgainQuiz);
 goBackHomePageButton.addEventListener('click', goBackHomePage);
 contactUsButton.addEventListener('click', contactUs);
-
