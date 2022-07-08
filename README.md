@@ -24,8 +24,7 @@ Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity
     * [About Page](<#about-page>)
     * [Services Page](<#services-page>)
     * [Contact Page](<#contact-page>)
-    * [Form Destionation Page](<#form-destination-page>)
-    * [Footer](<#footer>)
+    * [Form Destination Page](<#form-destination-page>)
 * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
@@ -189,7 +188,7 @@ Please click on the links below to see **Contact Page image for mobile**:
 
 The Form Destination Page intends to present a feedback regarding the form submitted so the potential client can rest assured that we will get in touch quickly to book the 30 minutes freee consultation to discuss their business problem. It contributes for the user experience UX/UI. 
 
-<img src="./assets/images/readme/form-submited-page.jpg" width="100%" height="100%" alt="Destination Page for Submited forms">
+<img src="./assets/images/readme/form-submited-page-desktop.jpg" width="100%" height="100%" alt="Destination Page for Submited forms">
 
 Please click on the links below to see the **Form Destination Page image for mobile**:
 
@@ -204,26 +203,6 @@ Unsucessful submissions will see the message below. It contributes for the user 
 
 [Back to Form Destionation Page](<#form-destination-page>)
 
-## Footer
-
-* The footer section contains the company logo, which takes the potential customer back to the home page. 
-
-* The quick links are also in the footer section to improve the user experience, redirecting back to the pages of the website.
-
-* The social icons for Facebook, Instagram and Youtube take the user to another tab, thus, enhancing the user experience. They are there only for educational purposes. 
-
-* It also contains the copyright notice, with the year and the company's name.  
-
-
-<details><summary><b>Footer Section Image Desktop</b></summary>
-
-<img src="./assets/images/readme/footer.jpg" width="120%" height="120%" alt="Footer Section ImageDesktop"></details>
-
-<details><summary><b>Footer Section Image Mobile</b></summary>
-
-<img src="./assets/images/readme/footer-mobile.jpg" width="50%" height="50%" alt="Footer Section Image Mobile"></details>
-
-[Back to top](<#contents>)
 
 # Future Features
 
