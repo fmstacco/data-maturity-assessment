@@ -122,7 +122,7 @@ function unclickableOptions() {
 It also calls the quizOver() function when the user reaches the questions length/answers all the questions.*/
 function nextCompleteQuiz() {
 
-	if (questionCounter === questions.length) {
+	if (questionCounter === questions.length-20) {
 		quizOver();
 	} else {
 		getNewQuestion();
@@ -183,6 +183,7 @@ function startQuiz() {
 	getNewQuestion();
 }
 
+//variable for the button "Complete Assessment"
 const startButton = document.getElementById('start-button-id');
 
 //Event Listener for the button "Complete Assessment" to start the Quiz
@@ -190,15 +191,16 @@ startButton.addEventListener('click', startQuiz);
 
 
 //RESET QUIZ
-/*The function resetQuiz will be used on tryAgainQuiz and startQuiz functions*/
-
+/*The function resetQuiz will be used on tryAgainQuiz() and startQuiz() functions 
+to reset the quiz so it starts from que question 1*/
 function resetQuiz() {
 	questionCounter = 0;
 	correctAnswers = 0;
 	availableQuestions = [];
 }
 
-//
+/*The function tryAgainQuiz will be used on tryAgainQuiz() and startQuiz() functions 
+to reset the quiz so it starts from que question 1*/
 function tryAgainQuiz() {
 	// hide the resultBox
 	resultBox.classList.add("hide");
@@ -208,6 +210,14 @@ function tryAgainQuiz() {
 	startQuiz();
 }
 
+//variable for the button "restartQuiz"
+restartButton.addEventListener('click', tryAgainQuiz);
+
+//Event Listener for the button "Restart Quiz" to restart the Quiz
+restartButton.addEventListener('click', tryAgainQuiz);
+
+/*The function goBackHomePage, throught the button "Go Back To HomePage" takes the user to the HomePage.
+It hides the resultBox by adding a class "hide" and shows the welcome section by removing a class "hide".*/
 function goBackHomePage() {
 	// hide the resultBox
 	resultBox.classList.add("hide");
@@ -215,12 +225,23 @@ function goBackHomePage() {
 	welcomeSectionContainer.classList.remove("hide");
 }
 
+//Event Listener for the button "Go Back to Home Page" to go back to homepage.
+goBackHomePageButton.addEventListener('click', goBackHomePage);
+
+
+/*The function contactUs, throught the button "Contact Us" takes the user to the form screen.
+It hides the resultBox by adding a class "hide" and shows the form section by removing a class "hide".*/
 function contactUs() {
 	// hide the resultBox
 	resultBox.classList.add("hide");
-	// show the welcome section
+	// show the form section
 	contactUsbox.classList.remove("hide");
 }
+
+//Event Listener for the button "Contact Us", which opens the form screen.
+contactUsButton.addEventListener('click', contactUs);
+
+//ACTIVATING THE FORM
 
 //Getting the button from the DOM
 let submitButton = document.getElementById('formbutton');
@@ -236,7 +257,7 @@ submitButton.addEventListener('click', function(event) {
 	let email = document.getElementById('email').value;
 
 	//Sending the email with the name and email
-	emailjs.send("service_7hetiwd", "template_lmgc11t", "iPzZXnA1CPwbaOwlS", {
+	emailjs.send("service_7hetiwd", "template_lmgc11t", {
 			"from_name": fullName,
 			"from_email": email,
 		})
@@ -253,17 +274,3 @@ submitButton.addEventListener('click', function(event) {
 		);
 });
 
-window.onload = function() {
-	//set all questions in availableQuestions Array
-	loadQuestions();
-	//call getNewQuestion funtion
-	getNewQuestion();
-    getResult();
-};
-
-//Add Event Listener for buttons 
-
-
-restartButton.addEventListener('click', tryAgainQuiz);
-goBackHomePageButton.addEventListener('click', goBackHomePage);
-contactUsButton.addEventListener('click', contactUs);
