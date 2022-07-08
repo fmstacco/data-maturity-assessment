@@ -1,4 +1,11 @@
-//Global Variables 
+
+ /* This script was developed through this tutorial: https://www.youtube.com/watch?v=J8QbjXdVl9c&list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU
+  
+  I borrowed the code from this tutorial to help create the quiz, randomize the questions and options.
+  I have also customized some of the code to achieve the project goals.
+  */
+
+//Variables
 const questionNumber = document.querySelector('.question-number');
 const questionText = document.querySelector('.question-text');
 const optionContainer = document.querySelector('.option-container');
@@ -19,8 +26,8 @@ const contactUsButton = document.getElementById('contact-us');
 
 let correctAnswers = 0;
 
-// push the questions into availableQuestions Array
-
+/* The function loadQuestions pushes the questions into availableQuestions Array.
+It is called on the startQuiz function and window.onload*/
 function loadQuestions() {
 	const totalQuestion = questions.length;
 	for (let i = 0; i < totalQuestion; i++) {
@@ -28,7 +35,8 @@ function loadQuestions() {
 	}
 }
 
-//set question number and question and options 
+/*The funcion getNewQuestion sets question number, question and options. 
+It is called on startQuiz(), nextCompleteQuiz() and window.onload to set a new question  */
 function getNewQuestion() {
 	// set question number 
 	questionNumber.innerHTML = "Question " + (questionCounter + 1) + " of " + questions.length;
@@ -40,10 +48,8 @@ function getNewQuestion() {
 	questionText.innerHTML = currentQuestion.question;
 	// get the position of 'questionIndex' from the availableQuestion Array
 	const index1 = availableQuestions.indexOf(questionIndex);
-	// remove the 'questionIndex' from the availableQuestion Array, so that the question does not repeat
+	// remove the 'questionIndex' from the availableQuestion Array, so that the question does not repeat.
 	availableQuestions.splice(index1, 1);
-
-
 
 	//set options
 	//get the lenght of options
@@ -75,7 +81,8 @@ function getNewQuestion() {
 	questionCounter++;
 }
 
-// get the result of current attempt question
+/* The function getResult(), gets the result of current attempt question and sets the correct and wrong question.
+It also adds a green color when answered corrected and red color when answered wrong*/
 function getResult(element) {
 	const id = parseInt(element.id);
 	//get the answer by comparing the id
@@ -93,13 +100,14 @@ function getResult(element) {
 		if (parseInt(optionContainer.children[i].id) === currentQuestion.answer) {
 			optionContainer.children[i].classList.add("correct");
 		}
-
 	}
 	unclickableOptions();
 }
 
 
-//make all the options unclickable once the user select a option ()
+/*The funcion unclickableOptions getNewQuestion make all the options unclickable once the user select a option. 
+It is called on getResult() function 
+*/
 function unclickableOptions() {
 	const optionLen = optionContainer.children.length;
 	for (let i = 0; i < optionLen; i++) {
@@ -110,7 +118,8 @@ function unclickableOptions() {
 
 
 
-//Function to load next question
+/*The funcion nextCompleteQuiz() loads the next question when the user presses the button Next. 
+It also calls the quizOver() function when the user reaches the questions length/answers all the questions.*/
 function nextCompleteQuiz() {
 
 	if (questionCounter === questions.length) {
@@ -120,11 +129,14 @@ function nextCompleteQuiz() {
 	}
 }
 
-
+//Variable to get the element 
 const nextCompleteQuizButton = document.getElementById('next-complete-button');
+
+//Event Listener for the Next button
 nextCompleteQuizButton.addEventListener('click', nextCompleteQuiz);
 
-
+/*The funcion quizOver() hides the quizBox by adding a class "hide", shows the resultBox by removing the class "hide"
+and calls the function quizResult().*/
 function quizOver() {
 	//hide quiz quizBox
 	quizBox.classList.add("hide");
@@ -133,7 +145,7 @@ function quizOver() {
 	quizResult();
 }
 
-/*The function quizResult gets the quiz Result(total-score) and informs the user their feedback according to the total-score*/
+//The function quizResult gets the quiz Result(total-score) and informs the user their feedback according to the total-score.
 function quizResult() {
 	const totalScore = correctAnswers;
 	resultBox.querySelector(".total-score").innerHTML =
@@ -151,29 +163,34 @@ function quizResult() {
 
 //START QUIZ
 
+/* The function startQuiz hides the welcome section by adding a class "hide", shows the quiz Box by removing the class "hide".
+It calls the functions: 
+*resetQuiz() to starts que quiz from the question 1.
+*loadQuestions() to set all questions in availableQuestions Array.
+*getNewQuestion() to get a question and start que quiz.
+*/
+function startQuiz() {
+
+	// Hide the welcome section by adding a class "hide".
+	welcomeSectionContainer.classList.add("hide");
+	// Show quiz Box by removing the "hide" class.
+	quizBox.classList.remove("hide");
+	//Reset the quiz so it starts from que question 1.
+    resetQuiz();
+    // Set all questions in availableQuestions Array
+	loadQuestions();
+	// We call getNewQuestion() function
+	getNewQuestion();
+}
+
 const startButton = document.getElementById('start-button-id');
 
 //Event Listener for the button "Complete Assessment" to start the Quiz
 startButton.addEventListener('click', startQuiz);
 
-/* The function startQuiz */
-function startQuiz() {
 
-	// Here we hide the welcome section by adding a class "hide".
-	welcomeSectionContainer.classList.add("hide");
-	// Here we show quiz Box by removing the "hide" class.
-	quizBox.classList.remove("hide");
-	// Here we set all questions in availableQuestions Array
-	resetQuiz();
-	loadQuestions();
-	// second we will call getNewQuestion(); function
-	getNewQuestion();
-}
-
-
-
-
-
+//RESET QUIZ
+/*The function resetQuiz will be used on tryAgainQuiz and startQuiz functions*/
 
 function resetQuiz() {
 	questionCounter = 0;
@@ -181,6 +198,7 @@ function resetQuiz() {
 	availableQuestions = [];
 }
 
+//
 function tryAgainQuiz() {
 	// hide the resultBox
 	resultBox.classList.add("hide");
