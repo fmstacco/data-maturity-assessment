@@ -255,11 +255,13 @@ submitButton.addEventListener('click', function(event) {
 	//Getting the name and email from the DOM
 	let fullName = document.getElementById('fullname').value;
 	let email = document.getElementById('email').value;
+	let companyname = document.getElementById('companyname').value;
 
 	//Sending the email with the name and email
 	emailjs.send("service_7hetiwd", "template_lmgc11t", {
 			"from_name": fullName,
 			"from_email": email,
+			"from_companyname": companyname,
 		})
 
 		.then(
