@@ -184,7 +184,7 @@ Please click on the links below to see **Contact Page image for mobile**:
 
 [Back to Contact Page](<#contact-page>)
 
-## Form Destionation Page
+## Form Destination Page
 
 The Form Destination Page intends to present a feedback regarding the form submitted so the potential client can rest assured that we will get in touch quickly to book the 30 minutes freee consultation to discuss their business problem. It contributes for the user experience UX/UI. 
 
