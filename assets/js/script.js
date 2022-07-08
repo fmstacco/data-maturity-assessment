@@ -104,7 +104,6 @@ function getResult(element) {
 	unclickableOptions();
 }
 
-
 /*The funcion unclickableOptions getNewQuestion make all the options unclickable once the user select a option. 
 It is called on getResult() function 
 */
@@ -115,8 +114,6 @@ function unclickableOptions() {
 	}
 	nextCompleteQuizButton.classList.remove('hide');
 }
-
-
 
 /*The funcion nextCompleteQuiz() loads the next question when the user presses the button Next. 
 It also calls the quizOver() function when the user reaches the questions length/answers all the questions.*/
@@ -158,7 +155,6 @@ function quizResult() {
 	} else {
 		document.getElementById('score-feedback').innerHTML = `Awn... Your company seems to have no formal data management. Data is collected, stored, and processed in an entirely operational context. Business processes are embryonic at best, while technology is very limited in use. Dealing with operation and change is difficult and quality of outputs is not trusted. We invite you to  hit the contact us button, fill the form to discuss how Carpe Diem Data Solutions can support the sustentability of your data management.`;
 	}
-
 }
 
 //START QUIZ
@@ -170,7 +166,6 @@ It calls the functions:
 *getNewQuestion() to get a question and start que quiz.
 */
 function startQuiz() {
-
 	// Hide the welcome section by adding a class "hide".
 	welcomeSectionContainer.classList.add("hide");
 	// Show quiz Box by removing the "hide" class.
@@ -183,12 +178,11 @@ function startQuiz() {
 	getNewQuestion();
 }
 
-//variable for the button "Complete Assessment"
+//Variable for the button "Complete Assessment"
 const startButton = document.getElementById('start-button-id');
 
 //Event Listener for the button "Complete Assessment" to start the Quiz
 startButton.addEventListener('click', startQuiz);
-
 
 //RESET QUIZ
 /*The function resetQuiz will be used on tryAgainQuiz() and startQuiz() functions 
@@ -210,7 +204,7 @@ function tryAgainQuiz() {
 	startQuiz();
 }
 
-//variable for the button "restartQuiz"
+//Variable for the button "restartQuiz"
 restartButton.addEventListener('click', tryAgainQuiz);
 
 //Event Listener for the button "Restart Quiz" to restart the Quiz
@@ -228,7 +222,6 @@ function goBackHomePage() {
 //Event Listener for the button "Go Back to Home Page" to go back to homepage.
 goBackHomePageButton.addEventListener('click', goBackHomePage);
 
-
 /*The function contactUs, throught the button "Contact Us" takes the user to the form screen.
 It hides the resultBox by adding a class "hide" and shows the form section by removing a class "hide".*/
 function contactUs() {
@@ -241,7 +234,8 @@ function contactUs() {
 //Event Listener for the button "Contact Us", which opens the form screen.
 contactUsButton.addEventListener('click', contactUs);
 
-//ACTIVATING THE FORM
+/*Code to ACTIVATE the FORM to receive emails from the submited forms through emailjs developed through emailjs website and
+this post on stackoverflow https://stackoverflow.com/questions/63265789/how-do-i-send-my-form-information-on-submit-to-my-email-with-emailjs */
 
 //Getting the button from the DOM
 let submitButton = document.getElementById('formbutton');
@@ -266,18 +260,20 @@ submitButton.addEventListener('click', function(event) {
 
 		.then(
 
-	/*The function(response) was created with the help of this post on stackoverflow
+	/*The function formSubmited was created with the help of this post on stackoverflow
 	 https://pt.stackoverflow.com/questions/261476/redirecionar-usu%C3%A1rios-atrav%C3%A9s-de-um-formul%C3%A1rio*/		
-			function formSubmited() {
+		
+	 	// function formSubmited redirects the user to form-destination-page when submited.
+	 		function formSubmited() {
 				var link = "form-destination-page.html";
 				window.location.href = link;
 				window.location.assign(link)
-				console.log(succes)
 			},
 			function formError() {
+				//sweet alert in case error
 				swal({
 					title: "Aww..!",
-					text: "Something went wrongYou clicked the button!",
+					text: "Something went wrong! Please refresh the page and submit the form again!",
 					icon: "error",
 				  });
 }
