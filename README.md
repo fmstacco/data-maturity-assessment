@@ -223,21 +223,19 @@ This website can be improved in the future through new features to be developed:
 # Technologies Used
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML#HTML_5) - to provide the content and structure for the website.
-* [JavaScript] 
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - provides the interactivity to the site.
 * [Balsamiq](https://balsamiq.com/wireframes/) - to create the wireframes for the website.
-* [Canva](https://www.canva.com/en_gb/) - to create the logo, color palete and to provide images for the website (Pro version) .
+* [Canva](https://www.canva.com/en_gb/) - to create the logo and color palete (Pro version) .
 * [CSS](https://en.wikipedia.org/wiki/CSS) - to provide the styling for the website.
-* [Font Awesome](https://fontawesome.com/) - to import icons to the website.
 * [Gitpod](https://www.gitpod.io/#get-started) - to edit and develop the website.
 * [Gitbash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - to push changes to the GitHub repository.
 * [Github](https://github.com/) - to host and deploy the website.
 * [Google Fonts](https://fonts.google.com/) - to import the 'Inter' font into the style.css file.
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to test the quality of the website.
 * [Techsini](http://techsini.com/multi-mockup/index.php) - to generate a multi device website mockup generator.
-* [Tiny PNG](https://tinypng.com/) - to compress images.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS.
 * [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML.
-
+* [JSHint](https://jshint.com/) - to validate JavaScript.
 
 [Back to top](<#contents>)
 
@@ -405,13 +403,6 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 
 * [Google Fonts](https://fonts.google.com/) - to import the 'Inter' font into the style.css file.
 
-* [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)- inspiration for the hero section - animation and for the website structure.
-
-* [Oper Data](https://operdata.com.br/data-science/cases-e-clientes/) - inspiration for Success Cases content.
-
-* [Indicium](https://blog.indicium.tech/4-etapas-consultoria-data-science/) - inspiration for data science content.
-
-* [Tiny PNG](https://tinypng.com/) - to compress images.
 
 * [W3Schools](https://www.w3schools.com/) - to reinforce learning about coding concepts.
 
@@ -419,37 +410,12 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 
 * [Youtube - Dev Reis Channel](https://www.youtube.com/watch?v=CFmMNuxZ3YY) - inspiration for the header - navigation bar with hamburguer menu. 
 
-* [Love-Light-Photography](https://github.com/rhiannonmcn/Love-Light-Photography), [Natural Clean](https://github.com/Elvira-94/natural-clean) and [Wawaswoods](https://github.com/EwanColquhoun/wawaswoods) were my inspirations for README structure. 
-
-* [MindTitan](https://mindtitan.com/about/) inspired the structure of Meet Our Team content.   
 
 ## Media
 
 * [Canva](https://www.canva.com/en_gb/) to design the logo, the color palete and to source images for this website.
 
-* [Unplash](https://unsplash.com/photos/toCKeKuQpL0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create Meet Our Team section on Page About - Jane Smith.
 
-* [Unplash](https://unsplash.com/photos/p5BoBF0XJUA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create Meet Our Team section on Page About - Sidharta Rodriguez.
-
-* [Unplash](https://unsplash.com/photos/S3GrMiUhpNU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create Meet Our Team section on Page About - Malala Ababuo.
-
-* [Unplash](https://unsplash.com/photos/Oalh2MojUuk?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create About section Home Page and Page About. 
-
-* [Unplash](https://unsplash.com/photos/g5_rxRjvKmg?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create section services on Page Services.
-
-* [Unplash](https://unsplash.com/photos/vbxyFxlgpjM?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create section services on Page Services.
-
-* [Unplash(https://unsplash.com/photos/5fNmWej4tAA?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink) to create section services on Page Services.
-
-* [Python](https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png) logo python - section tools.
-
-* [R Logo](https://www.r-project.org/) logo R for the section tools on Services page.
-
-* [Jupyter Logo](https://jupyter.org/)logo Jupyter for the section tools on Services page.
-
-* [Tableau Logo](https://www.tableau.com/about/media-kit/brand-assets)logo Tableau for the section tools on Services page.
-
-* [Power Bi Logo](https://powerbi.microsoft.com/en-us/)logo Power Bi for the section tools on Services page.
 
 
 
@@ -457,7 +423,7 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 
 # Acknowledgements
 
-This site, Carpe Diem Digital Solutions was designed and developed for Portfolio 1 project, a requirement of Full Stack Software Developer Diploma Course (Eccommerce) at the [Code Institute](https://codeinstitute.net/). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), my Cohort facilitators [Kasia Bogucka](https://www.linkedin.com/in/kasbogucka/) and [Kenan Wright](https://se.linkedin.com/in/kenan-wright-bb0359b8), my Cohort coleagues, the Slack community and the Student care for all support during this journey. I am thankful to the ***Mayo, Sligo and Leitrim Education Training Board (msletb)*** for this opportunity. I  would also like to say thank you to my family, my husband Michel and my children, Alanna, and Peter who is just 3 months old at the time of this project submission. 
+This site, Carpe Diem Data Maturity Assessment was designed and developed for Portfolio 2 project, a requirement of Full Stack Software Developer Diploma Course (Eccommerce) at the [Code Institute](https://codeinstitute.net/). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), my Cohort facilitator [Kenan Wright](https://se.linkedin.com/in/kenan-wright-bb0359b8), my Cohort coleagues, the Slack community and the Student care for all encouragement and support during this journey. I am thankful to the ***Mayo, Sligo and Leitrim Education Training Board (msletb)*** for this opportunity. I  would also like to say thank you to my family, my husband Michel and my children, Alanna, and Peter who is just 4 months old at the time of this project submission. 
 
 Fabiana Tacco (2022)
 
