@@ -350,7 +350,7 @@ This website was deployed to Github by following the steps below:
 
 ![GitHub pages deployed image](assets/images/readme/deployment.jpg)
 
-This is the link to the Github repository  - https://github.com/fmstacco/data-maturity-assessment
+This is the link to the Github repository: https://github.com/fmstacco/data-maturity-assessment
 
 [Back to top](<#contents>)
 
@@ -360,7 +360,7 @@ A fork of this repository can be made which will allow you to make changes on th
 
 The steps below should be followed to ***fork*** a respository:
 
-1. Log in to ***GitHub*** and find the [repository](https://github.com/fmstacco/Carpe-Diem-Data-Solutions).
+1. Log in to ***GitHub*** and find the [repository](https://github.com/fmstacco/data-maturity-assessment).
 
 2. Click on the button ***fork*** on the right hand side of the page to create a copy of the original repository in your GitHub Account.
 
@@ -383,7 +383,8 @@ The steps below should be followed to ***clone*** a respository:
 4. Change the current working directory to the location where you want the cloned directory.
 5. Type ***git clone***, and then paste the URL copied from GitHub.
 
-Type: git clone + https://github.com/fmstacco/Carpe-Diem-Data-Solutions.git
+Type: git clone + https://github.com/fmstacco/data-maturity-assessment.git
+
 
 6. Press ***enter*** and the local clone will be created.
 
