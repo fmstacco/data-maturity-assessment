@@ -131,7 +131,7 @@ This is the Quiz Screen:
 * The button next just is displayed when the user selects an answer.
 * The correct answer is displayed in green and the wrong answer in red.
 
-<img src="./assets/images/readme/quiz-screen-green-red.jpg" width="100%" height="100%" alt="Quiz Screen Desktop image">
+<img src="./assets/images/readme/quiz-screen-desktop-green-red.jpg" width="100%" height="100%" alt="Quiz Screen Desktop image">
 
 Please click on the links below to see the **Quiz Screen  image for mobile**:
 
