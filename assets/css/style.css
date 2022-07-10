@@ -298,8 +298,8 @@ header {
 .footer-section {
   min-height: 10rem;
   background-color: var(--dark);
-  bottom: 0px;
-  width: 100%;
+  position: sticky;
+  top:100%;
 }
 
 .navbarfooter_logo {
@@ -344,9 +344,9 @@ header {
 @media screen and (min-width: 1024px) {
 
   footer {
-    position: absolute;
-    }
-
+    position: sticky;
+    top:100%;
+  }
   .footer-container {
     height: 7rem;
     flex-direction: row;
