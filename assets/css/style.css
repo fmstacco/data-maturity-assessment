@@ -16,8 +16,6 @@ I have customized some of the code to achieve the project goals.
 * {
   margin: 0;
   padding: 0;
-  outline: none;
-  box-sizing: border-box;
 }
 
 body {
@@ -25,10 +23,6 @@ body {
   background-color: var(--cream);
   color: var(--dark);
   font-family: "Montserrat", sans-serif;
-}
-
-main {
-  flex-grow: 1;
 }
 
 /*Welcome Box Section*/
@@ -129,21 +123,7 @@ header {
   margin-right: 1rem;
 }
 
-@media screen and (min-width: 1024px) {
-  .custom-box {
-    max-width: 43.75rem;
-    background-color: var(--grey);
-    margin: 3rem auto;
-    padding: 1.875rem;
-    border-radius: 5%;
-    animation: fadeInRight 1s ease;
-    
-  }
 
-  .welcome-box {
-    margin-top: 9rem;
-  }
-}
 
 /*Quiz Box Section*/
 
@@ -298,8 +278,7 @@ header {
 .footer-section {
   min-height: 10rem;
   background-color: var(--dark);
-  position: sticky;
-  top:100%;
+  
 }
 
 .navbarfooter_logo {
@@ -341,23 +320,7 @@ header {
   padding: 0.3rem;
 }
 
-@media screen and (min-width: 1024px) {
 
-  footer {
-    position: sticky;
-    top:100%;
-  }
-  .footer-container {
-    height: 7rem;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-  }
-
-  #next-complete-button {
-    margin-left: 36rem;
-  }
-}
 
 /*Form section* - code from Project Portfolio 1 - PP1  */
 
@@ -431,24 +394,7 @@ select {
   padding: 0.5rem;
 }
 
-@media screen and (min-width: 1024px) {
-  .form-container {
-    width: 40%;
-    height: 27rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.8rem;
-    margin: 2rem auto;
-    border-radius: 5%;
-    background-color: var(--grey);
-  }
 
-  .formgroup {
-    padding: 1rem;
-  }
-}
 
 /*Form Destination Page - code from Project Portfolio 1 - PP1  */
 
@@ -484,3 +430,75 @@ select {
 #score-feedback {
   text-align: center;
 }
+
+/*Media Screens*/
+
+@media screen and (min-width: 1024px) {
+
+ 
+  .footer-container {
+    height: 7rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+
+  #next-complete-button {
+    margin-left: 36rem;
+  }
+
+
+ .form-container {
+    width: 40%;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem;
+    margin: 2rem auto;
+    border-radius: 5%;
+    background-color: var(--grey);
+  }
+
+  .formgroup {
+    padding: 1rem;
+  }
+
+
+  .custom-box {
+    max-width: 43.75rem;
+    background-color: var(--grey);
+    margin: 3rem auto;
+    padding: 1.875rem;
+    border-radius: 5%;
+    animation: fadeInRight 1s ease;
+    
+  }
+
+  .welcome-box {
+    margin-bottom: 0;
+
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .welcome-box {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .quiz-box {
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+  }
+
+  .result-box{
+    margin-top: 0;
+    margin-bottom: 9rem;
+  }
+
+}
+
+  
