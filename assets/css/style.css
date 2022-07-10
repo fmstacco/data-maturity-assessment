@@ -337,6 +337,7 @@ header {
   margin: 1rem auto;
   border-radius: 5%;
   background-color: var(--grey);
+  margin-bottom: 3rem;
 }
 
 .form-container.hide {

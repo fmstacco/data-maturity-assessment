@@ -119,7 +119,7 @@ function unclickableOptions() {
 It also calls the quizOver() and getResult()function and  when the user reaches the questions length/answers all the questions.*/
 function nextCompleteQuiz() {
 
-	if (questionCounter === questions.length-20) {
+	if (questionCounter === questions.length) {
 		quizOver();
 	} else {
 		getNewQuestion();

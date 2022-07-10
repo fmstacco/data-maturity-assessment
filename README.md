@@ -144,15 +144,29 @@ Please click on the links below to see the **Quiz Screen  image for mobile**:
 
 ## Results Screen
 
-The page about we wanted to present the ethos of Carpe Diem Digital Business as well as the people doing the job and its credentials. In this section it  aimed to convey confidence, professionalism and also competence.
+This is the Quiz Result Screen. 
 
-<img src="./assets/images/readme/aboutpage-image.jpg" width="100%" height="100%" alt="About Page image">
+* There are three possibilities of result: Congratulations!; Not Bad and Awn... 
+* There are three buttons, so the user can choose if he/she wants to restart the quiz, go to home page or to get in touch. 
 
-Please click on the links below to see the **About Page image for mobile**:
+Result: Congratulations
 
-<details><summary><b>Mobile About Page Image</b></summary>
+<img src="./assets/images/readme/quiz-result-screen-congratulations.png" width="100%" height="100%" alt="Result Screen Desktop image">
 
-<img src="./assets/images/readme/aboutpage-image-mobile.jpg" alt="Mobile About Page Image"></details>
+Result: Not Bad
+
+<img src="./assets/images/readme/quiz-result-screen-not-bad.png" width="100%" height="100%" alt="Result Screen Desktop image">
+
+Result: Awn
+
+<img src="./assets/images/readme/quiz-result-screen-awn.png" width="100%" height="100%" alt="Result Screen Desktop image">
+
+
+Please click on the links below to see the **Quiz Result Screen for mobile**:
+
+<details><summary><b>Quiz Result Screen for mobile</b></summary>
+
+<img src="./assets/images/readme/quiz-result-screen-mobile.jpg" alt="Mobile About Page Image"></details>
 
 
 [Back to top](<#contents>)
