@@ -19,12 +19,12 @@ Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity
     *  [Typography](<#typography>)
     *  [Colour Scheme](<#colour-scheme>)
 * [**Features**](<#features>)
-    * [Welcome Section](<#welcome-section>)
-    * [Home Page](<#home-page>)
-    * [About Page](<#about-page>)
-    * [Services Page](<#services-page>)
-    * [Contact Page](<#contact-page>)
+    * [Welcome Screen](<#welcome-screen>)
+    * [Quiz Screen](<#quiz-screen>)
+    * [Results Screen](<#results-screen>)
+    * [Form Screen](<#form-screen>)
     * [Form Destination Page](<#form-destination-page>)
+    * [404 Page](<#404-page>)   
 * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
@@ -102,7 +102,7 @@ The colour palette idea is borrowed from PP1 - Carpe Diem Digital Solutions, as 
 
 # Features
 
-## Welcome section
+## Welcome Screen
 
 * In the header of all the page of the site there is the logo and the navigation menu.
 
@@ -122,7 +122,9 @@ Please click on the links below to see the images of the **navigation menu**:
 
 <img src="./assets/images/readme/nav-bar-mobile.jpg" width="50%" height="50%" alt="Bar Navigation Section Image Mobile"></details>
 
-## Home Page
+[Back to top](<#contents>)
+
+## Quiz Screen
 
 In the home page it was aimed to convey confidence and professionalism through the sections presented. In addition to information about the benefits of Data Science as well as the services offered, talk about who offers them and some success cases of those who hired the consultancy.
 
@@ -134,10 +136,10 @@ Please click on the links below to see the **Home Page image for mobile**:
 
 <img src="./assets/images/readme/homepage-image-mobile.jpg" alt="Mobile Home Page Image"></details>
 
-[Back to Home Page](<#home-page>)
+[Back to top](<#contents>)
 
 
-## About Page
+## Results Screen
 
 The page about we wanted to present the ethos of Carpe Diem Digital Business as well as the people doing the job and its credentials. In this section it  aimed to convey confidence, professionalism and also competence.
 
@@ -150,10 +152,10 @@ Please click on the links below to see the **About Page image for mobile**:
 <img src="./assets/images/readme/aboutpage-image-mobile.jpg" alt="Mobile About Page Image"></details>
 
 
-[Back to About Page](<#about-page>)
+[Back to top](<#contents>)
 
 
-## Services Page
+## Form Screen
 
 The services page has been designed to beyond presenting the services and solutions offered also wanted to present the systems used to offer the services.
 
@@ -182,7 +184,7 @@ Please click on the links below to see **Contact Page image for mobile**:
 <img src="./assets/images/readme/contactpage-image-mobile.jpg" alt="Mobile Contact Page Image"></details>
 
 
-[Back to Contact Page](<#contact-page>)
+[Back to top](<#contents>)
 
 ## Form Destination Page
 
@@ -199,6 +201,11 @@ Please click on the links below to see the **Form Destination Page image for mob
 Unsucessful submissions will see the message below. It contributes for the user experience UX/UI. 
 
 <img src="./assets/images/readme/form-error-submission-desktop.jpg" width="100%" height="100%" alt="Message for error on submission form">
+
+[Back to top](<#contents>)
+
+## 404 Page
+
 
 
 [Back to top](<#contents>)
