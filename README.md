@@ -116,7 +116,7 @@ Please click on the links below to see the images of the **Welcome Screen**:
 
 <details><summary><b>Welcome Screen - Image Mobile</b></summary>
 
-<img src="./assets/images/readme/nav-bar-mobile.jpg" width="50%" height="50%" alt="Welcome Screen Image Mobile"></details>
+<img src="./assets/images/readme/welcome-screen-mobile.jpg" width="50%" height="50%" alt="Welcome Screen Image Mobile"></details>
 
 [Back to top](<#contents>)
 
