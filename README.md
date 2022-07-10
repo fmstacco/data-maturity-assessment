@@ -110,17 +110,15 @@ The colour palette idea is borrowed from PP1 - Carpe Diem Digital Solutions, as 
 
 * To improve the user experience there is the hover effect on menu items, which changes the background and font colors.
 
-* The header is responsive with the Hamburger menu made only with HTML and CSS inspired by Dev Reis Chanel https://www.youtube.com/watch?v=cfmmnuxz3y
 
-Please click on the links below to see the images of the **navigation menu**:
+Please click on the links below to see the images of the **Welcome Screen**:
 
-<details><summary><b>Navigation Menu - Image Desktop</b></summary>
 
-<img src="./assets/images/readme/nav-bar-desktop.jpg" width="120%" height="120%" alt="Bar Navigation Section Image Desktop"></details>
+<img src="./assets/images/readme/welcome-screen-desktop.jpg" width="120%" height="120%" alt="Welcome Screen Image Desktop"></details>
 
-<details><summary><b>Navigation Menu - Image Mobile</b></summary>
+<details><summary><b>Welcome Screen - Image Mobile</b></summary>
 
-<img src="./assets/images/readme/nav-bar-mobile.jpg" width="50%" height="50%" alt="Bar Navigation Section Image Mobile"></details>
+<img src="./assets/images/readme/nav-bar-mobile.jpg" width="50%" height="50%" alt="Welcome Screen Image Mobile"></details>
 
 [Back to top](<#contents>)
 
