@@ -503,23 +503,23 @@ select {
 and (min-device-width: 600px) 
 and (max-device-width: 1023px) {
   .welcome-box {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 13rem;
+    margin-bottom: 13rem;
   }
 
   .quiz-box {
-    margin-top: 5rem;
-    margin-bottom: 9rem;
+    margin-top: 9rem;
+    margin-bottom: 15rem;
   }
 
   .result-box{
-    margin-top: 3;
-    margin-bottom: 3rem;
+    margin-top: 9;
+    margin-bottom: 10rem;
   }
 
 .form-container {
   margin-top: 3;
-  margin-bottom: 9rem;
+  margin-bottom: 10rem;
 }
 
 #next-complete-button {
