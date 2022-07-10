@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
 /* I have borrowed this code from this tutorial: https://www.youtube.com/watch?v=J8QbjXdVl9c&list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU 
 and also from PP1 - PP1 - Carpe Diem Digital Solutions, as this project was thought to be a continuity of 
 [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions).  
   
 I have customized some of the code to achieve the project goals.
   */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 :root {
   --cream: #f7f6f5;
