@@ -104,11 +104,9 @@ The colour palette idea is borrowed from PP1 - Carpe Diem Digital Solutions, as 
 
 ## Welcome Screen
 
-* In the header of all the page of the site there is the logo and the navigation menu.
+* This is the Data Maturity Assessment main page which has the instructions leading to the button for the Complete Assessment.
 
-* When clicking on the logo the user is directed to the Home page.
-
-* To improve the user experience there is the hover effect on menu items, which changes the background and font colors.
+* There is the hover effect on Complete Assessment button to improve the user experience, which changes the background and font colors.
 
 
 Please click on the links below to see the images of the **Welcome Screen**:
