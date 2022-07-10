@@ -292,14 +292,16 @@ header {
 
 
 /*Footer - code from Project Portfolio 1 - PP1  */
+footer {
+  position: absolute;
+  }
+
 
 .footer-section {
   min-height: 10rem;
   background-color: var(--dark);
   bottom: 0px;
   width: 100%;
-  position: fixed;
-
 }
 
 .navbarfooter_logo {
@@ -344,10 +346,8 @@ header {
 @media screen and (min-width: 1024px) {
 
   footer {
-    position: fixed
+    position: absolute;
     }
-
-
 
   .footer-container {
     height: 7rem;
