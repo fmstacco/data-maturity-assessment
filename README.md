@@ -220,10 +220,11 @@ Unsucessful submissions will see the message below. It contributes for the user 
 
 The Data Maturity Assessment can be improved in the future through new features to be developed:
 
-**Progress Bar** - A ***Progress Bar*** section would be very relevant to potential customers get to know the thoughts and tendencies for the field as well as to increase the online presence of the business consulting company.
+**Progress Bar** - A ***Progress Bar*** is a nice feature to show how far the user is in the process of answering the questionnaire. And is good for a better user experience.
 
-**Short Assessment** - a future improvement for the whole website is to structure the content based in ***short assessment*** language to involve the potential client and direct them to perform the call to the action. Hiring a specialist in content marketing would be beneficial. 
+**Short Assessment** - a ***quick*** assessment with fewer questions could be implemented in order to address potential customers who don’t have the time to answer the complete assessment. 
 
+**Login** - for future development it would be nice to have a ***signup and login*** feature in order for the user to get the results. It would be great for the business to expand its mailing list of potential clients to offer its services. 
 
 # Technologies Used
 
