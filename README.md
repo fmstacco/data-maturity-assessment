@@ -328,11 +328,14 @@ To check the accessibility in color regarding was used the [A11y](https://color.
 
 ### Lighthouse
 
-This website was also tested on [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) through  Chrome Developer Tools.
+A test on [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was also done through  Chrome Developer Tools.
 
 It tests each of the pages for ***performance, acessibility, best practices and SEO***
 
-![Lighthouse test results](assets/images/readme/lighhouse-desktop.jpg.png)
+![Lighthouse test results](assets/images/readme/lighthouse-desktop.jpg)
+
+![Lighthouse test results](assets/images/readme/lighthouse-mobile.jpg)
+
 
 
 [Back to top](<#contents>)
