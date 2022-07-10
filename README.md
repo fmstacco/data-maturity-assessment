@@ -174,31 +174,19 @@ Please click on the links below to see the **Quiz Result Screen for mobile**:
 
 ## Form Screen
 
-The services page has been designed to beyond presenting the services and solutions offered also wanted to present the systems used to offer the services.
+This is the form screen. It is a screen where the potential customer can get in touch by sending on informations such as name, company name, email and preferred time to book a free consultation session.
 
-**Important** The logo of the systems used in the consultancy was included in the "We Use the Best Tools To Serve You" section for the purpose of informational and educational purposes. All images are linked to the internet page about the corresponding companies. And it would only go to a version of the website to the public after having the consent of the respective companies. The credits also were given on the credits section on this README.
+<img src="./assets/images/readme/form-screen-desktop.jpg" width="100%" height="100%" alt="Form Screen Desktop image">
 
-There is a call to action with a button for the potential customer book their free consultation session.
+Please click on the links below to see **Form Screen image for mobile**:
 
-<img src="./assets/images/readme/services-page.jpg" width="100%" height="100%" alt="Services Page image">
+<details><summary><b>Form Screen image for mobile</b></summary>
 
-Please click on the links below to see **Services Page image for mobile**:
+<img src="./assets/images/readme/form-screen-mobile.jpg" alt="Form Screen image for mobile"></details>
 
-<details><summary><b>Mobile Services Page Image</b></summary>
+The form is sending email and collecting potential customer details through [EmailJS](https://www.emailjs.com/)
 
-<img src="./assets/images/readme/services-page-mobile.jpg" alt="Services Contact Page Image"></details>
-
-## Contact Page
-
-The contact page aimed to present ways that the potential customer has to contact us, whether through the form, telephone, email and address.
-
-<img src="./assets/images/readme/contactpage-image.jpg" width="100%" height="100%" alt="Contact Page image">
-
-Please click on the links below to see **Contact Page image for mobile**:
-
-<details><summary><b>Mobile Contact Page Image</b></summary>
-
-<img src="./assets/images/readme/contactpage-image-mobile.jpg" alt="Mobile Contact Page Image"></details>
+<img src="./assets/images/readme/emailjs.jpg" alt="EmailJS website history emails"></details>
 
 
 [Back to top](<#contents>)
