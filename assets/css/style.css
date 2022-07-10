@@ -23,7 +23,6 @@ body {
 	max-width: 43.75rem;
 	background-color: var(--grey);
 	margin:42.5rem auto;
-  margin-bottom: 10rem;
 	padding: 1.875rem;
 	border-radius: 0.625px;
 	animation: fadeInRight 1s ease;
@@ -66,15 +65,16 @@ header {
     width: 15.81rem;
   }
 
+  .welcome-box {
+    margin-top: 9rem;
+  }
+
  .welcome-section-container {
     min-height: 23.438rem;
     min-width: 15rem;
     background-color: var(--grey);
     padding: 1rem;
-    margin: 1rem;
-    margin-top: 3rem;
     border-radius: 5%;
-    margin-bottom: 6rem;
   }
 
  #estimated-time {
