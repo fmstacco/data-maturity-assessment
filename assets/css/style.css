@@ -21,9 +21,14 @@ I have customized some of the code to achieve the project goals.
 }
 
 body {
+  min-height: 100vh;
   background-color: var(--cream);
   color: var(--dark);
   font-family: "Montserrat", sans-serif;
+}
+
+main {
+  flex-grow: 1;
 }
 
 /*Welcome Box Section*/
@@ -292,9 +297,9 @@ header {
   min-height: 10rem;
   background-color: var(--dark);
   bottom: 0px;
-  left: 0px;
-  right: 0px;
-  position: relative;
+  width: 100%;
+
+
 }
 
 .navbarfooter_logo {
@@ -336,14 +341,12 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-  .footer-section {
-    height: 10rem;
-    background-color: var(--dark);
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    margin-bottom: 0px;
-  }
+
+  footer {
+    position: absolute
+    }
+
+
 
   .footer-container {
     height: 7rem;

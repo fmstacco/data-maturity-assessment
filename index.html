@@ -19,6 +19,8 @@
       [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions).  
       I have also customized some of the code to achieve the project goals.-->
     <!-- Header - Logo-->
+
+    <main>
     <header>
       <div id="logo">
         <a href="index.html" aria-label="Takes you to homepage"><img src="./assets/images/logo.png" alt="logo Carpe Diem Data Solutions" id="logo-header" /> </a>
@@ -82,15 +84,15 @@
         <fieldset class="formgroup">
           <div class="field">
             <label for="fullname"><strong>Name</strong></label>
-            <input type="text" name="fullname" id="fullname" required placeholder="Your Full Name" />
+            <input type="text" name="fullname" placeholder="Your Full Name" id="fullname" required>
           </div>
           <div class="field">
             <label for="companyname"><strong>Company</strong></label>
-            <input type="text" name="companyname" id="companyname" required placeholder="Company Name" />
+            <input type="text" name="companyname" placeholder="Company Name" id="companyname" required>  
           </div>
           <div class="field">
             <label for="email"><strong>Email</strong></label>
-            <input type="email" name="email" id="email" required placeholder="email@email.com" />
+            <input type="email" name="email" placeholder="email@email.com" id="email" required>
           </div>
           <div class="field">
             <label for="preferredtime"><strong>What is the preferred time to schedule a meeting</strong></label>
@@ -105,6 +107,11 @@
           </div>
           <button id="formbutton" type="submit" class="btn">Submit</button>
         </fieldset>
+        <span role="alert" id="name-error" aria-hidden="true">
+        <span role="alert" id="company-name-error" aria-hidden="true">
+        <span role="alert" id="email-error" aria-hidden="true">
+
+          
       </form>
     </section>
     <!-- Footer Section-->
@@ -127,5 +134,6 @@
     <script src="https://kit.fontawesome.com/de5916a16b.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/questions.js"></script>
+  </main>
   </body>
 </html>
