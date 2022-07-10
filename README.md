@@ -122,15 +122,22 @@ Please click on the links below to see the images of the **Welcome Screen**:
 
 ## Quiz Screen
 
-In the home page it was aimed to convey confidence and professionalism through the sections presented. In addition to information about the benefits of Data Science as well as the services offered, talk about who offers them and some success cases of those who hired the consultancy.
+This is the Quiz Screen:
+* The are 22 questions with one correct answer. 
+* The questions and options are displayed randomly.
+  
+<img src="./assets/images/readme/quiz-screen-desktop.jpg" width="100%" height="100%" alt="Quiz Screen Desktop image">
 
-<img src="./assets/images/readme/homepage-image.jpg" width="100%" height="100%" alt="Home Page image">
+* The button next just is displayed when the user selects an answer.
+* The correct answer is displayed in green and the wrong answer in red.
 
-Please click on the links below to see the **Home Page image for mobile**:
+<img src="./assets/images/readme/quiz-screen-green-red.jpg" width="100%" height="100%" alt="Quiz Screen Desktop image">
 
-<details><summary><b>Mobile Home Page Image</b></summary>
+Please click on the links below to see the **Quiz Screen  image for mobile**:
 
-<img src="./assets/images/readme/homepage-image-mobile.jpg" alt="Mobile Home Page Image"></details>
+<details><summary><b>Mobile Quiz Screen Image</b></summary>
+
+<img src="./assets/images/readme/quiz-screen-mobile.jpg" alt="Quiz Screen Mobile Image"></details>
 
 [Back to top](<#contents>)
 
