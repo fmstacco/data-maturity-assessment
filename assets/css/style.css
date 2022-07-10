@@ -324,13 +324,6 @@ header {
 
 /*Form section* - code from Project Portfolio 1 - PP1  */
 
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-top: 2rem;
-}
 
 .form-container {
   width: 87%;
@@ -445,7 +438,7 @@ select {
   }
 
   #next-complete-button {
-    margin-left: 36rem;
+    margin-left: 40rem;
   }
 
 
@@ -499,6 +492,38 @@ select {
     margin-bottom: 9rem;
   }
 
+.form-container {
+  margin-top: 0;
+  margin-bottom: 9rem;
 }
 
-  
+}
+
+@media only screen 
+and (min-device-width: 600px) 
+and (max-device-width: 1023px) {
+  .welcome-box {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  .quiz-box {
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+  }
+
+  .result-box{
+    margin-top: 3;
+    margin-bottom: 3rem;
+  }
+
+.form-container {
+  margin-top: 3;
+  margin-bottom: 9rem;
+}
+
+#next-complete-button {
+  margin-left: 38rem;
+}
+
+}
