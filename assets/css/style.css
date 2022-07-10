@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
-/* I have borrowed some of this code from this tutorial: https://www.youtube.com/watch?v=J8QbjXdVl9c&list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU 
+/* I have borrowed this code from this tutorial: https://www.youtube.com/watch?v=J8QbjXdVl9c&list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU 
 and also from PP1 - PP1 - Carpe Diem Digital Solutions, as this project was thought to be a continuity of 
 [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions).  
   
@@ -364,21 +364,19 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   text-align: center;
-
   padding-top: 2rem;
 }
 
 .form-container {
   width: 87%;
-  height: 27rem;
+  min-height: 27rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0.8rem;
-  margin: 0.5rem auto;
+  padding: 1rem;
+  margin: 1rem auto;
   border-radius: 5%;
   background-color: var(--grey);
 }
