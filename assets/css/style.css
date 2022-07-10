@@ -141,7 +141,7 @@ header {
   }
 
   .welcome-box {
-    margin-top: 3rem;
+    margin-top: 9rem;
   }
 }
 
@@ -298,13 +298,14 @@ header {
   background-color: var(--dark);
   bottom: 0px;
   width: 100%;
-
+  position: fixed;
 
 }
 
 .navbarfooter_logo {
   width: 15.81rem;
 }
+
 
 .footer-container {
   display: flex;
@@ -343,7 +344,7 @@ header {
 @media screen and (min-width: 1024px) {
 
   footer {
-    position: absolute
+    position: fixed
     }
 
 

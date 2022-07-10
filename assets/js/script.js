@@ -239,34 +239,6 @@ this post on stackoverflow https://stackoverflow.com/questions/63265789/how-do-i
 
 //Getting the button from the DOM
 let submitButton = document.getElementById('formbutton');
-submit.addEventListener("click", validate);
-
-function validate() {
-	let valid = true; 
-	let fullName = document.getElementById('fullname');
-	let email = document.getElementById('email');
-	let companyName = document.getElementById('companyname');
-
-	if (!fullNameNameField.value) {
-		const nameError = document.getElementById("name-error");
-		const companyNameError = document.getElementById("company-name-error");
-		const emailError = document.getElementById("email-error");
-
-		nameError.classList.add("visible");
-		firstNameField.classList.add("invalid");
-		nameError.setAttribute("aria-hidden", false);
-		nameError.setAttribute("aria-invalid", true);
-	  }else if (!companyName.value) {
-		companyNameError.classList.add("visible");
-		companyName.classList.add("invalid");
-		companyNameError.setAttribute("aria-hidden", false);
-		companyNameError.setAttribute("aria-invalid", true);
-	  }
-
-	  }
-	  return valid;
-	
-
 
 //Add event listener on click to the button - notice i added the event as argument to the function
 submitButton.addEventListener('click', function(event) {
