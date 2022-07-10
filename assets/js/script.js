@@ -121,7 +121,6 @@ function nextCompleteQuiz() {
 
 	if (questionCounter === questions.length-20) {
 		quizOver();
-    getResult();
 	} else {
 		getNewQuestion();
 	}
