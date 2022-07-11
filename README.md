@@ -1,6 +1,6 @@
 # **Data Maturity Assessment - Project Portfolio 2 - JavaScript**
 
-Data Maturity Assessment is a tool that will help small and medium -sized companies evaluate the maturity level of their data management. This evaluation will indicate at what stage the company is in data management as well as ways to improve company data maturity. The idea of this quiz was on the future features list of the [Project Portfolio 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions), therefore, this project inherits the style and some of the same code for some sections, such as logo, typography, footer, form among others.  
+Data Maturity Assessment is a tool that will help small and medium -sized companies evaluate the maturity level of their data management. This evaluation will indicate at what stage the company is in data management as well as ways to improve company data maturity. The idea of this quiz was on the future features a list of the [Project Portfolio 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions), therefore, this project inherits the style and some of the same code for some sections, such as logo, typography, footer, form among others.  
 
 Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity-assessment/" target="_blank">Data Maturity Assessment</a>
 
@@ -37,7 +37,7 @@ Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity
 
 # Objective 
 
-This project aims to deliver an interactive website where potential customers - small and medium -sized companies - will be able to self -assess the maturity level of their company data management.
+This project aims to deliver an interactive website where potential customers - small and medium-sized companies - will be able to self-assess the maturity level of their company data management.
 
 # User Experience (UX)
 
@@ -51,8 +51,8 @@ This project aims to deliver an interactive website where potential customers - 
 * As a potential customer, I want to easily navigate the data maturity assessment quiz.
 * As a potential customer, I want to know where I am getting it right and where I am missing the data management of my company.
 * As a potential customer, I want to receive feedback from my assessment of my company's data maturity.
-* As a potential customer, I want to be able to contact the company to learn more about the company services.
-* As a potencial customer, I want to know that my form was received and they will get in touch with me quickly.
+* As a potential customer, I want to be able to contact the company to learn more about the company's services.
+* As a potential customer, I want to know that my form was received and they will get in touch with me quickly.
 
 [Back to top](<#contents>)
 
@@ -77,7 +77,7 @@ The wireframes for Data Maturity Assessment on [Balsamiq](https://balsamiq.com).
 
 ## Site Structure
 
-Carpe Diem Maturity assessment website has three main screens. The welcome screen - the default loading page. The quiz screen and the results screen. The contact form screen, is only displayed if the user clicks on the button "Contact Us", which in turns leads the user to the form destination page in case the form submission is successful.  
+The Data Maturity assessment website has three main screens. The welcome screen - is the default loading page. The quiz screen and the results screen. The contact form screen is only displayed if the user clicks on the button "Contact Us", which in turn leads the user to the form destination page in case the form submission is successful.  
 
 [Back to top](<#contents>)
 
@@ -91,7 +91,7 @@ Carpe Diem Maturity assessment website has three main screens. The welcome scree
 
  * ### Typography
  
- The source used throughout the site is Montserrat, as it is a nice font, elegant and also conveys confidence and professionalism. It is very good for UX/UI for having good readability on any device, large x-heigh and is also good for accessibility. Also the typography is borrowed from PP1 - Carpe Diem Data Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
+ The source used throughout the site is Montserrat, as it is a nice font, elegant and, also conveys confidence and professionalism. It is very good for UX/UI for having good readability on any device, large x-heigh and, is also good for accessibility. Also, the typography is borrowed from PP1 - Carpe Diem Data Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
 
  * ### Colour Scheme
 
@@ -107,7 +107,7 @@ The colour palette idea is borrowed from PP1 - Carpe Diem Data Solutions, as thi
 
 * This is the Data Maturity Assessment main page which has the instructions leading to the button for the Complete Assessment.
 
-* There is the hover effect on Complete Assessment button to improve the user experience, which changes the background and font colors.
+* There is the hover effect on the Complete Assessment button to improve the user experience, which changes the background and font colors.
 
 
 Please click on the links below to see the images of the **Welcome Screen**:
@@ -124,7 +124,7 @@ Please click on the links below to see the images of the **Welcome Screen**:
 ## Quiz Screen
 
 This is the Quiz Screen:
-* The are 22 questions with one correct answer. 
+* There are 22 questions with one correct answer. 
 * The questions and options are displayed randomly.
   
 <img src="./assets/images/readme/quiz-screen-desktop.jpg" width="100%" height="100%" alt="Quiz Screen Desktop image">
@@ -148,7 +148,7 @@ Please click on the links below to see the **Quiz Screen  image for mobile**:
 This is the Quiz Result Screen. 
 
 * There are three possibilities of result: Congratulations!; Not Bad and Awn... 
-* There are three buttons, so the user can choose if he/she wants to restart the quiz, go to home page or to get in touch. 
+* There are three buttons, so the user can choose if he/she wants to restart the quiz, go to the home page, or get in touch. 
 
 Result: Congratulations
 
@@ -175,7 +175,7 @@ Please click on the links below to see the **Quiz Result Screen for mobile**:
 
 ## Form Screen
 
-This is the form screen. It is a screen where the potential customer can get in touch by sending on informations such as name, company name, email and preferred time to book a free consultation session.
+This is the form screen. It is a screen where the potential customer can get in touch by sending on information such as name, company name, email and, preferred time to book a free consultation session.
 
 <img src="./assets/images/readme/form-screen-desktop.jpg" width="100%" height="100%" alt="Form Screen Desktop image">
 
@@ -185,7 +185,7 @@ Please click on the links below to see **Form Screen image for mobile**:
 
 <img src="./assets/images/readme/form-screen-mobile.jpg" alt="Form Screen image for mobile"></details>
 
-The form is sending email and collecting potential customer details through [EmailJS](https://www.emailjs.com/)
+The form is sending emails and collecting potential customer details through [EmailJS](https://www.emailjs.com/)
 
 <img src="./assets/images/readme/emailjs.jpg" alt="EmailJS website history emails"></details>
 
@@ -194,7 +194,7 @@ The form is sending email and collecting potential customer details through [Ema
 
 ## Form Destination Page
 
-The Form Destination Page presents a feedback regarding the submitted form so the potential client know that the form was submited and that we will get in touch quickly to book the 30 minutes free consultation. It contributes for the user experience UX/UI. 
+The Form Destination Page presents feedback regarding the submitted form so the potential client knows that the form was submitted and that we will get in touch quickly to book the 30 minutes free consultation. It contributes to the user experience UX/UI. 
 
 <img src="./assets/images/readme/form-submited-page-desktop.jpg" width="100%" height="100%" alt="Destination Page for Submited forms">
 
@@ -204,7 +204,7 @@ Please click on the links below to see the **Form Destination Page image for mob
 
 <img src="./assets/images/readme/form-submited-page-responsive.jpg" alt="Destination Page for Submited forms - Mobile"></details>
 
-Unsucessful submissions will see the message below. It contributes for the user experience UX/UI. 
+Unsuccessful submissions will see the message below. It contributes to the user experience UX/UI. 
 
 <img src="./assets/images/readme/form-error-submission-desktop.jpg" width="100%" height="100%" alt="Message for error on submission form">
 
@@ -212,7 +212,7 @@ Unsucessful submissions will see the message below. It contributes for the user 
 
 ## 404 Page
 
-A 404 page was designed to also improve the user experience linking them back to the home page.
+A 404 page was designed to also improve the user experience by linking them back to the home page.
 
 <img src="./assets/images/readme/404-page-desktop.png" alt="404 Page - Desktop"></details>
 
@@ -293,24 +293,24 @@ Carpe Diem Data Maturity Assessment was manually tested for his responsiveness w
 
 ### Manual Testing
 
-The Data Maturity Assessment has been extensively tested in different devices. It was checked features, responsiveness, accessibility, layout, design, texts, buttons and navigation links, form submission on different browsers.
+The Data Maturity Assessment has been extensively tested in different devices. It has been checked features, responsiveness, accessibility, layout, design, texts, buttons and navigation links and form submission on different browsers.
 
 
 ### Testing User Stories
 
 | Expectation                         | Result                          |
 | :---------------------------------: | :------------------------------:|
-| As a potential customer, I want to easily navigate the data maturity assessment quiz. **[Quiz Website]** | The potential customer can easily navigate through the site and its buttons on the home, quiz, quiz result, form, form destination page and 404 page. User can return to home screen easily through buttons and links.|
+| As a potential customer, I want to easily navigate the data maturity assessment quiz. **[Quiz Website]** | The potential customer can easily navigate through the site and its buttons on the home, quiz, quiz result, form, form destination page and, 404 page. Users can return to home screen easily through buttons and links.|
 | As a potential customer, I want to know where I am getting it right and where I am missing the data management of my company. **[Quiz Screen]**| On the quiz screen, the user knows which question he was right and which question was wrong through the green and red colors that appear when he gets it right and wrong, respectively.|
-| As a potential customer, I want to receive feedback from my assessment of my company's data maturity. **[Results Screen]**|On the results screen, the user will know his score and will receive feedback on how he did and what the next steps are. |
-| As a potential customer, I want to be able to contact the company to learn more about the company services.**[Contact Screen]**| By clicking on the Contact Us button on the results screen, the potential client will be able to get in touch by sending their contact details, name, email, company name and best time to contact. |
+| As a potential customer, I want to receive feedback on my assessment of my company's data maturity. **[Results Screen]**|On the results screen, the user will know his score and will receive feedback on how he did and what the next steps are. |
+| As a potential customer, I want to be able to contact the company to learn more about the company's services.**[Contact Screen]**| By clicking on the Contact Us button on the results screen, the potential client will be able to get in touch by sending their contact details, name, email, company name and, best time to contact. |
 | As a potencial customer, I want to know that my form was received and they will get in touch with me quickly.**[Form Destination Page]** | When submitting the form, the user will be directed to the submission confirmation page with the information that we will contact you shortly.|
 
 [Back to top](<#contents>)
 
 ### Browser Testing
 
-The Carpe Diem Data Maturity Assessment was manually tested on these browsers as table below and design, layout, functionality and responsiveness were  consistent across all browsers both mobile and desktop.
+The Carpe Diem Data Maturity Assessment was manually tested on these browsers as table below and design, layout, functionality and, responsiveness were consistent across all browsers both mobile and desktop.
 
 |   Browser   |    Result  | 
 | :---------: | :---------:| 
@@ -324,7 +324,7 @@ The Carpe Diem Data Maturity Assessment was manually tested on these browsers as
 
 ### Bugs Fixed 
 
-During the website testing process some minor errors were displayed when validating HTML, CSS and JavaScript. They were quickly corrected. 
+During the website testing process, some minor errors were displayed when validating HTML, CSS and, JavaScript. They were quickly corrected. 
 
 * HTML
     
@@ -336,11 +336,11 @@ During the website testing process some minor errors were displayed when validat
 
 ### Bugs Unfixed 
 
-* JavaScript - When testing JavaScript through[JSHint](https://jshint.com/) the message "undefined variable" appeared for the **questions variable**. This happened because the questions variable is in a separate JavaScript file with the quiz questions.
+* JavaScript - When testing JavaScript through[JSHint](https://jshint.com/) the message "undefined variable" appeared for the **questions variable**. This happened because the const variable named questions is in a separate JavaScript file with the quiz questions.
 
     ![JavaScript Validator test result](./assets/images/readme/javascript-unfixed-bugs.jpg) 
 
-* HTML  - In the output of the html appears a warning message about a blank title. This is because JavaScript adds the feedback message when the user finishes the quiz.
+* HTML  - In the output of the HTML appears a warning message about a blank title. This is because JavaScript adds the feedback message when the user finishes the quiz.
 
 ![HTML Bug unfixed](./assets/images/readme/html-bug-unfixed.png) 
 
@@ -358,7 +358,7 @@ To check the accessibility in color regarding was used the [A11y](https://color.
 
 A test on [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was also done through  Chrome Developer Tools.
 
-It tests each of the pages for ***performance, acessibility, best practices and SEO***
+It tests each of the pages for ***performance, accessibility, best practices and, SEO***
 
 ![Lighthouse test results](assets/images/readme/lighthouse-desktop.jpg)
 
@@ -385,13 +385,13 @@ This is the link to the Github repository: https://github.com/fmstacco/data-matu
 
 ### **To fork this repository on GitHub**
 
-A fork of this repository can be made which will allow you to make changes on this project without affecting the original repository. 
+A fork of this repository can be made which will allow you to make changes to this project without affecting the original repository. 
 
-The steps below should be followed to ***fork*** a respository:
+The steps below should be followed to ***fork*** the respository:
 
 1. Log in to ***GitHub*** and find the [repository](https://github.com/fmstacco/data-maturity-assessment).
 
-2. Click on the button ***fork*** on the right hand side of the page to create a copy of the original repository in your GitHub Account.
+2. Click on the button ***fork*** on the right-hand side of the page to create a copy of the original repository in your GitHub account.
 
 See the image below:
 
@@ -401,7 +401,7 @@ See the image below:
 
 ### **To create a local clone of this project**
 
-The steps below should be followed to ***clone*** a respository:
+The steps below should be followed to ***clone*** the respository:
 
 1. On the repository’s page, click on the ***code*** tab.
 2. On the ***Clone with HTTPS*** tab, click on the icon (see image below) to copy the URL.
@@ -449,25 +449,23 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 
 [PGS Soft](https://www.pgs-soft.com/data-services/data-maturity-assessment/) - I have also got some questions from this data maturity assessment. 
 
-
-
 ## Code
 
-* [The WebShala Youtube channel](https://www.youtube.com/watch?v=J8QbjXdVl9c&list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU) - the code of this project comes mainly from this tutorial on Youtube from The WebShala channel. I decided to choose The WebShala tutorial over the inspirations mentioned below as I could follow the Youtube tutorial and understand every step and also because they teached how to use questions and options randomly.  
+* [The WebShala Youtube channel](https://www.youtube.com/watch?v=J8QbjXdVl9c&list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU) - the code of this project comes mainly from this tutorial on Youtube from The WebShala channel. I decided to choose The WebShala tutorial over the inspirations mentioned below as I could follow the Youtube tutorial and understand every step and also because they taught how to use questions and options randomly.  
 
 * [Simple Personality Quiz](https://github.com/edubz99/Simple-Personality-Quiz) - this repository was also among my initial inspirations for the quiz. 
 
-* [Youtube Code Feature](https://www.youtube.com/watch?v=XnH56whHQqw) - this tutorial was my first inpiration for the quiz. I even deployed the walkthrough I have done following this tutorial. However, I ended up choosig the WebShala tutorial, as this one uses the html as a data base for the questions, not a separated file on JavaScript. 
+* [Youtube Code Feature](https://www.youtube.com/watch?v=XnH56whHQqw) - this tutorial was my first inspiration for the quiz. I even deployed the walkthrough I have done following this tutorial. However, I ended up choosing the WebShala tutorial, as this one uses the HTML as a database for the questions, not a separated file on JavaScript. 
 
-* [Sweet Alert](https://sweetalert.js.org/) - the code for the alert for the unsucessful form submission.
+* [Sweet Alert](https://sweetalert.js.org/) - the code for the alert for the unsuccessful form submission.
 
-* [EmailJS](https://www.emailjs.com) - the code to make the form effective on submitting potential clients data to my email.  
+* [EmailJS](https://www.emailjs.com) - the code to make the form effective for submitting potential clients' data to my email.  
 
 [Back to top](<#contents>)
 
 # Acknowledgements
 
-This site, Carpe Diem Data Maturity Assessment was designed and developed for Portfolio 2 project, a requirement of Full Stack Software Developer Diploma Course (Eccommerce) at the [Code Institute](https://codeinstitute.net/). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), my Cohort facilitator [Kenan Wright](https://se.linkedin.com/in/kenan-wright-bb0359b8), my Cohort coleagues, the Slack community and the Student care for all encouragement and support during this journey. I am thankful to the ***Mayo, Sligo and Leitrim Education Training Board (msletb)*** for this opportunity. I  would also like to say thank you to my family, my husband Michel and my children, Alanna, and Peter who is just 4 months old at the time of this project submission. 
+This site, Carpe Diem Data Maturity Assessment was designed and developed for Portfolio 2 project, a requirement of Full Stack Software Developer Diploma Course (Eccommerce) at the [Code Institute](https://codeinstitute.net/). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), my Cohort facilitator [Kenan Wright](https://se.linkedin.com/in/kenan-wright-bb0359b8), my Cohort colleagues, the Slack community and the Student care for all encouragement and, support during this journey. I am thankful to the ***Mayo, Sligo and Leitrim Education Training Board (msletb)*** for this opportunity. I  would also like to say thank you to my family, my husband Michel and, my children, Alanna, and Peter who is just 4 months old at the time of this project submission. 
 
 Fabiana Tacco (2022)
 
