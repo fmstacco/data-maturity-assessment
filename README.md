@@ -31,7 +31,8 @@ Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
     * [**Content**](<#content>)
-    * [**Media**](<#media>)
+    * [**Questions**](<#questions>)
+    * [**Code**](<#code>)
 *  [**Acknowledgements**](<#acknowledgements>)
 
 
