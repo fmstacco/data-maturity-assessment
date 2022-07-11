@@ -52,6 +52,7 @@ This project aims to deliver an interactive website where potential customers - 
 * As a potential customer, I want to know where I am getting it right and where I am missing the data management of my company.
 * As a potential customer, I want to receive feedback from my assessment of my company's data maturity.
 * As a potential customer, I want to be able to contact the company to learn more about the company services.
+* As a potencial customer, I want to know that my form was received and they will get in touch with me quickly.
 
 [Back to top](<#contents>)
 
@@ -234,6 +235,8 @@ The Data Maturity Assessment can be improved in the future through new features 
 
 **404 Page** - it can be improved for better user experience UX/UI. 
 
+[Back to top](<#contents>)
+
 # Technologies Used
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML#HTML_5) - to provide the content and structure for the website.
@@ -275,6 +278,7 @@ The Carpe Diem Data Maturity Assessment has gone through intensive tests through
 
 ![JavaScript validation image ](./assets/images/readme/jshint-javascript-validator.png) 
 
+[Back to top](<#contents>)
 
 ### Responsiveness Test
 
@@ -302,6 +306,7 @@ The Data Maturity Assessment has been extensively tested in different devices. I
 | As a potential customer, I want to be able to contact the company to learn more about the company services.**[Contact Screen]**| By clicking on the Contact Us button on the results screen, the potential client will be able to get in touch by sending their contact details, name, email, company name and best time to contact. |
 | As a potencial customer, I want to know that my form was received and they will get in touch with me quickly.**[Form Destination Page]** | When submitting the form, the user will be directed to the submission confirmation page with the information that we will contact you shortly.|
 
+[Back to top](<#contents>)
 
 ### Browser Testing
 
@@ -339,6 +344,8 @@ During the website testing process some minor errors were displayed when validat
 
 ![HTML Bug unfixed](./assets/images/readme/html-bug-unfixed.png) 
 
+[Back to top](<#contents>)
+
 ## Additional Testing
 
 ### Acessibility 
@@ -356,8 +363,6 @@ It tests each of the pages for ***performance, acessibility, best practices and 
 ![Lighthouse test results](assets/images/readme/lighthouse-desktop.jpg)
 
 ![Lighthouse test results](assets/images/readme/lighthouse-mobile.jpg)
-
-
 
 [Back to top](<#contents>)
 
@@ -422,32 +427,35 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 
 ## Content
 
-* [Alura](https://www.alura.com.br/) to learn Flexbox and Responsiveness concepts.
-
-* [Font Awesome](https://fontawesome.com/) - to import the social icons to the website.
+* [Alura](https://www.alura.com.br/) to reinforce learning on JavaScript.
 
 * [Google Fonts](https://fonts.google.com/) - to import the 'Inter' font into the style.css file.
 
+* [Sweet Alert](https://sweetalert.js.org/) - to import the alert for the unsucessful form submission.
+
+* [EmailJS](https://www.emailjs.com) - to make the form effective on submitting potential clients data to my email.  
 
 * [W3Schools](https://www.w3schools.com/) - to reinforce learning about coding concepts.
 
-* [Youtube Professor Jose de Assis](https://www.youtube.com/watch?v=SsOuGMM2_yM&list=PLbEOwbQR9lqySIIlPJ-Qwo4f4HSuXVeWk&index=14) - inspiration for the header - navigation bar with hamburguer menu. 
+* [Youtube Gustavo Guanabara](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) - to reinforce learning on JavaScript.
 
-* [Youtube - Dev Reis Channel](https://www.youtube.com/watch?v=CFmMNuxZ3YY) - inspiration for the header - navigation bar with hamburguer menu. 
+* [Youtube Code Feature](https://www.youtube.com/watch?v=XnH56whHQqw) - a walkthrough on JavaScript quiz done to practice JavaScript skills. [Repository](https://github.com/fmstacco/security-survey).
 
-
-## Media
-
-* [Canva](https://www.canva.com/en_gb/) to design the logo, the color palete and to source images for this website.
-
+* [Qexpert](https://qexpert.com.br/consultoria/data-analytics/) - inspiration for the development of this quiz. 
 
 ## Code
 
+* [The WebShala Youtube channel](https://www.youtube.com/watch?v=J8QbjXdVl9c&list=PLJAFEg3vkcQN6NGwzI0KX_ZC6dLQjkfeU) - the code of this project comes mainly from this tutorial on Youtube from The WebShala channel. I decided to choose The WebShala tutorial over the inspirations mentioned below as I could follow the Youtube tutorial and understand every step and also because they teached how to use questions and options randomly.  
+
+* [Simple Personality Quiz](https://github.com/edubz99/Simple-Personality-Quiz) - this repository was also among my initial inspirations for the quiz. 
+
+* [Youtube Code Feature](https://www.youtube.com/watch?v=XnH56whHQqw) - this tutorial was my first inpiration for the quiz. I even deployed the walkthrough I have done following this tutorial. However, I ended up choosig the WebShala tutorial, as this one uses the html as a data base for the questions, not a separated file on JavaScript. 
 
 ## Questions
 
-[Qexpert](https://qexpert.com.br/consultoria/data-analytics/) - this consulting was the main inspiration for the development of this quiz. 
+[Qexpert](https://qexpert.com.br/consultoria/data-analytics/) - the questions for this Data Maturity assessment comes mainly from this website.  
 
+[PGS Soft](https://www.pgs-soft.com/data-services/data-maturity-assessment/) - I have also got some questions from this data maturity assessment. 
 
 [Back to top](<#contents>)
 
