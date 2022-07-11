@@ -431,10 +431,6 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 
 * [Google Fonts](https://fonts.google.com/) - to import the 'Inter' font into the style.css file.
 
-* [Sweet Alert](https://sweetalert.js.org/) - to import the alert for the unsucessful form submission.
-
-* [EmailJS](https://www.emailjs.com) - to make the form effective on submitting potential clients data to my email.  
-
 * [W3Schools](https://www.w3schools.com/) - to reinforce learning about coding concepts.
 
 * [Youtube Gustavo Guanabara](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) - to reinforce learning on JavaScript.
@@ -442,6 +438,18 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 * [Youtube Code Feature](https://www.youtube.com/watch?v=XnH56whHQqw) - a walkthrough on JavaScript quiz done to practice JavaScript skills. [Repository](https://github.com/fmstacco/security-survey).
 
 * [Qexpert](https://qexpert.com.br/consultoria/data-analytics/) - inspiration for the development of this quiz. 
+
+* [Sisence](https://www.sisense.com/blog/12-questions-to-determine-your-companys-data-maturity/) - inspiration for the development of the assessment.
+
+* [Hesa](https://www.hesa.ac.uk/support/tools/data-capability/full/assess-maturity) - for the content of the feedback according to the score on Results screen. 
+
+## Questions
+
+[Qexpert](https://qexpert.com.br/consultoria/data-analytics/) - the questions for this Data Maturity assessment comes mainly from this website.  
+
+[PGS Soft](https://www.pgs-soft.com/data-services/data-maturity-assessment/) - I have also got some questions from this data maturity assessment. 
+
+
 
 ## Code
 
@@ -451,11 +459,9 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 
 * [Youtube Code Feature](https://www.youtube.com/watch?v=XnH56whHQqw) - this tutorial was my first inpiration for the quiz. I even deployed the walkthrough I have done following this tutorial. However, I ended up choosig the WebShala tutorial, as this one uses the html as a data base for the questions, not a separated file on JavaScript. 
 
-## Questions
+* [Sweet Alert](https://sweetalert.js.org/) - the code for the alert for the unsucessful form submission.
 
-[Qexpert](https://qexpert.com.br/consultoria/data-analytics/) - the questions for this Data Maturity assessment comes mainly from this website.  
-
-[PGS Soft](https://www.pgs-soft.com/data-services/data-maturity-assessment/) - I have also got some questions from this data maturity assessment. 
+* [EmailJS](https://www.emailjs.com) - the code to make the form effective on submitting potential clients data to my email.  
 
 [Back to top](<#contents>)
 

@@ -1,3 +1,7 @@
+/*The questions for this Data Maturity assessment comes mainly from the Qexpert website: [Qexpert](https://qexpert.com.br/consultoria/data-analytics/) 
+and I have also got some questions from this data maturity assessment from PGS Soft:
+[PGS Soft](https://www.pgs-soft.com/data-services/data-maturity-assessment/). Thank you!*/
+
 const questions = [
 	{
 		question:'Where does your company keep analytical data?',
