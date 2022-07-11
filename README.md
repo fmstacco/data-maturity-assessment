@@ -220,7 +220,7 @@ Unsucessful submissions will see the message below. It contributes for the user 
 
 The Data Maturity Assessment can be improved in the future through new features to be developed:
 
-**Progress Bar** - A ***Progress Bar*** is a nice feature to show how far the user is in the process of answering the questionnaire. And is good for a better user experience.
+**Progress Bar** - A ***progress bar*** is a nice feature to show how far the user is in the process of answering the questionnaire. And is good for a better user experience.
 
 **Short Assessment** - a ***quick*** assessment with fewer questions could be implemented in order to address potential customers who don’t have the time to answer the complete assessment. 
 
