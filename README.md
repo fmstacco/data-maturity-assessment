@@ -273,7 +273,7 @@ The Carpe Diem Data Maturity Assessment has gone through intensive tests through
 
 **JavaScript validation image**
 
-![JavaScript validation image ](./assets/images/readme/jshint-javascript-validator.jpg) 
+![JavaScript validation image ](./assets/images/readme/jshint-javascript-validator.png) 
 
 
 ### Responsiveness Test
@@ -296,13 +296,11 @@ The Data Maturity Assessment has been extensively tested in different devices. I
 
 | Expectation                         | Result                          |
 | :---------------------------------: | :------------------------------:|
-| As a potential customer, I want to easily navigate through their website pages so I can quickly get the information that I’m looking for. | As a visitor I can easily navigate the website pages and sections, going back and forth through the menu on the header, footer and buttons. **[navigation bars and buttons].**|
-| As a potential customer, I want to see what the results my company can achieve after contracting their services. | As a visitor thinking of contracting the consultancy services I can easily see the potential results my company can get through the benefits section **[benefits]**. |
-| As a potential customer, I want to see the people who are the people doing the job and its credentials, it would increase my confidence towards getting in touch and hiring them.| As a visitor I can see the team who do the job and their bio on the page about, section meet our team **[about us page]**|
-| As a potential customer, I want to know what services the company offers so I can quickly understand if they can address my business issues.| As a visitor I get to know quickly the services I can hire when looking at the sections and pages of the site.**[services page]**|
-| As a potential customer, I want to see how the company has helped other clients it helps me to see how competent they are doing their job.| As a visitor I can understand how the business consultancy has brought solutions to other clients through the success cases section which can relate to the current challenges of my company.**[success cases]**|
-| As a potential customer, I want to know that they will get in touch quickly for a discussion on my business and how can they help me.| As a visitor I feel calm to learn that they will contact meu quickly after the feedback I received when submitting the form.**[thank you page]**|
-| As a potential customer, I want to see what tools they use when offering their services so I can trust they know what they are doing.| As a visitor I can feel more confident when I great systems they use to provide heir services. **[services page]**|
+| As a potential customer, I want to easily navigate the data maturity assessment quiz. **[Quiz Website]** | The potential customer can easily navigate through the site and its buttons on the home, quiz, quiz result, form, form destination page and 404 page. User can return to home screen easily through buttons and links.|
+| As a potential customer, I want to know where I am getting it right and where I am missing the data management of my company. **[Quiz Screen]**| On the quiz screen, the user knows which question he was right and which question was wrong through the green and red colors that appear when he gets it right and wrong, respectively.|
+| As a potential customer, I want to receive feedback from my assessment of my company's data maturity. **[Results Screen]**|On the results screen, the user will know his score and will receive feedback on how he did and what the next steps are. |
+| As a potential customer, I want to be able to contact the company to learn more about the company services.**[Contact Screen]**| By clicking on the Contact Us button on the results screen, the potential client will be able to get in touch by sending their contact details, name, email, company name and best time to contact. |
+| As a potencial customer, I want to know that my form was received and they will get in touch with me quickly.**[Form Destination Page]** | When submitting the form, the user will be directed to the submission confirmation page with the information that we will contact you shortly.|
 
 
 ### Browser Testing
