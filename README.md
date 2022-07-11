@@ -239,14 +239,13 @@ The Data Maturity Assessment can be improved in the future through new features 
 * [HTML5](https://en.wikipedia.org/wiki/HTML#HTML_5) - to provide the content and structure for the website.
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - provides the interactivity to the site.
 * [Balsamiq](https://balsamiq.com/wireframes/) - to create the wireframes for the website.
-* [Canva](https://www.canva.com/en_gb/) - to create the logo and color palete (Pro version) .
+* [Canva](https://www.canva.com/en_gb/) - to create the logo, color palete and multi device website mockup (Pro version) .
 * [CSS](https://en.wikipedia.org/wiki/CSS) - to provide the styling for the website.
 * [Gitpod](https://www.gitpod.io/#get-started) - to edit and develop the website.
 * [Gitbash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - to push changes to the GitHub repository.
 * [Github](https://github.com/) - to host and deploy the website.
 * [Google Fonts](https://fonts.google.com/) - to import the 'Inter' font into the style.css file.
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse) - to test the quality of the website.
-* [Techsini](http://techsini.com/multi-mockup/index.php) - to generate a multi device website mockup generator.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS.
 * [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML.
 * [JSHint](https://jshint.com/) - to validate JavaScript.
@@ -257,7 +256,7 @@ The Data Maturity Assessment can be improved in the future through new features 
 
 ### Code Validation
 
-The Carpe Diem Data Maturity Assessment has gone through intensive tests throughout its pages and sections. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate the CSS and [W3C HTML Validator](https://validator.w3.org/) were used to validate the HTML. Minor errors returned and were fixed and then no errors returned.
+The Carpe Diem Data Maturity Assessment has gone through intensive tests throughout its pages and sections/screens. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate the CSS and [W3C HTML Validator](https://validator.w3.org/) were used to validate the HTML. Minor errors returned and were fixed and then no errors returned.
 
 
 **HTML validation** 

@@ -501,9 +501,7 @@ select {
 
 }
 
-@media only screen 
-and (min-device-width: 600px) 
-and (max-device-width: 1023px) {
+@media screen and (max-width: 1023px) and (min-width: 600px){
   .welcome-box {
     margin-top: 13rem;
     margin-bottom: 13rem;
@@ -515,12 +513,12 @@ and (max-device-width: 1023px) {
   }
 
   .result-box{
-    margin-top: 9;
+    margin-top: 9rem;
     margin-bottom: 10rem;
   }
 
 .form-container {
-  margin-top: 3;
+  margin-top: 3rem;
   margin-bottom: 10rem;
 }
 
