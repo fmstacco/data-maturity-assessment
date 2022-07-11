@@ -1,6 +1,6 @@
 # **Data Maturity Assessment - Project Portfolio 2 - JavaScript**
 
-Data Maturity Assessment is a tool that will help small and medium -sized companies evaluate the maturity level of their data management. This evaluation will indicate at what stage the company is in data management as well as ways to improve company data maturity.
+Data Maturity Assessment is a tool that will help small and medium -sized companies evaluate the maturity level of their data management. This evaluation will indicate at what stage the company is in data management as well as ways to improve company data maturity. The idea of this quiz was on the future features list of the [Project Portfolio 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions), therefore, this project inherits the style and some of the same code for some sections, such as logo, typography, footer, form among others.  
 
 Welcome to the live site here: <a href="https://fmstacco.github.io/data-maturity-assessment/" target="_blank">Data Maturity Assessment</a>
 
@@ -193,7 +193,7 @@ The form is sending email and collecting potential customer details through [Ema
 
 ## Form Destination Page
 
-The Form Destination Page intends to present a feedback regarding the form submitted so the potential client can rest assured that we will get in touch quickly to book the 30 minutes freee consultation to discuss their business problem. It contributes for the user experience UX/UI. 
+The Form Destination Page presents a feedback regarding the submitted form so the potential client know that the form was submited and that we will get in touch quickly to book the 30 minutes free consultation. It contributes for the user experience UX/UI. 
 
 <img src="./assets/images/readme/form-submited-page-desktop.jpg" width="100%" height="100%" alt="Destination Page for Submited forms">
 
@@ -256,7 +256,7 @@ The Data Maturity Assessment can be improved in the future through new features 
 
 ### Code Validation
 
-The Carpe Diem Data Maturity Assessment has gone through intensive tests throughout its pages and sections/screens. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) were used to validate the HTML and [JSHint] to validate JavaScript. Minor errors returned and were fixed and then no errors returned.
+The Carpe Diem Data Maturity Assessment has gone through intensive tests throughout its pages and sections/screens. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) were used to validate the HTML and [JSHint](https://jshint.com/) to validate JavaScript. Minor errors returned and were fixed and then no errors returned.
 
 
 **HTML validation** 
