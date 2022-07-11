@@ -256,7 +256,7 @@ The Data Maturity Assessment can be improved in the future through new features 
 
 ### Code Validation
 
-The Carpe Diem Data Maturity Assessment has gone through intensive tests throughout its pages and sections/screens. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) were used to validate the HTML and [JSHint](https://jshint.com/) to validate JavaScript. Minor errors returned and were fixed and then no errors returned.
+The Carpe Diem Data Maturity Assessment has gone through intensive tests throughout its pages and sections/screens. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) were used to validate the HTML and [JSHint](https://jshint.com/) to validate JavaScript. Minor errors returned and were fixed.
 
 
 **HTML validation** 
@@ -319,7 +319,7 @@ The Carpe Diem Data Maturity Assessment was manually tested on these browsers as
 
 ### Bugs Fixed 
 
-During the website testing process some smaller errors appeared on the home page and service page and were immediately corrected. The HTML and CSS validation process occurred throughout the construction of the website. In this way, misconceptions as a lack of the **alt** element in the image, image size and  closing tag were corrected quickly.
+During the website testing process some minor errors were displayed when validating HTML, CSS and JavaScript. They were quickly corrected. 
 
 * HTML
     
@@ -329,6 +329,15 @@ During the website testing process some smaller errors appeared on the home page
 
     ![W3C Validator test result](assets/images/readme/bugs-fixed-css.png)
 
+### Bugs Unfixed 
+
+* JavaScript - When testing JavaScript through[JSHint](https://jshint.com/) the message "undefined variable" appeared for the **questions variable**. This happened because the questions variable is in a separate JavaScript file with the quiz questions.
+
+    ![JavaScript Validator test result](./assets/images/readme/javascript-unfixed-bugs.jpg) 
+
+* HTML  - In the output of the html appears a warning message about a blank title. This is because JavaScript adds the feedback message when the user finishes the quiz.
+
+![HTML Bug unfixed](./assets/images/readme/html-bug-unfixed.png) 
 
 ## Additional Testing
 
