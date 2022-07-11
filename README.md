@@ -211,7 +211,13 @@ Unsucessful submissions will see the message below. It contributes for the user 
 
 ## 404 Page
 
+A 404 page was designed to also improve the user experience linking them back to the home page.
 
+<img src="./assets/images/readme/404-page-desktop.png" alt="404 Page - Desktop"></details>
+
+<details><summary><b>404 Page - Image Mobile</b></summary>
+
+<img src="./assets/images/readme/404-page-mobile.jpg" alt="404 Page - Mobile"></details>
 
 [Back to top](<#contents>)
 
@@ -225,6 +231,8 @@ The Data Maturity Assessment can be improved in the future through new features 
 **Short Assessment** - a ***quick*** assessment with fewer questions could be implemented in order to address potential customers who don’t have the time to answer the complete assessment. 
 
 **Login** - for future development it would be nice to have a ***signup and login*** feature in order for the user to get the results. It would be great for the business to expand its mailing list of potential clients to offer its services. 
+
+**404 Page** - it can be improved for better user experience UX/UI. 
 
 # Technologies Used
 
