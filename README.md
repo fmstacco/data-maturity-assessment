@@ -321,13 +321,13 @@ The Carpe Diem Data Maturity Assessment was manually tested on these browsers as
 
 During the website testing process some smaller errors appeared on the home page and service page and were immediately corrected. The HTML and CSS validation process occurred throughout the construction of the website. In this way, misconceptions as a lack of the **alt** element in the image, image size and  closing tag were corrected quickly.
 
-* Home page 
+* HTML
     
     ![W3C Validator test result](assets/images/readme/bugs-fixed.jpg)
 
-* Services page
+* CSS
 
-    ![W3C Validator test result](assets/images/readme/bugs-fixed2.jpg)
+    ![W3C Validator test result](assets/images/readme/bugs-fixed-css.png)
 
 
 ## Additional Testing
