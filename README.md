@@ -84,19 +84,19 @@ Carpe Diem Maturity assessment website has three main screens. The welcome scree
 
  * ### Logo
 
- The logo was designed on [Canva](https://www.canva.com/en_gb/) version Pro. A machine learning icon was chosen to convey the core concept of business consulting - data analysis and data science. The logo is borrowed from PP1 - Carpe Diem Digital Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
+ The logo was designed on [Canva](https://www.canva.com/en_gb/) version Pro. A machine learning icon was chosen to convey the core concept of business consulting - data analysis and data science. The logo is borrowed from PP1 - Carpe Diem Data Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
 
 ![Carpe Diem Data Solutions logo](./assets/images/readme/logo-dark-background.png) 
 
  * ### Typography
  
- The source used throughout the site is Montserrat, as it is a nice font, elegant and also conveys confidence and professionalism. It is very good for UX/UI for having good readability on any device, large x-heigh and is also good for accessibility. Also the typography is borrowed from PP1 - Carpe Diem Digital Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
+ The source used throughout the site is Montserrat, as it is a nice font, elegant and also conveys confidence and professionalism. It is very good for UX/UI for having good readability on any device, large x-heigh and is also good for accessibility. Also the typography is borrowed from PP1 - Carpe Diem Data Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
 
  * ### Colour Scheme
 
 Colour Palette image
 
-The colour palette idea is borrowed from PP1 - Carpe Diem Digital Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
+The colour palette idea is borrowed from PP1 - Carpe Diem Data Solutions, as this project was thought to be a continuity of [Project 1](https://github.com/fmstacco/Carpe-Diem-Data-Solutions). 
 
 <img src="./assets/images/readme/color-palette.jpg" width="80%" height="80%" alt="Colour Palette image">
 
@@ -256,14 +256,14 @@ The Data Maturity Assessment can be improved in the future through new features 
 
 ### Code Validation
 
-The Carpe Diem Data Maturity Assessment has gone through intensive tests throughout its pages and sections/screens. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate the CSS and [W3C HTML Validator](https://validator.w3.org/) were used to validate the HTML. Minor errors returned and were fixed and then no errors returned.
+The Carpe Diem Data Maturity Assessment has gone through intensive tests throughout its pages and sections/screens. The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) were used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) were used to validate the HTML and [JSHint] to validate JavaScript. Minor errors returned and were fixed and then no errors returned.
 
 
 **HTML validation** 
 
 * Website Data Maturity Assessment
 
-![Home Page - HTML validation image ](./assets/images/readme/w3c-html-validator.jpg) 
+![Home Page - HTML validation image ](./assets/images/readme/w3c-html-validator.png) 
 
 
 **CSS validation image**
@@ -271,9 +271,14 @@ The Carpe Diem Data Maturity Assessment has gone through intensive tests through
 ![CSS validation image ](./assets/images/readme/w3c-css-validator.jpg) 
 
 
+**JavaScript validation image**
+
+![JavaScript validation image ](./assets/images/readme/jshint-javascript-validator.jpg) 
+
+
 ### Responsiveness Test
 
-Carpe Diem Digital Business Website was manually tested for his responsiveness with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+Carpe Diem Data Maturity Assessment was manually tested for his responsiveness with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
 |        | Nexus 4/5/6 | Galaxy S5/S6/S7 | iPhone 6--12 | iPad |  Display <1200px | Display >1200px |
 |--------|-------------|-----------------|--------------|------|------------------|-----------------|
@@ -284,11 +289,7 @@ Carpe Diem Digital Business Website was manually tested for his responsiveness w
 
 ### Manual Testing
 
-The website has been extensively tested in different ways, in addition to automated forms, regarding its features, responsiveness, accessibility, layout, design, texts, buttons and navigation links, form submission on different browsers according to browser testing session.
-
-All images have been optimized, are responsive and have the ***alt*** element described properly for accessibility.
-
-All links are working and have the ***arial-label*** element.
+The Data Maturity Assessment has been extensively tested in different devices. It was checked features, responsiveness, accessibility, layout, design, texts, buttons and navigation links, form submission on different browsers.
 
 
 ### Testing User Stories
@@ -306,7 +307,7 @@ All links are working and have the ***arial-label*** element.
 
 ### Browser Testing
 
-The Carpe Diem Digital Business website was manually tested on these browsers as table below and design, layout, functionality and responsiveness were  consistent across all browsers both mobile and desktop.
+The Carpe Diem Data Maturity Assessment was manually tested on these browsers as table below and design, layout, functionality and responsiveness were  consistent across all browsers both mobile and desktop.
 
 |   Browser   |    Result  | 
 | :---------: | :---------:| 
@@ -433,7 +434,12 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 * [Canva](https://www.canva.com/en_gb/) to design the logo, the color palete and to source images for this website.
 
 
+## Code
 
+
+## Questions
+
+[Qexpert](https://qexpert.com.br/consultoria/data-analytics/) - this consulting was the main inspiration for the development of this quiz. 
 
 
 [Back to top](<#contents>)
